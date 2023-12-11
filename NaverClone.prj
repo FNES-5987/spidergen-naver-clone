@@ -29,15 +29,12 @@
         "action": 4,
         "children": [
           {
-            "type": 1,
-            "name": "Theme",
-            "children": []
-          },
-          {
             "type": 4,
-            "name": "NaverCloneApp_global.stl",
+            "name": "NaverCloneApp.stl",
+            "action": 8,
             "relType": 1,
-            "path": "Template\\"
+            "path": "Template\\Theme\\",
+            "comment": ""
           }
         ]
       },
@@ -71,6 +68,18 @@
           {
             "type": 8,
             "name": "Add1.jpg",
+            "relType": 1,
+            "path": "Assets\\"
+          },
+          {
+            "type": 8,
+            "name": "sp_weather.11654bc0.png",
+            "relType": 1,
+            "path": "Assets\\"
+          },
+          {
+            "type": 8,
+            "name": "8b611f3e574a306ccecf_20231206113209053.jpg",
             "relType": 1,
             "path": "Assets\\"
           }

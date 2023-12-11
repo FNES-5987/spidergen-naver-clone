@@ -1,0 +1,6 @@
+{
+  "styleName": "global",
+  "items": {
+    "edit_here": "\n.edit_here\n{\n\t/* TODO:edit here */\n\n}\n"
+  }
+}
