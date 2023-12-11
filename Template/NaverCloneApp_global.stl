@@ -1,0 +1,8 @@
+{
+  "styleName": "NaverCloneApp_global",
+  "items": {
+    "_global_style_": "\n._global_style_\n{\n\tfont-size: 12px;\n\tfont-family: courier;\n\ttext-size-adjust: none;\n\n}\n",
+    "global_resp": "\r\n.global_resp\r\n{\r\n\t/* global_resp 는 body 에 추가된 클래스 입니다. */\r\n\r\n}\r\n\r\n/*가로모드*/\r\n@media screen and (orientation: landscape)\r\n{\r\n\t.global_resp\r\n\t{\r\n\t}\r\n}\r\n\r\n/*ios*/\r\n@supports (-webkit-overflow-scrolling: touch)\r\n{\r\n}\r\n\r\n/*tablet*/\r\n@media screen and (min-width:641px)\r\n{\r\n}\r\n",
+    "Layout-module__banner_area___CUXNe": ".Layout-module__banner_area___CUXNe {\n    overflow: hidden;\n    position: relative;\n    display: block;\n    border-radius: 8px;\n    -webkit-box-shadow: 0 0 0 1px #e3e5e8,0 1px 2px 0 rgba(0,0,0,.04);\n    box-shadow: 0 0 0 1px #e3e5e8,0 1px 2px 0 rgba(0,0,0,.04);\n}\n\n"
+  }
+}

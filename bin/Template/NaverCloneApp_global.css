@@ -1,0 +1,42 @@
+
+._global_style_
+{
+	font-size: 12px !important;
+	font-family: courier !important;
+	text-size-adjust: none !important;
+
+}
+
+.global_resp
+{
+	/* global_resp 는 body 에 추가된 클래스 입니다. */
+
+}
+
+/*가로모드*/
+@media screen and (orientation: landscape)
+{
+	.global_resp
+	{
+	}
+}
+
+/*ios*/
+@supports (-webkit-overflow-scrolling: touch)
+{
+}
+
+/*tablet*/
+@media screen and (min-width:641px)
+{
+}
+
+.Layout-module__banner_area___CUXNe {
+    overflow: hidden !important;
+    position: relative !important;
+    display: block !important;
+    border-radius: 8px !important;
+    -webkit-box-shadow: 0 0 0 1px #e3e5e8,0 1px 2px 0 rgba(0,0,0,.04) !important;
+    box-shadow: 0 0 0 1px #e3e5e8,0 1px 2px 0 rgba(0,0,0,.04) !important;
+}
+
