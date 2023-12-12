@@ -82,6 +82,12 @@
             "name": "8b611f3e574a306ccecf_20231206113209053.jpg",
             "relType": 1,
             "path": "Assets\\"
+          },
+          {
+            "type": 8,
+            "name": "img1.png",
+            "relType": 1,
+            "path": "Assets\\"
           }
         ]
       },
@@ -106,6 +112,92 @@
             "name": "MainView.lay",
             "relType": 1,
             "path": "Source\\"
+          },
+          {
+            "type": 1,
+            "name": "newsSpace",
+            "children": [
+              {
+                "type": 2,
+                "name": "subview1.cls",
+                "action": 5,
+                "relType": 1,
+                "path": "Source\\",
+                "comment": ""
+              },
+              {
+                "type": 3,
+                "name": "subview1.lay",
+                "action": 6,
+                "relType": 1,
+                "path": "Source\\",
+                "comment": ""
+              },
+              {
+                "type": 2,
+                "name": "subview2.cls",
+                "action": 5,
+                "relType": 1,
+                "path": "Source\\",
+                "comment": ""
+              },
+              {
+                "type": 3,
+                "name": "subview2.lay",
+                "action": 6,
+                "relType": 1,
+                "path": "Source\\",
+                "comment": ""
+              },
+              {
+                "type": 2,
+                "name": "subview3.cls",
+                "action": 5,
+                "relType": 1,
+                "path": "Source\\",
+                "comment": ""
+              },
+              {
+                "type": 3,
+                "name": "subview3.lay",
+                "action": 6,
+                "relType": 1,
+                "path": "Source\\",
+                "comment": ""
+              },
+              {
+                "type": 2,
+                "name": "subview4.cls",
+                "action": 5,
+                "relType": 1,
+                "path": "Source\\",
+                "comment": ""
+              },
+              {
+                "type": 3,
+                "name": "subview4.lay",
+                "action": 6,
+                "relType": 1,
+                "path": "Source\\",
+                "comment": ""
+              },
+              {
+                "type": 2,
+                "name": "subview5.cls",
+                "action": 5,
+                "relType": 1,
+                "path": "Source\\",
+                "comment": ""
+              },
+              {
+                "type": 3,
+                "name": "subview5.lay",
+                "action": 6,
+                "relType": 1,
+                "path": "Source\\",
+                "comment": ""
+              }
+            ]
           }
         ]
       }
