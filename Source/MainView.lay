@@ -115,8 +115,8 @@
             </div>
             <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 162px; height: 40px; position: absolute; top: 80px; right: 0px; background-image: url(&quot;Assets/upload_1701406315239m2bwu.png&quot;); background-size: 100% 100%;" data-background-option="stretch" data-group="link_search_banner"></button>
         </div>
-        <div data-base="AView" data-class="AView" class="AView-Style" style="position: relative; width: 1280px; margin: 0px auto; padding-bottom: 60px; height: 100%; top: 0px; left: 0px; background-color: rgba(0, 0, 0, 0); font-size: 14.7px;" data-group="container">
-            <div data-base="AView" data-class="AView" class="AView-Style" style="width: 830px; height: 100%; position: absolute; left: 0px; top: 0px; border-color: rgba(0, 0, 0, 0); background-color: rgba(0, 0, 0, 0); border-width: 0px; margin: 0px; padding: 0px;" data-group="LeftView">
+        <div data-base="AView" data-class="AView" class="AView-Style" style="position: relative; width: 1280px; margin: 0px auto; padding-bottom: 60px; top: 0px; left: 0px; background-color: rgba(0, 0, 0, 0); font-size: 14.7px; height: auto;" data-group="container">
+            <div data-base="AView" data-class="AView" class="AView-Style" style="width: 830px; height: 100%; position: relative; left: 0px; top: 0px; border-color: rgba(0, 0, 0, 0); background-color: rgba(0, 0, 0, 0); border-width: 0px; margin: 0px; padding: 0px;" data-group="LeftView">
                 <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 130px; position: relative; left: 0px; top: 0px; overflow: hidden; border-radius: 8px; background-color: rgb(255, 255, 255); box-shadow: rgb(227, 229, 232) 0px 0px 0px 1px, rgba(0, 0, 0, 0.04) 0px 1px 2px 0px; margin-left: 0px; margin-top: 0px;" id="MainView--left_banner_area">
                     <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 100%; height: 133px; position: absolute; left: 0px; background-image: url(&quot;Assets/Add1.jpg&quot;); background-size: 100% 100%; background-repeat: no-repeat; display: inherit; bottom: 0px;" data-background-option="stretch" data-group="ad_timebord"></button>
                 </div>
@@ -555,6 +555,171 @@
                 </div>
             </div>
         </div>
-        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 400px; height: 200px; position: absolute; left: 100px; top: 100px;" data-group="footer"></div>
+        <div data-base="AView" data-class="AView" class="AView-Style" style="border-top: 1px solid rgb(235, 235, 235); background-color: rgb(245, 246, 247); left: 0px; width: 100%; height: auto; bottom: 0px;" data-group="footer">
+            <div data-base="AView" data-class="AView" class="AView-Style" style="width: 1280px; margin: 0px auto; padding-bottom: 78px; font-size: 13.65px; position: relative; background-color: rgba(0, 0, 0, 0);" data-group="footer_inner">
+                <div data-base="AView" data-class="AView" class="AView-Style" style="border-bottom: 1px solid rgb(235, 235, 235); overflow: hidden; padding: 30px 0px; left: 0px; width: 100%; position: relative; height: auto; background-color: rgba(0, 0, 0, 0);" data-group="nbanner_area">
+                    <div data-base="AView" data-class="AView" class="AView-Style" style="font-family: -apple-system, BlinkMacSystemFont, &quot;Malgun Gothic&quot;, &quot;맑은 고딕&quot;, helvetica, &quot;Apple SD Gothic Neo&quot;, sans-serif; color: rgb(32, 32, 32); font-size: 12px; line-height: 1.5; text-align: left; position: relative; width: 410px; height: 100px; background-color: rgb(245, 246, 247); display: inline-block;" data-group="public_DA">
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="overflow: hidden; position: relative; float: left; width: 160px; height: 100px; border-radius: 6px; isolation: isolate; background-color: rgba(0, 0, 0, 0);" data-background-option="original" data-group="main_public_image">
+                            <img data-base="AImage" data-class="AImage" class="AImage-Style aimage-blank" style="transition: transform 0.2s cubic-bezier(0.165, 0.84, 0.44, 1) 0s, -webkit-transform 0.2s cubic-bezier(0.165, 0.84, 0.44, 1) 0s; image-rendering: -webkit-optimize-contrast; background-image: url(&quot;Assets/0c0d5e59e622e33135d2_20231212105726853.jpg&quot;); background-size: 100% 100%; position: relative; width: 160px; height: 100px;" data-background-option="stretch" data-group="thumb_img">
+                            <div data-base="AView" data-class="AView" class="AView-Style" style="display: block;     width: 25px;     height: 16px;     background-repeat: no-repeat;     background-origin: content-box;     color: transparent;     position: absolute;     top: 3px;     right: 3px;" data-group="icon_ad"></div>
+                            <div data-base="AView" data-class="AView" class="AView-Style" style="position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px; border: 1px solid rgba(0, 0, 0, 0.06); border-radius: inherit; content: &quot;&quot;; background-color: rgba(0, 0, 0, 0);" data-group="after"></div>
+                        </div>
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="overflow: hidden; height: 100px; padding: 5px 3px 0px 18px; box-sizing: border-box; position: relative; background-color: rgba(0, 0, 0, 0);" data-group="main_public_content">
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap; display: inline-block; -webkit-box-align: center; align-items: center; height: 20px; max-width: 141px; padding: 0px 6px; border-radius: 4px; font-size: 13px; line-height: 20px; letter-spacing: -0.25px; color: rgb(255, 255, 255); background-color: rgb(160, 173, 178); vertical-align: top; font-weight: bold; left: 0px; top: 0px; position: relative;">초록우산</label>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap; display: block; margin-top: 10px; font-size: 14px; line-height: 1.143; letter-spacing: -0.7px; color: rgb(34, 33, 34); position: relative; font-weight: bold;">제이에스티나 해피니스링</label>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="margin-top: 6px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 14px; line-height: 1.43; letter-spacing: -0.7px; color: rgb(84, 84, 84); position: relative;">월 1만원 후원하고</label>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 14px; line-height: 1.43; letter-spacing: -0.7px; color: rgb(84, 84, 84); position: relative; display: block;">기부반지 받기</label>
+                        </div>
+                    </div>
+                    <div data-base="AView" data-class="AView" class="AView-Style" style="font-family: -apple-system, BlinkMacSystemFont, &quot;Malgun Gothic&quot;, &quot;맑은 고딕&quot;, helvetica, &quot;Apple SD Gothic Neo&quot;, sans-serif; color: rgb(32, 32, 32); font-size: 12px; line-height: 1.5; text-align: left; position: relative; width: 410px; height: 100px; background-color: rgb(245, 246, 247); display: inline-block;" data-group="public_DA">
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="overflow: hidden; position: relative; float: left; width: 160px; height: 100px; border-radius: 6px; isolation: isolate; background-color: rgba(0, 0, 0, 0);" data-background-option="original" data-group="main_public_image">
+                            <img data-base="AImage" data-class="AImage" class="AImage-Style aimage-blank" style="transition: transform 0.2s cubic-bezier(0.165, 0.84, 0.44, 1) 0s, -webkit-transform 0.2s cubic-bezier(0.165, 0.84, 0.44, 1) 0s; image-rendering: -webkit-optimize-contrast; background-image: url(&quot;Assets/0c8babc93d43077038f7_20231207173559009.png&quot;); background-size: 100% 100%; position: relative; width: 160px; height: 100px;" data-background-option="stretch" data-group="thumb_img">
+                            <div data-base="AView" data-class="AView" class="AView-Style" style="position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px; border: 1px solid rgba(0, 0, 0, 0.06); border-radius: inherit; content: &quot;&quot;; background-color: rgba(0, 0, 0, 0);" data-group="after"></div>
+                        </div>
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="overflow: hidden; height: 100px; padding: 5px 3px 0px 18px; box-sizing: border-box; position: relative; background-color: rgba(0, 0, 0, 0);" data-group="main_public_content">
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap; display: inline-block; -webkit-box-align: center; align-items: center; height: 20px; max-width: 141px; padding: 0px 6px; border-radius: 4px; font-size: 13px; line-height: 20px; letter-spacing: -0.25px; color: rgb(255, 255, 255); background-color: rgb(160, 173, 178); vertical-align: top; font-weight: bold; left: 0px; top: 0px; position: relative;">네이버 커넥트재단</label>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap; display: block; margin-top: 10px; font-size: 14px; line-height: 1.143; letter-spacing: -0.7px; color: rgb(34, 33, 34); position: relative; font-weight: bold;">엔트리 탐험하기</label>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="margin-top: 6px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 14px; line-height: 1.43; letter-spacing: -0.7px; color: rgb(84, 84, 84); position: relative;">블록 코딩으로 커뮤니케이션하는</label>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 14px; line-height: 1.43; letter-spacing: -0.7px; color: rgb(84, 84, 84); position: relative; display: block;">10대들의 새로운 창작 공간</label>
+                        </div>
+                    </div>
+                    <div data-base="AView" data-class="AView" class="AView-Style" style="font-family: -apple-system, BlinkMacSystemFont, &quot;Malgun Gothic&quot;, &quot;맑은 고딕&quot;, helvetica, &quot;Apple SD Gothic Neo&quot;, sans-serif; color: rgb(32, 32, 32); font-size: 12px; line-height: 1.5; text-align: left; position: relative; width: 410px; height: 100px; background-color: rgb(245, 246, 247); display: inline-block;" data-group="public_DA">
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="overflow: hidden; position: relative; float: left; width: 160px; height: 100px; border-radius: 6px; isolation: isolate; background-color: rgba(0, 0, 0, 0);" data-background-option="original" data-group="main_public_image">
+                            <img data-base="AImage" data-class="AImage" class="AImage-Style aimage-blank" style="transition: transform 0.2s cubic-bezier(0.165, 0.84, 0.44, 1) 0s, -webkit-transform 0.2s cubic-bezier(0.165, 0.84, 0.44, 1) 0s; image-rendering: -webkit-optimize-contrast; background-image: url(&quot;Assets/140e299d3b2232a6e2a2_20231123165346656_1.png&quot;); background-size: 100% 100%; position: relative; width: 160px; height: 100px;" data-background-option="stretch" data-group="thumb_img">
+                            <div data-base="AView" data-class="AView" class="AView-Style" style="position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px; border: 1px solid rgba(0, 0, 0, 0.06); border-radius: inherit; content: &quot;&quot;; background-color: rgba(0, 0, 0, 0);" data-group="after"></div>
+                        </div>
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="overflow: hidden; height: 100px; padding: 5px 3px 0px 18px; box-sizing: border-box; position: relative; background-color: rgba(0, 0, 0, 0);" data-group="main_public_content">
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap; display: inline-block; -webkit-box-align: center; align-items: center; height: 20px; max-width: 141px; padding: 0px 6px; border-radius: 4px; font-size: 13px; line-height: 20px; letter-spacing: -0.25px; color: rgb(255, 255, 255); background-color: rgb(160, 173, 178); vertical-align: top; font-weight: bold; left: 0px; top: 0px; position: relative;">네이버 프로젝트 꽃</label>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap; display: block; margin-top: 10px; font-size: 14px; line-height: 1.143; letter-spacing: -0.7px; color: rgb(34, 33, 34); position: relative; font-weight: bold;">SME 브랜드부스터 1기</label>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="margin-top: 6px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 14px; line-height: 1.43; letter-spacing: -0.7px; color: rgb(84, 84, 84); position: relative;">성장가능성 있는</label>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 14px; line-height: 1.43; letter-spacing: -0.7px; color: rgb(84, 84, 84); position: relative; display: block;">SME 브랜드를 소개합니다!</label>
+                        </div>
+                    </div>
+                </div>
+                <div data-base="AView" data-class="AView" class="AView-Style" style="border-bottom: 1px solid rgb(235, 235, 235); overflow: hidden; padding: 21px 0px; line-height: 17px; left: 0px; width: 100%; height: auto; background-color: rgba(0, 0, 0, 0); position: relative;" data-group="notice_area">
+                    <div data-base="AView" data-class="AView" class="AView-Style" style="font-size: inherit; line-height: inherit; float: left; margin-right: 11px; position: relative; background-color: rgba(0, 0, 0, 0);" data-group="notice_box">
+                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; font-weight: bold;">공지사항</label>
+                    </div>
+                    <div data-base="AView" data-class="AView" class="AView-Style" style="float: right; font-weight: bold; width: auto; height: auto; position: relative; background-color: rgba(0, 0, 0, 0);" data-group="link_all">
+                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative;">서비스 전체보기</label>
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: inline-block; background-image: url(&quot;https://pm.pstatic.net/resources/asset/sp_main.d5b6c236.png&quot;); background-size: 433px 412px; background-position: -425px 0px; background-repeat: no-repeat; width: 8px; height: 12px; margin: 3px 0px 0px 10px; vertical-align: top; left: 0px; top: 0px; position: relative; background-color: rgba(0, 0, 0, 0);" data-group="after"></div>
+                    </div>
+                </div>
+                <div data-base="AView" data-class="AView" class="AView-Style" style="border-bottom: 1px solid rgb(235, 235, 235); overflow: hidden; position: relative; background-color: rgba(0, 0, 0, 0);" data-group="aside_area">
+                    <div data-base="AView" data-class="AView" class="AView-Style" style="float: left; width: 780px; padding: 20px 0px; position: relative; background-color: rgba(0, 0, 0, 0); height: auto; display: inline-block; left: 0px;" data-group="partner_box_wrap">
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="overflow: hidden; line-height: 20px; position: relative; background-color: rgba(0, 0, 0, 0);" data-group="partner_box">
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="float: left; width: 87px; padding-right: 23px; position: relative; font-weight: bold;">Creators</label>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="color: rgb(64, 64, 64); float: left; position: relative; left: 0px; top: 0px;">크리에이터</label>
+                            <div data-base="AView" data-class="AView" class="AView-Style" style="color: rgb(64, 64, 64); float: left; position: relative; background-color: rgba(0, 0, 0, 0);">
+                                <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: inline-block; width: 1px; height: 12px;     background-color: #d3d5d7; margin: 0px 16px; vertical-align: -1px; position: relative;"></div>
+                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative;">스몰비즈니스</label>
+                            </div>
+                        </div>
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="overflow: hidden; line-height: 20px; position: relative; background-color: rgba(0, 0, 0, 0); margin-top: 10px;" data-group="partner_box">
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="float: left; width: 87px; padding-right: 23px; position: relative; font-weight: bold;">Partners</label>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="color: rgb(64, 64, 64); float: left; position: relative; left: 0px; top: 0px;">SME 풀케어 시스템</label>
+                            <div data-base="AView" data-class="AView" class="AView-Style" style="color: rgb(64, 64, 64); float: left; position: relative; background-color: rgba(0, 0, 0, 0);">
+                                <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: inline-block; width: 1px; height: 12px;     background-color: #d3d5d7; margin: 0px 16px; vertical-align: -1px; position: relative;" data-group="before"></div>
+                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative;">비즈니스 · 광고</label>
+                            </div>
+                            <div data-base="AView" data-class="AView" class="AView-Style" style="color: rgb(64, 64, 64); float: left; position: relative; background-color: rgba(0, 0, 0, 0);">
+                                <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: inline-block; width: 1px; height: 12px;     background-color: #d3d5d7; margin: 0px 16px; vertical-align: -1px; position: relative;" data-group="before"></div>
+                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative;">스토어 개설</label>
+                            </div>
+                            <div data-base="AView" data-class="AView" class="AView-Style" style="color: rgb(64, 64, 64); float: left; position: relative; background-color: rgba(0, 0, 0, 0);">
+                                <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: inline-block; width: 1px; height: 12px;     background-color: #d3d5d7; margin: 0px 16px; vertical-align: -1px; position: relative;" data-group="before"></div>
+                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative;">지역업체 등록</label>
+                            </div>
+                            <div data-base="AView" data-class="AView" class="AView-Style" style="color: rgb(64, 64, 64); float: left; position: relative; background-color: rgba(0, 0, 0, 0);">
+                                <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: inline-block; width: 1px; height: 12px;     background-color: #d3d5d7; margin: 0px 16px; vertical-align: -1px; position: relative;" data-group="before"></div>
+                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative;">엑스퍼트 등록</label>
+                            </div>
+                        </div>
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="overflow: hidden; line-height: 20px; position: relative; background-color: rgba(0, 0, 0, 0); margin-top: 10px;" data-group="partner_box">
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="float: left; width: 87px; padding-right: 23px; position: relative; font-weight: bold;">Developers</label>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="color: rgb(64, 64, 64); float: left; position: relative; left: 0px; top: 0px;">네이버 개발자 센터</label>
+                            <div data-base="AView" data-class="AView" class="AView-Style" style="color: rgb(64, 64, 64); float: left; position: relative; background-color: rgba(0, 0, 0, 0);">
+                                <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: inline-block; width: 1px; height: 12px;     background-color: #d3d5d7; margin: 0px 16px; vertical-align: -1px; position: relative;" data-group="before"></div>
+                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative;">오픈 API</label>
+                            </div>
+                            <div data-base="AView" data-class="AView" class="AView-Style" style="color: rgb(64, 64, 64); float: left; position: relative; background-color: rgba(0, 0, 0, 0);">
+                                <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: inline-block; width: 1px; height: 12px;     background-color: #d3d5d7; margin: 0px 16px; vertical-align: -1px; position: relative;" data-group="before"></div>
+                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative;">오픈소스</label>
+                            </div>
+                            <div data-base="AView" data-class="AView" class="AView-Style" style="color: rgb(64, 64, 64); float: left; position: relative; background-color: rgba(0, 0, 0, 0);">
+                                <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: inline-block; width: 1px; height: 12px;     background-color: #d3d5d7; margin: 0px 16px; vertical-align: -1px; position: relative;" data-group="before"></div>
+                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative;">네이버 D2</label>
+                            </div>
+                            <div data-base="AView" data-class="AView" class="AView-Style" style="color: rgb(64, 64, 64); float: left; position: relative; background-color: rgba(0, 0, 0, 0);">
+                                <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: inline-block; width: 1px; height: 12px;     background-color: #d3d5d7; margin: 0px 16px; vertical-align: -1px; position: relative;" data-group="before"></div>
+                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative;">네이버 D2SF</label>
+                            </div>
+                            <div data-base="AView" data-class="AView" class="AView-Style" style="color: rgb(64, 64, 64); float: left; position: relative; background-color: rgba(0, 0, 0, 0);">
+                                <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: inline-block; width: 1px; height: 12px;     background-color: #d3d5d7; margin: 0px 16px; vertical-align: -1px; position: relative;" data-group="before"></div>
+                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative;">네이버 랩스</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-base="AView" data-class="AView" class="AView-Style" style="float: right; padding: 36px 0px 34px; position: relative; background-color: rgba(0, 0, 0, 0); width: auto; display: inline-block; right: 0px;" data-group="service_box_wrap">
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; position: relative; background-color: rgba(0, 0, 0, 0); display: inline-block; right: 0px; overflow: hidden;" data-group="service_box">
+                            <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; position: relative; overflow: hidden; background-color: rgba(0, 0, 0, 0); display: inline-block;" data-group="service_info">
+                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap; display: block; padding-top: 5px; font-weight: bold; position: relative;">웨일 브라우저</label>
+                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap; display: inline-block; padding-top: 5px; position: relative;">이용안내</label>
+                            </div>
+                            <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; position: relative;     float: right; margin-left: 34px; background-color: rgba(0, 0, 0, 0); display: inline-block;" data-group="service_logo">
+                                <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 48px; height: 48px; vertical-align: top; position: relative;" src="Assets/웨일.png">
+                            </div>
+                        </div>
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; position: relative; background-color: rgba(0, 0, 0, 0); display: inline-block; right: 0px; overflow: hidden; margin-left: 34px;" data-group="service_box">
+                            <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; position: relative; overflow: hidden; background-color: rgba(0, 0, 0, 0); display: inline-block;" data-group="service_info">
+                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap; display: block; padding-top: 5px; font-weight: bold; position: relative;">프로젝트 꽃</label>
+                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap; display: inline-block; padding-top: 5px; position: relative;">바로가기</label>
+                            </div>
+                            <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; position: relative;     float: right; margin-left: 34px; background-color: rgba(0, 0, 0, 0); display: inline-block;" data-group="service_logo">
+                                <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 48px; height: 48px; vertical-align: top; position: relative;" src="Assets/꽃.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 1280px; margin: 0px auto; padding-top: 20px; line-height: 20px; text-align: center; position: relative; background-color: rgba(0, 0, 0, 0);" data-group="corp_area">
+                    <div data-base="AView" data-class="AView" class="AView-Style" style="overflow: hidden; display: inline-block; margin-right: 23px; vertical-align: top; position: relative; background-color: rgba(0, 0, 0, 0);" data-group="list_corp">
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="color: rgb(64, 64, 64); display: inline-block; line-height: 20px; vertical-align: top; position: relative; background-color: rgba(0, 0, 0, 0);" data-group="corp_item">
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative;">회사소개</label>
+                        </div>
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="color: rgb(64, 64, 64); display: inline-block; line-height: 20px; vertical-align: top; position: relative; background-color: rgba(0, 0, 0, 0);" data-group="corp_item">
+                            <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: inline-block; width: 1px; height: 12px; background-color: rgb(211, 213, 215); margin: 0px 16px; vertical-align: -1px; position: relative;" data-group="before"></div>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative;">인재채용</label>
+                        </div>
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="color: rgb(64, 64, 64); display: inline-block; line-height: 20px; vertical-align: top; position: relative; background-color: rgba(0, 0, 0, 0);" data-group="corp_item">
+                            <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: inline-block; width: 1px; height: 12px; background-color: rgb(211, 213, 215); margin: 0px 16px; vertical-align: -1px; position: relative;" data-group="before"></div>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative;">제휴제안</label>
+                        </div>
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="color: rgb(64, 64, 64); display: inline-block; line-height: 20px; vertical-align: top; position: relative; background-color: rgba(0, 0, 0, 0);" data-group="corp_item">
+                            <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: inline-block; width: 1px; height: 12px; background-color: rgb(211, 213, 215); margin: 0px 16px; vertical-align: -1px; position: relative;" data-group="before"></div>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative;">이용약관</label>
+                        </div>
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="color: rgb(64, 64, 64); display: inline-block; line-height: 20px; vertical-align: top; position: relative; background-color: rgba(0, 0, 0, 0);" data-group="corp_item">
+                            <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: inline-block; width: 1px; height: 12px; background-color: rgb(211, 213, 215); margin: 0px 16px; vertical-align: -1px; position: relative;" data-group="before"></div>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; font-weight: bold;">개인정보처리방침</label>
+                        </div>
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="color: rgb(64, 64, 64); display: inline-block; line-height: 20px; vertical-align: top; position: relative; background-color: rgba(0, 0, 0, 0);" data-group="corp_item">
+                            <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: inline-block; width: 1px; height: 12px; background-color: rgb(211, 213, 215); margin: 0px 16px; vertical-align: -1px; position: relative;" data-group="before"></div>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative;">청소년보호정책</label>
+                        </div>
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="color: rgb(64, 64, 64); display: inline-block; line-height: 20px; vertical-align: top; position: relative; background-color: rgba(0, 0, 0, 0);" data-group="corp_item">
+                            <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: inline-block; width: 1px; height: 12px; background-color: rgb(211, 213, 215); margin: 0px 16px; vertical-align: -1px; position: relative;" data-group="before"></div>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative;">네이버 정책</label>
+                        </div>
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="color: rgb(64, 64, 64); display: inline-block; line-height: 20px; vertical-align: top; position: relative; background-color: rgba(0, 0, 0, 0);" data-group="corp_item">
+                            <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: inline-block; width: 1px; height: 12px; background-color: rgb(211, 213, 215); margin: 0px 16px; vertical-align: -1px; position: relative;" data-group="before"></div>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative;">고객센터</label>
+                        </div>
+                    </div>
+                    <div data-base="AView" data-class="AView" class="AView-Style" style="display: inline-block; vertical-align: top; font-weight: bold; position: relative; background-color: rgba(0, 0, 0, 0);" data-group="addr">
+                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative;">ⓒ NAVER Corp.</label>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>

@@ -88,6 +88,36 @@
             "name": "img1.png",
             "relType": 1,
             "path": "Assets\\"
+          },
+          {
+            "type": 8,
+            "name": "0c0d5e59e622e33135d2_20231212105726853.jpg",
+            "relType": 1,
+            "path": "Assets\\"
+          },
+          {
+            "type": 8,
+            "name": "0c8babc93d43077038f7_20231207173559009.png",
+            "relType": 1,
+            "path": "Assets\\"
+          },
+          {
+            "type": 8,
+            "name": "140e299d3b2232a6e2a2_20231123165346656_1.png",
+            "relType": 1,
+            "path": "Assets\\"
+          },
+          {
+            "type": 8,
+            "name": "웨일.png",
+            "relType": 1,
+            "path": "Assets\\"
+          },
+          {
+            "type": 8,
+            "name": "꽃.png",
+            "relType": 1,
+            "path": "Assets\\"
           }
         ]
       },
