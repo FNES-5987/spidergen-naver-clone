@@ -118,6 +118,24 @@
             "name": "꽃.png",
             "relType": 1,
             "path": "Assets\\"
+          },
+          {
+            "type": 8,
+            "name": "KOSDAQ_naverpc_l.png",
+            "relType": 1,
+            "path": "Assets\\"
+          },
+          {
+            "type": 8,
+            "name": "FX_USDKRW_naverpc_l.png",
+            "relType": 1,
+            "path": "Assets\\"
+          },
+          {
+            "type": 8,
+            "name": "cctv.jpg",
+            "relType": 1,
+            "path": "Assets\\"
           }
         ]
       },
