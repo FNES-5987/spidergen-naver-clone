@@ -90,4 +90,25 @@
             </div>
         </div>
     </div>
+    <div data-base="AView" data-class="AView" class="AView-Style" style="animation-fill-mode: forwards; width: 100%; flex-shrink: 0; animation-duration: 0.5s; position: relative; background-color: rgba(0, 0, 0, 0); display: block; overflow: visible; left: 0px; top: 0px;" data-group="rolling-x">
+        <div data-base="AView" data-class="AView" class="AView-Style" style="display: block; padding-top: 6px; text-decoration: none; position: relative; background-color: rgba(0, 0, 0, 0);" data-group="link_stock_info">
+            <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; position: relative; background-color: rgba(0, 0, 0, 0);" data-group="stock_info">
+                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="font-size: 15px; line-height: 19px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; position: relative;">환율</label>
+                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="margin-top: 3px; font-size: 24px; line-height: 30px; letter-spacing: -0.7px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; position: relative; display: block;">1,318.50</label>
+                <div data-base="AView" data-class="AView" class="AView-Style" style="position: relative; margin-top: 2px; padding-left: 12px; font-size: 14px; line-height: 17px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: rgb(33, 150, 243); background-color: rgba(0, 0, 0, 0);" data-group="stock_gap">
+                    <div data-base="AView" data-class="AView" class="AView-Style" style="position: absolute; top: 5px; left: 0px; background-image: url(&quot;https://pm.pstatic.net/resources/asset/sp_main.d5b6c236.png&quot;); background-size: 433px 412px; background-position: -164px -201px; background-repeat: no-repeat; width: 9px; height: 6px; background-color: rgba(0, 0, 0, 0);" data-group="icon_status"></div>
+                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative;">0.50</label>
+                    <div data-base="AView" data-class="AView" class="AView-Style" style="padding-left: 6px; position: relative; background-color: rgba(0, 0, 0, 0); color: rgb(33, 150, 243); display: inline-block;" data-group="rate">
+                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative;">-</label>
+                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative;">0.04</label>
+                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative;">%</label>
+                    </div>
+                </div>
+                <div data-base="AView" data-class="AView" class="AView-Style" style="margin-top: 6px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; position: relative; background-color: rgba(0, 0, 0, 0);" data-group="stock_graph">
+                    <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 180px; height: 44px; vertical-align: top; position: relative;" src="Assets/FX_USDKRW_naverpc_l.png">
+                </div>
+                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="display: block;     margin-block-start: 1em;     margin-block-end: 1em;     margin-inline-start: 0px;     margin-inline-end: 0px; color: #606060;     margin-top: 11px;     font-size: 13.65px;     line-height: 17px;" data-group="stock_text">3개월 차트</label>
+            </div>
+        </div>
+    </div>
 </div>

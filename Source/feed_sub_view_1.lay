@@ -1,4 +1,4 @@
-<div data-base="AView" data-class="feed_sub_view_1" class="AView-Style" style="left: 0px; top: 0px; width: 100%; height: auto; background-color: rgb(255, 255, 255); position: absolute; font-size: 14.7px; line-height: 17.85px; letter-spacing: -0.4px;" data-browser-width="990" data-browser-height="1810" data-class-map="{&quot;afc&quot;:[&quot;AView&quot;,&quot;AFlexLayout&quot;,&quot;ALabel&quot;,&quot;AGridLayout&quot;,&quot;AImage&quot;,&quot;AButton&quot;]}">
+<div data-base="AView" data-class="feed_sub_view_1" class="AView-Style" style="left: 0px; top: 0px; width: 100%; height: auto; background-color: rgb(255, 255, 255); position: absolute; font-size: 14.7px; line-height: 17.85px; letter-spacing: -0.4px;" data-browser-height="1810" data-class-map="{&quot;afc&quot;:[&quot;AView&quot;,&quot;AFlexLayout&quot;,&quot;ALabel&quot;,&quot;AGridLayout&quot;,&quot;AImage&quot;,&quot;AButton&quot;]}" data-browser-width="1050">
     <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="background-color: rgb(245, 247, 248); position: relative; display: flex; margin: 0px 20px 18px; border-radius: 4px; left: 0px; width: auto;" data-group="header_sub">
         <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto;">
             <div data-base="AView" data-class="AView" class="AView-Style" style="position: relative; min-width: 0px; background-color: rgba(0, 0, 0, 0);" data-group="sub_box">
@@ -49,7 +49,7 @@
     </div>
     <div data-base="AView" data-class="AView" class="AView-Style" style="padding: 0px 20px; position: relative; background-color: rgba(0, 0, 0, 0);" data-group="feed_area">
         <div data-base="AView" data-class="AView" class="AView-Style" style="position: relative; background-color: rgba(0, 0, 0, 0);" data-group="feed_box_four_column">
-            <div data-base="AGridLayout" data-class="AGridLayout" class="AGridLayout-Style" style="margin-block-start: 1em; margin-block-end: 1em; margin-inline-start: 0px; margin-inline-end: 0px; padding-inline-start: 40px; padding: 0px; list-style: none; display: flex; flex-wrap: wrap; margin: 0px 0px 4px -20px; left: 0px; top: 0px; position: relative;">
+            <div data-base="AGridLayout" data-class="AGridLayout" class="AGridLayout-Style" style="margin-block-start: 1em; margin-block-end: 1em; margin-inline-start: 0px; margin-inline-end: 0px; padding-inline-start: 40px; padding: 0px; list-style: none; display: flex; flex-wrap: wrap; margin: 0px 0px 4px -20px; left: 0px; top: 0px; position: relative; vertical-align: baseline;">
                 <table cellpadding="0" cellspacing="0" class="">
                     <colgroup>
                         <col width="25%">
@@ -75,7 +75,7 @@
                                                     <div data-base="AView" data-class="AView" class="AView-Style" style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: var(--color_caption2); position: relative; background-color: rgba(0, 0, 0, 0);" data-group="source">
                                                         <div data-base="AView" data-class="AView" class="AView-Style" style="position: relative; display: inline-block; margin: 0px 6px 0px 0px; border-radius: 50%; vertical-align: top; background-color: rgba(0, 0, 0, 0);" data-group="thumb">
                                                             <div data-base="AView" data-class="AView" class="AView-Style" style="position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; content: &quot;&quot;; display: block; border: 1px solid rgba(0, 0, 0, 0.06); border-radius: inherit; background-color: rgba(0, 0, 0, 0);" data-group="before"></div>
-                                                            <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 20px; height: 20px; border: 0px; vertical-align: top; border-radius: inherit; position: relative; background-color: rgba(0, 0, 0, 0);" src="Assets/2.png">
+                                                            <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 20px; height: 20px; border: 0px; vertical-align: top; border-radius: inherit; position: relative; background-color: rgba(0, 0, 0, 0);" src="Assets/1-1.png">
                                                         </div>
                                                         <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="white-space: nowrap; color: var(--color_caption2); position: relative;">진매료</label>
                                                     </div>
@@ -239,13 +239,7 @@
                                                             <div data-base="AView" data-class="AView" class="AView-Style" style="position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; content: &quot;&quot;; display: block; border: 1px solid rgba(0, 0, 0, 0.06); border-radius: inherit; background-color: rgba(0, 0, 0, 0);" data-group="before"></div>
                                                             <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 20px; height: 20px; border: 0px; vertical-align: top; border-radius: inherit; position: relative; background-color: rgba(0, 0, 0, 0);" src="Assets/7-1.jpg">
                                                         </div>
-                                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="white-space: nowrap; color: var(--color_caption2); position: relative;">최소콩</label>
-                                                    </div>
-                                                </div>
-                                                <div style="position: relative; box-sizing: border-box;">
-                                                    <div data-base="AView" data-class="AView" class="AView-Style" style="color: rgb(64, 64, 64); -webkit-box-flex: 0; flex: 0 0 auto; letter-spacing: -0.15px; position: relative; background-color: rgba(0, 0, 0, 0);" data-group="category">
-                                                        <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: inline-block; width: 3px; height: 3px; background-color: rgb(211, 213, 215); margin: 9px 6px 0px; border-radius: 50%; vertical-align: top; position: relative;" data-group="before"></div>
-                                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative;">인플루언서</label>
+                                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="white-space: nowrap;     color: #606060; position: relative;     overflow: hidden;     text-overflow: ellipsis;">최소콩</label>
                                                     </div>
                                                 </div>
                                             </div>
@@ -254,12 +248,12 @@
                                 </div>
                             </td>
                             <td style="height: 33.33%;" class="">
-                                <div data-base="AView" data-class="AView" class="AView-Style" style="margin: 0px; position: relative; flex-shrink: 0; padding: 0px 0px 20px 20px; box-sizing: border-box; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px;" data-group="common_item">
+                                <div data-base="AView" data-class="AView" class="AView-Style" style="margin-right: 0px; margin-bottom: 0px; margin-left: 1px; position: relative; flex-shrink: 0; padding: 0px 0px 20px 20px; box-sizing: border-box; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px;" data-group="common_item">
                                     <div data-base="AView" data-class="AView" class="AView-Style" style="cursor: pointer; color: inherit; text-decoration: none; display: block; position: relative; background-color: rgba(0, 0, 0, 0);" data-group="link_item">
                                         <div data-base="AView" data-class="AView" class="AView-Style" style="position: relative; background-color: rgba(0, 0, 0, 0);" data-group="thumb">
                                             <div data-base="AView" data-class="AView" class="AView-Style" style="overflow: hidden; position: relative; display: block; border-radius: 4px; width: 100%; height: 120px; background-color: rgba(0, 0, 0, 0);" data-group="content_img">
-                                                <img data-base="AImage" data-class="AImage" class="AImage-Style" style="overflow-clip-margin: content-box;     overflow: clip;     width: 100%;     height: 120px;     border: 0;     vertical-align: top; -webkit-transition: -webkit-transform .2s cubic-bezier(0.165, 0.84, 0.44, 1);     transition: transform .2s cubic-bezier(0.165, 0.84, 0.44, 1);     image-rendering: -webkit-optimize-contrast;" src="Assets/8.jpg">
-                                                <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; border: 1px solid rgba(0, 0, 0, 0.06); border-radius: inherit; transform: translate3d(0px, 0px, 0px); perspective: 1px; background-color: rgba(0, 0, 0, 0);" data-group="after"></div>
+                                                <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 100%; height: 120px; border: 0px; vertical-align: top; transition: transform 0.2s cubic-bezier(0.165, 0.84, 0.44, 1) 0s; image-rendering: -webkit-optimize-contrast; left: 0px; top: 0px;" src="Assets/8.jpg">
+                                                <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: 0px; left: 0px; right: 0px; border: 1px solid rgba(0, 0, 0, 0.06); border-radius: inherit; transform: translate3d(0px, 0px, 0px); perspective: 1px; background-color: rgba(0, 0, 0, 0);" data-group="after"></div>
                                                 <div data-base="AView" data-class="AView" class="AView-Style" style="position: absolute; right: -1px; top: 1px; z-index: 1; background-color: rgba(0, 0, 0, 0);" data-group="ad_mark_area">
                                                     <button data-base="AButton" data-class="AButton" class="AButton-Style" style="margin: 0px; background: url(&quot;Assets/ad.png&quot;) 0px -20px / 100px 90px no-repeat content-box; border: none; cursor: pointer; user-select: none; box-sizing: content-box; display: block; padding: 2px 4px; width: 42px; height: 16px; position: relative;" data-group="ad_mark"></button>
                                                 </div>
@@ -316,19 +310,13 @@
                                         <div data-base="AView" data-class="AView" class="AView-Style" style="margin-top: 10px; background-color: rgba(0, 0, 0, 0); position: relative;" data-group="info">
                                             <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="display: block; overflow: hidden; max-height: 40px; line-height: 20px; text-overflow: ellipsis; -webkit-line-clamp: 2; -webkit-box-orient: vertical; font-weight: 500; position: relative;">스타일 변신해 기자도 놀란 한효주 샤넬 패션</label>
                                             <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="display: flex; margin-top: 4px; font-size: 13.65px; line-height: 20px; position: relative;" data-group="source_box">
-                                                <div style="position: relative; box-sizing: border-box;">
+                                                <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto;">
                                                     <div data-base="AView" data-class="AView" class="AView-Style" style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: var(--color_caption2); position: relative; background-color: rgba(0, 0, 0, 0);" data-group="source">
                                                         <div data-base="AView" data-class="AView" class="AView-Style" style="position: relative; display: inline-block; margin: 0px 6px 0px 0px; border-radius: 50%; vertical-align: top; background-color: rgba(0, 0, 0, 0);" data-group="thumb">
                                                             <div data-base="AView" data-class="AView" class="AView-Style" style="position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; content: &quot;&quot;; display: block; border: 1px solid rgba(0, 0, 0, 0.06); border-radius: inherit; background-color: rgba(0, 0, 0, 0);" data-group="before"></div>
                                                             <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 20px; height: 20px; border: 0px; vertical-align: top; border-radius: inherit; position: relative; background-color: rgba(0, 0, 0, 0);" src="Assets/10-1.jpg">
                                                         </div>
-                                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="white-space: nowrap; color: var(--color_caption2); position: relative;">Do의 데일리룩</label>
-                                                    </div>
-                                                </div>
-                                                <div style="position: relative; box-sizing: border-box;">
-                                                    <div data-base="AView" data-class="AView" class="AView-Style" style="color: rgb(64, 64, 64); -webkit-box-flex: 0; flex: 0 0 auto; letter-spacing: -0.15px; position: relative; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px;" data-group="category">
-                                                        <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: inline-block; width: 3px; height: 3px; background-color: rgb(211, 213, 215); margin: 9px 6px 0px; border-radius: 50%; vertical-align: top; position: relative;" data-group="before"></div>
-                                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative;">인플루언서</label>
+                                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="white-space: nowrap;     color: #606060; position: relative;     overflow: hidden;     text-overflow: ellipsis;">Do의 데일리룩</label>
                                                     </div>
                                                 </div>
                                             </div>
@@ -338,7 +326,7 @@
                             </td>
                             <td style="height: 33.33%;" class="">
                                 <div data-base="AView" data-class="AView" class="AView-Style" style="margin: 0px; position: relative; flex-shrink: 0; padding: 0px 0px 20px 20px; box-sizing: border-box; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px;" data-group="common_item">
-                                    <div data-base="AView" data-class="AView" class="AView-Style" style="cursor: pointer; color: inherit; text-decoration: none; display: block; position: relative; background-color: rgba(0, 0, 0, 0);" data-group="link_item">
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="cursor: pointer; color: inherit; text-decoration: none; display: block; position: relative; background-color: rgba(0, 0, 0, 0); top: 0px; margin-left: 0px;" data-group="link_item">
                                         <div data-base="AView" data-class="AView" class="AView-Style" style="position: relative; background-color: rgba(0, 0, 0, 0);" data-group="thumb">
                                             <div data-base="AView" data-class="AView" class="AView-Style" style="overflow: hidden; position: relative; display: block; border-radius: 4px; width: 100%; height: 120px; background-color: rgba(0, 0, 0, 0);" data-group="content_img">
                                                 <img data-base="AImage" data-class="AImage" class="AImage-Style" style="overflow-clip-margin: content-box;     overflow: clip;     width: 100%;     height: 120px;     border: 0;     vertical-align: top; -webkit-transition: -webkit-transform .2s cubic-bezier(0.165, 0.84, 0.44, 1);     transition: transform .2s cubic-bezier(0.165, 0.84, 0.44, 1);     image-rendering: -webkit-optimize-contrast;" src="Assets/11.jpg">
