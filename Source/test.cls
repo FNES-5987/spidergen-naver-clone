@@ -3,7 +3,7 @@
 Constructor
 Do not call Function in Constructor.
 */
-class MainView()
+class test()
 {
 	super();
 
@@ -13,7 +13,7 @@ class MainView()
 extends AView;
 
 
-function MainView*init(context, evtListener)
+function test*init(context, evtListener)
 {
 	super.init(context, evtListener);
 
@@ -21,7 +21,7 @@ function MainView*init(context, evtListener)
 
 };
 
-function MainView*onInitDone()
+function test*onInitDone()
 {
 	super.onInitDone();
 
@@ -29,7 +29,7 @@ function MainView*onInitDone()
 
 };
 
-function MainView*onActiveDone(isFirst)
+function test*onActiveDone(isFirst)
 {
 	super.onActiveDone(isFirst);
 
