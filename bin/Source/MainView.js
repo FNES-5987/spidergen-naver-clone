@@ -25,7 +25,7 @@ MainView.prototype.onInitDone = function()
 {
 	AView.prototype.onInitDone.call(this);
 
-	//TODO:edit here
+	this.searchbox.setFocus();
 
 };
 
@@ -34,5 +34,12 @@ MainView.prototype.onActiveDone = function(isFirst)
 	AView.prototype.onActiveDone.call(this, isFirst);
 
 	//TODO:edit here
+
+};
+
+MainView.prototype.onSearchboxFocus = function(comp, info, e)
+{
+
+	this.searchbox.setPlaceholder('검색어를 입력해 주세요.');
 
 };

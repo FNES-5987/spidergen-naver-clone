@@ -2,28 +2,28 @@
     <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="display: flex; padding: 18px 20px 17px; left: 0px; width: 100%; height: auto; position: relative;" data-group="content_header">
         <div style="position: relative; box-sizing: border-box; flex: 1 1 auto; align-self: auto;">
             <div data-base="AView" data-class="AView" class="AView-Style" style="flex: 1 1 0%; -webkit-box-flex: 1; background-color: rgba(0, 0, 0, 0); position: relative;" data-group="header_tab">
-                <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="width: auto; height: auto; position: relative;" data-group="tab_list">
+                <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="width: auto; height: auto; position: relative; margin-left: 0px; margin-top: 0px;" data-group="tab_list" data-style="">
                     <div style="position: relative; box-sizing: border-box;">
                         <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);" data-group="tab_item">
-                            <div data-base="AView" data-class="AView" class="AView-Style" style="position: relative; display: inline-block; font-size: 16.8px; line-height: 23px; font-weight: 800; vertical-align: top; color: rgba(8, 8, 8, 0.5); -webkit-font-smoothing: antialiased; background-color: rgba(0, 0, 0, 0);" data-group="tab">
-                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative; display: inline-block; vertical-align: top; color: rgba(8,8,8);" data-group="tab_text">뉴스스탠드</label>
-                                <div data-base="AView" data-class="AView" class="AView-Style" style="position: relative; display: inline-block; vertical-align: top; width: auto; height: auto; background-color: rgba(0, 0, 0, 0); color: rgb(8, 8, 8);" data-group="tab_text">
+                            <div data-base="AView" data-class="AView" class="AView-Style" style="position: relative; display: inline-block; font-size: 16.8px; line-height: 23px; font-weight: 800; vertical-align: top; color: rgba(8, 8, 8, 0.5); -webkit-font-smoothing: antialiased; background-color: rgba(0, 0, 0, 0);" data-group="tab" data-style="">
+                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style label_underline" style="position: relative; display: inline-block; vertical-align: top; color: rgb(8, 8, 8); font-weight: bold;" data-style="label_underline">뉴스스텐드</label>
+                                <div data-base="AView" data-class="AView" class="AView-Style view_in_label_underline" style="position: relative; display: inline-block; vertical-align: top; width: auto; height: auto; background-color: rgba(0, 0, 0, 0); color: rgb(8, 8, 8);" data-group="tab_text" data-style="view_in_label_underline">
                                     <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: inline-block; width: 4px; height: 4px; background-color: rgb(211, 213, 215); margin: 9px 7px 0px; border-radius: 50%; vertical-align: top; position: relative;" data-group="before"></div>
-                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; color: rgba(8,8,8,.5);">언론사편집</label>
+                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; color: rgba(8, 8, 8, 0.5); margin-left: 0px; margin-top: 0px;" data-style="">언론사편집</label>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div style="position: relative; box-sizing: border-box;">
                         <div data-base="AView" data-class="AView" class="AView-Style" style="padding-left: 26px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);" data-group="tab_item">
-                            <div data-base="AView" data-class="before" class="AView-Style" style="content: &quot;&quot;;     display: block;     position: absolute;     top: 4px;     left: 13px;     width: 1px;     height: 15px;     background-color: #d3d5d7;     transform: skewX(-15deg);"></div>
-                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative; display: inline-block; font-size: 16.8px; line-height: 23px; font-weight: 800; vertical-align: top; color: rgba(8, 8, 8, 0.5); -webkit-font-smoothing: antialiased;">엔터</label>
+                            <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: 4px; left: 13px; width: 1px; height: 15px; background-color: rgb(211, 213, 215);     transform: skewX(-15deg);" data-group="before"></div>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style label_underline" style="position: relative; display: inline-block; font-size: 16.8px; line-height: 23px; font-weight: 800; vertical-align: top; color: rgba(8, 8, 8, 0.5); -webkit-font-smoothing: antialiased;" data-style="label_underline">엔터</label>
                         </div>
                     </div>
                     <div style="position: relative; box-sizing: border-box;">
-                        <div data-base="AView" data-class="AView" class="AView-Style" style="padding-left: 26px; position: relative; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px;" data-group="tab_item">
-                            <div data-base="AView" data-class="before" class="AView-Style" style="content: &quot;&quot;;     display: block;     position: absolute;     top: 4px;     left: 13px;     width: 1px;     height: 15px;     background-color: #d3d5d7;     transform: skewX(-15deg);"></div>
-                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative; display: inline-block; font-size: 16.8px; line-height: 23px; font-weight: 800; vertical-align: top; color: rgba(8, 8, 8, 0.5); -webkit-font-smoothing: antialiased; margin-left: 0px;">스포츠</label>
+                        <div data-base="AView" data-class="AView" class="AView-Style view_in_label_underline" style="padding-left: 26px; position: relative; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px; cursor: default;" data-group="tab_item" data-style="view_in_label_underline">
+                            <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: 4px; left: 13px; width: 1px; height: 15px; background-color: rgb(211, 213, 215);     transform: skewX(-15deg);" data-group="before"></div>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative; display: inline-block; font-size: 16.8px; line-height: 23px; font-weight: 800; vertical-align: top; color: rgba(8, 8, 8, 0.5); -webkit-font-smoothing: antialiased; margin-left: 0px;" data-style="">스포츠</label>
                             <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; display: inline-block; vertical-align: top; margin-left: 5px; margin-top: 3px; padding-left: 4px; padding-right: 5px; font-size: 11.5px; line-height: 18px; background-color: rgb(244, 54, 30); border-radius: 9px;" data-group="tag_live">
                                 <div data-base="AView" data-class="AView" class="AView-Style" style="width: 14px; height: 10px; position: relative; left: 0px; top: 0px; margin-top: 4px; margin-right: 3px; display: inline-block; background-image: url(&quot;Assets/naver_icon.png&quot;); background-repeat: no-repeat; background-size: 433px 412px; background-position: -409px -389px; vertical-align: top; background-color: rgba(0, 0, 0, 0); margin-left: 0px;" data-background-option="custom" data-group="before"></div>
                                 <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; display: inline-block; color: rgb(255, 255, 255);" data-group="btn_live">LIVE</label>
@@ -32,8 +32,8 @@
                     </div>
                     <div style="position: relative; box-sizing: border-box;">
                         <div data-base="AView" data-class="AView" class="AView-Style" style="padding-left: 26px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);" data-group="tab_item">
-                            <div data-base="AView" data-class="before" class="AView-Style" style="content: &quot;&quot;;     display: block;     position: absolute;     top: 4px;     left: 13px;     width: 1px;     height: 15px;     background-color: #d3d5d7;     transform: skewX(-15deg);"></div>
-                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative; display: inline-block; font-size: 16.8px; line-height: 23px; font-weight: 800; vertical-align: top; color: rgba(8, 8, 8, 0.5); -webkit-font-smoothing: antialiased; margin-left: 0px;">경제</label>
+                            <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: 4px; left: 13px; width: 1px; height: 15px; background-color: rgb(211, 213, 215);     transform: skewX(-15deg);" data-group="before"></div>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style label_underline" style="position: relative; display: inline-block; font-size: 16.8px; line-height: 23px; font-weight: 800; vertical-align: top; color: rgba(8, 8, 8, 0.5); -webkit-font-smoothing: antialiased; margin-left: 0px;" data-style="label_underline">경제</label>
                         </div>
                     </div>
                 </div>
@@ -42,7 +42,7 @@
     </div>
     <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="background-color: rgb(245, 247, 248); position: relative; display: flex; margin: 0px 20px; padding: 12px 20px; border-radius: 4px; line-height: 26px; font-size: 14.7px; left: 0px; width: auto;" data-group="content_header_sub">
         <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto;">
-            <div data-base="AView" data-class="AView" class="AView-Style" style="color: rgb(64, 64, 64); position: relative; display: inline-block; vertical-align: top; cursor: pointer; background-color: rgba(0, 0, 0, 0);" data-group="btn_more">
+            <div data-base="AView" data-class="AView" class="AView-Style view_in_label_underline" style="color: rgb(64, 64, 64); position: relative; display: inline-block; vertical-align: top; cursor: pointer; background-color: rgba(0, 0, 0, 0);" data-group="btn_more" data-style="view_in_label_underline">
                 <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative;">전체 언론사</label>
                 <div data-base="AView" data-class="AView" class="AView-Style" style="background-image: url(&quot;https://pm.pstatic.net/resources/asset/sp_main.d5b6c236.png&quot;); background-size: 433px 412px; background-position: -154px -201px; background-repeat: no-repeat; width: 9px; height: 6px; display: inline-block; margin: 10px 0px 0px 5px; vertical-align: top; position: relative; background-color: rgba(0, 0, 0, 0);" data-group="icon_triangle"></div>
             </div>
@@ -52,11 +52,11 @@
                 <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;;     display: block;     position: absolute;     top: 7px;     left: 12px;     background-color: #d3d5d7;     width: 1px;     height: 12px;" data-group="before"></div>
                 <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; animation-fill-mode: forwards; animation-name: AutoRolling-module__rollingVertical___oadAS; animation-duration: 0.5s; position: relative; background-color: rgba(0, 0, 0, 0);" data-group="rolling_y">
                     <div data-base="AView" data-class="AView" class="AView-Style" style="display: inline-block; vertical-align: top; white-space: nowrap; position: relative; background-color: rgba(0, 0, 0, 0);" data-group="news_box">
-                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="display: inline-block; vertical-align: top; position: relative;">연합뉴스</label>
+                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style label_underline" style="display: inline-block; vertical-align: top; position: relative;" data-style="label_underline">연합뉴스</label>
                         <div data-base="AView" data-class="AView" class="AView-Style" style="display: inline-block; vertical-align: top; background-color: rgba(0, 0, 0, 0); position: relative;" data-group="news_desc">
                             <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: inline-block; width: 3px; height: 3px; background-color: rgb(211, 213, 215); margin: 12px 6px 0px; border-radius: 50%; vertical-align: top; position: relative;" data-group="before"></div>
                             <div data-base="AView" data-class="AView" class="AView-Style" style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap; display: inline-block; max-width: 340px; vertical-align: top; position: relative; background-color: rgba(0, 0, 0, 0);" data-group="news_title">
-                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="color: inherit; text-decoration: none; position: relative;">곰팡이 가득한 창고에 12년간 도난문화제 숨겨둔 박물관장</label>
+                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style label_underline" style="color: inherit; text-decoration: none; position: relative;" data-style="label_underline">곰팡이 가득한 창고에 12년간 도난문화제 숨겨둔 박물관장</label>
                             </div>
                         </div>
                     </div>
@@ -64,7 +64,7 @@
             </div>
         </div>
         <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto;">
-            <div data-base="AView" data-class="AView" class="AView-Style" style="margin-left: auto; background-color: rgba(0, 0, 0, 0); position: relative;" data-group="sub_home">
+            <div data-base="AView" data-class="AView" class="AView-Style view_in_all_label_underline" style="margin-left: auto; background-color: rgba(0, 0, 0, 0); position: relative;" data-group="sub_home" data-style="view_in_all_label_underline">
                 <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="font-weight: 500; position: relative;     display: inline-block;     vertical-align: top;">뉴스스탠드</label>
                 <div data-base="AView" data-class="AView" class="AView-Style" style="position: relative; display: inline-block; font-weight: bold; vertical-align: top; padding-left: 25px; background-color: rgba(0, 0, 0, 0);" data-group="link_home">
                     <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: 7px; left: 12px; width: 1px; height: 12px; background-color: rgb(211, 213, 215);" data-group="before"></div>

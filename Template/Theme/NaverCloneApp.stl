@@ -1,6 +1,22 @@
 {
   "styleName": "global",
   "items": {
-    "edit_here": "\n.edit_here\n{\n\t/* TODO:edit here */\n\n}\n"
+    "edit_here": "\n.edit_here\n{\n\t/* TODO:edit here */\n\n}\n",
+    "label_underline": ".label_underline\n{\n}\n.label_underline:hover\n{\n\ttext-decoration-line: underline;\n}\n\n",
+    "view_in_label_underline": ".view_in_label_underline\n{\n}\n.view_in_label_underline:hover > label\n{\n\ttext-decoration: underline;\n}",
+    "view_in_all_label_underline": ".view_in_all_label_underline\n{\n}\n.view_in_all_label_underline label:hover\n{\n\ttext-decoration: underline;\n}",
+    "my_login_color": ".my_login_color\n{\n}\n.my_login_color:hover\n{\n\tbackground-color: #17b75e;\n\tbox-shadow: 0 2px 4px 0 rgba(3,199,90,.24);\n}",
+    "my_view_underline": ".my_view_underline\n{\n}\n.my_view_underline > div:hover > label\n{\n\ttext-decoration-line: underline;\n}\n\n",
+    "all_line_underline": ".all_line_underline\n{\n}\n.all_line_underline:hover label\n{\n\ttext-decoration: underline;\n}",
+    "footer_banner_underline": ".footer_banner_underline\n{\n}\n.footer_banner_underline:hover div:nth-child(2) label:nth-child(2)\n{\n\ttext-decoration: underline;\n}\n",
+    "scale_img": ".scale_img\n{\n}\n.scale_img div:hover img\n{\n\ttransform: scale(1.1);\n\ttransition: transform 0.2s ease;\n}",
+    "weather_info_hover": ".weather_info_hover\n{\n}\n.weather_info_hover:hover div\n{\n\t    background-position: -131px -400px;\n}",
+    "refresh_btn_hover": ".refresh_btn_hover\n{\n}\n.refresh_btn_hover:hover div\n{\n\tbackground-position: -336px -358px;\n}",
+    "service_icon_hover": ".service_icon_hover\n{\n}\n.service_icon_hover div:hover div div div:nth-child(1)\n{\n\t    position: absolute;\n    top: -3px;\n    left: -5px;\n    background-image: url(https://pm.pstatic.net/resources/asset/sp_main.d5b6c236.png);\n    background-size: 433px 412px;\n    background-position: -142px 0px;\n    background-repeat: no-repeat;\n    width: 58px;\n    height: 58px;\n}\n.service_icon_hover div:nth-child(10):hover div div div:nth-child(1)\n{\n\t    background-image: url(https://pm.pstatic.net/resources/asset/sp_main.d5b6c236.png);\n    background-size: 433px 412px;\n    background-position: 0px -69px;\n\t    position: absolute;\n    top: -3px;\n    left: -5px;\n}",
+    "stock_item_underline": ".stock_item_underline\n{\n}\n.stock_item_underline div:hover div > label\n{\n\ttext-decoration: underline;\n}",
+    "today_english": ".today_english\n{\n}\n.today_english:hover div:nth-child(2) label\n{\n\tdisplay: none;\n}",
+    "today_english_trans": ".today_english_trans\n{\n}\n.today_english_trans:hover label\n{\n\tdisplay: block;\n}\n",
+    "keybord_icon": ".keybord_icon\n{\n}\n.keybord_icon:hover button\n{\n\t    background-image: url(https://pm.pstatic.net/resources/asset/sp_main.d5b6c236.png);\n    background-size: 433px 412px;\n    background-position: -229px -254px;\n}\n.keybord_icon:hover div\n{\n\tdisplay: block;\n}",
+    "tooltip_box": ".tooltip_box\n{\n}\n.tooltip_box:hover div\n{\n\tdisplay: block;\n}"
   }
 }

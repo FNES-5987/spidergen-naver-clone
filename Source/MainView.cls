@@ -25,7 +25,7 @@ function MainView*onInitDone()
 {
 	super.onInitDone();
 
-	//TODO:edit here
+	this.searchbox.setFocus();
 
 };
 
@@ -34,5 +34,12 @@ function MainView*onActiveDone(isFirst)
 	super.onActiveDone(isFirst);
 
 	//TODO:edit here
+
+};
+
+function MainView*onSearchboxFocus(comp, info, e)
+{
+
+	this.searchbox.setPlaceholder('검색어를 입력해 주세요.');
 
 };

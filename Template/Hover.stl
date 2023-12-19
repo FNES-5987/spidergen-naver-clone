@@ -1,0 +1,7 @@
+{
+  "styleName": "hover",
+  "items": {
+    "edit_here": "\n.edit_here\n{\n\t/* TODO:edit here */\n\n}\n",
+    "label_over_underline:hover": ".label_over_underline\n{\n}\n.label_over_underline:hover{\n\ttext-decoration-line: underline;\n\tcursor: pointer;\n}\n\n"
+  }
+}

@@ -5,3 +5,156 @@
 
 }
 
+.label_underline
+{
+}
+.label_underline:hover
+{
+	text-decoration-line: underline !important;
+}
+
+.view_in_label_underline
+{
+}
+.view_in_label_underline:hover > label
+{
+	text-decoration: underline !important;
+}
+
+.view_in_all_label_underline
+{
+}
+.view_in_all_label_underline label:hover
+{
+	text-decoration: underline !important;
+}
+
+.my_login_color
+{
+}
+.my_login_color:hover
+{
+	background-color: #17b75e !important;
+	box-shadow: 0 2px 4px 0 rgba(3,199,90,.24) !important;
+}
+
+.my_view_underline
+{
+}
+.my_view_underline > div:hover > label
+{
+	text-decoration-line: underline !important;
+}
+
+.all_line_underline
+{
+}
+.all_line_underline:hover label
+{
+	text-decoration: underline !important;
+}
+
+.footer_banner_underline
+{
+}
+.footer_banner_underline:hover div:nth-child(2) label:nth-child(2)
+{
+	text-decoration: underline !important;
+}
+
+.scale_img
+{
+}
+.scale_img div:hover img
+{
+	transform: scale(1.1) !important;
+	transition: transform 0.2s ease !important;
+}
+
+.weather_info_hover
+{
+}
+.weather_info_hover:hover div
+{
+	    background-position: -131px -400px !important;
+}
+
+.refresh_btn_hover
+{
+}
+.refresh_btn_hover:hover div
+{
+	background-position: -336px -358px !important;
+}
+
+.service_icon_hover
+{
+}
+.service_icon_hover div:hover div div div:nth-child(1)
+{
+	    position: absolute !important;
+    top: -3px !important;
+    left: -5px !important;
+    background-image: url(https://pm.pstatic.net/resources/asset/sp_main.d5b6c236.png) !important;
+    background-size: 433px 412px !important;
+    background-position: -142px 0px !important;
+    background-repeat: no-repeat !important;
+    width: 58px !important;
+    height: 58px !important;
+}
+.service_icon_hover div:nth-child(10):hover div div div:nth-child(1)
+{
+	    background-image: url(https://pm.pstatic.net/resources/asset/sp_main.d5b6c236.png) !important;
+    background-size: 433px 412px !important;
+    background-position: 0px -69px !important;
+	    position: absolute !important;
+    top: -3px !important;
+    left: -5px !important;
+}
+
+.stock_item_underline
+{
+}
+.stock_item_underline div:hover div > label
+{
+	text-decoration: underline !important;
+}
+
+.today_english
+{
+}
+.today_english:hover div:nth-child(2) label
+{
+	display: none !important;
+}
+
+.today_english_trans
+{
+}
+.today_english_trans:hover label
+{
+	display: block !important;
+}
+
+.keybord_icon
+{
+}
+.keybord_icon:hover button
+{
+	    background-image: url(https://pm.pstatic.net/resources/asset/sp_main.d5b6c236.png) !important;
+    background-size: 433px 412px !important;
+    background-position: -229px -254px !important;
+}
+.keybord_icon:hover div
+{
+	display: block !important;
+}
+
+.tooltip_box
+{
+}
+.tooltip_box:hover div
+{
+	display: block !important;
+}
+
