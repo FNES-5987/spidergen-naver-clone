@@ -23,6 +23,9 @@
     "toggle_more_icon": ".toggle_more_icon\n{\n\t\tcontent: \"\";\n\tdisplay: block;\n\tposition: absolute;\n\ttop: 0px;\n\tleft: 0px;\n\tright: 0px;\n\tbottom: 0px;\n\tmargin: auto;\n\tbackground-image: url(https://pm.pstatic.net/resources/asset/sp_main.d5b6c236.png);\n\tbackground-size: 433px 412px;\n\tbackground-position: -250px -135px;\n\tbackground-repeat: no-repeat;\n\twidth: 44px;\n\theight: 44px;\n\tbackground-color: rgba(0, 0, 0, 0);\n}\n.toggle_more_icon.on\n{\n\t    background-image: url(https://pm.pstatic.net/resources/asset/sp_main.d5b6c236.png);\n    background-size: 433px 412px;\n    background-position: -147px -379px;\n    background-repeat: no-repeat;\n    width: 20px;\n    height: 20px;\n}\n",
     "view_list_hover": ".view_list_hover\n{\n}\n.view_list_hover:hover div\n{\n\t    background-image: url(https://pm.pstatic.net/resources/asset/sp_main.d5b6c236.png);\n    background-size: 433px 412px;\n    background-position: -363px -333px;\n    background-repeat: no-repeat;\n    width: 20px;\n    height: 20px;\n}",
     "view_thumb_hover": ".view_thumb_hover\n{\n}\n.view_thumb_hover:hover div\n{\n\t    background-image: url(https://pm.pstatic.net/resources/asset/sp_main.d5b6c236.png);\n    background-size: 433px 412px;\n    background-position: -388px -189px;\n    background-repeat: no-repeat;\n    width: 20px;\n    height: 20px;\n}\n",
-    "news_info_hover": ".news_info_hover\n{\n}\n.news_info_hover:hover div:nth-child(2)\n{\n\tdisplay: flex;\n}\n"
+    "news_info_hover": ".news_info_hover\n{\n}\n.news_info_hover div:hover div:nth-child(2)\n{\n\tdisplay: flex;\n}\n",
+    "news_info_pointer": ".news_info_pointer\n{\n}\n.news_info_hover div div:nth-child(2) div:hover\n{\n\tcursor:pointer;\n}\n.news_info_hover div div:nth-child(2) div label:hover\n{\n\tcursor:pointer;\n}",
+    "all_label_underline": ".all_label_underline\n{\n}\n.all_label_underline div:hover label\n{\n\ttext-decoration: underline;\n}\n",
+    "arror_color": ".arror_color\n{\n}\n.arror_color:hover div div\n{\n\tborder-color: #2a2c2f;\n}\n"
   }
 }

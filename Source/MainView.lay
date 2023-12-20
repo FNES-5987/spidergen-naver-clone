@@ -427,19 +427,19 @@
                                         </div>
                                         <div style="position: relative; box-sizing: border-box;">
                                             <div data-base="AView" data-class="AView" class="AView-Style" style="padding-left: 26px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);" data-group="tab_item">
-                                                <div data-base="AView" data-class="before" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: 4px; left: 13px; width: 1px; height: 15px; background-color: rgb(211, 213, 215);"></div>
+                                                <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: 4px; left: 13px; width: 1px; height: 15px; background-color: rgb(211, 213, 215);     transform: skewX(-15deg);" data-group="before"></div>
                                                 <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative; display: inline-block; font-size: 16.8px; line-height: 23px; font-weight: 800; vertical-align: top; color: rgba(8, 8, 8, 0.5); -webkit-font-smoothing: antialiased;">맨즈</label>
                                             </div>
                                         </div>
                                         <div style="position: relative; box-sizing: border-box;">
                                             <div data-base="AView" data-class="AView" class="AView-Style" style="padding-left: 26px; position: relative; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px;" data-group="tab_item">
-                                                <div data-base="AView" data-class="before" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: 4px; left: 13px; width: 1px; height: 15px; background-color: rgb(211, 213, 215);"></div>
+                                                <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: 4px; left: 13px; width: 1px; height: 15px; background-color: rgb(211, 213, 215);     transform: skewX(-15deg);" data-group="before"></div>
                                                 <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative; display: inline-block; font-size: 16.8px; line-height: 23px; font-weight: 800; vertical-align: top; color: rgba(8, 8, 8, 0.5); -webkit-font-smoothing: antialiased; margin-left: 0px;">원쁠딜</label>
                                             </div>
                                         </div>
                                         <div style="position: relative; box-sizing: border-box;">
                                             <div data-base="AView" data-class="AView" class="AView-Style" style="padding-left: 26px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);" data-group="tab_item">
-                                                <div data-base="AView" data-class="before" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: 4px; left: 13px; width: 1px; height: 15px; background-color: rgb(211, 213, 215);"></div>
+                                                <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: 4px; left: 13px; width: 1px; height: 15px; background-color: rgb(211, 213, 215);     transform: skewX(-15deg);" data-group="before"></div>
                                                 <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative; display: inline-block; font-size: 16.8px; line-height: 23px; font-weight: 800; vertical-align: top; color: rgba(8, 8, 8, 0.5); -webkit-font-smoothing: antialiased; margin-left: 0px;">쇼핑라이브</label>
                                             </div>
                                         </div>
@@ -472,55 +472,55 @@
                                         </div>
                                         <div style="position: relative; box-sizing: border-box;">
                                             <div data-base="AView" data-class="AView" class="AView-Style" style="padding-left: 26px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);" data-group="tab_item">
-                                                <div data-base="AView" data-class="before" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: 4px; left: 13px; width: 1px; height: 15px; background-color: rgb(211, 213, 215);"></div>
+                                                <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: 4px; left: 13px; width: 1px; height: 15px; background-color: rgb(211, 213, 215);     transform: skewX(-15deg);" data-group="before"></div>
                                                 <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative; display: inline-block; font-size: 16.8px; line-height: 23px; font-weight: 800; vertical-align: top; color: rgba(8, 8, 8, 0.5); -webkit-font-smoothing: antialiased;">자동차</label>
                                             </div>
                                         </div>
                                         <div style="position: relative; box-sizing: border-box;">
                                             <div data-base="AView" data-class="AView" class="AView-Style" style="padding-left: 26px; position: relative; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px;" data-group="tab_item">
-                                                <div data-base="AView" data-class="before" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: 4px; left: 13px; width: 1px; height: 15px; background-color: rgb(211, 213, 215);"></div>
+                                                <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: 4px; left: 13px; width: 1px; height: 15px; background-color: rgb(211, 213, 215);     transform: skewX(-15deg);" data-group="before"></div>
                                                 <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative; display: inline-block; font-size: 16.8px; line-height: 23px; font-weight: 800; vertical-align: top; color: rgba(8, 8, 8, 0.5); -webkit-font-smoothing: antialiased; margin-left: 0px;">웹툰</label>
                                             </div>
                                         </div>
                                         <div style="position: relative; box-sizing: border-box;">
                                             <div data-base="AView" data-class="AView" class="AView-Style" style="padding-left: 26px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);" data-group="tab_item">
-                                                <div data-base="AView" data-class="before" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: 4px; left: 13px; width: 1px; height: 15px; background-color: rgb(211, 213, 215);"></div>
+                                                <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: 4px; left: 13px; width: 1px; height: 15px; background-color: rgb(211, 213, 215);     transform: skewX(-15deg);" data-group="before"></div>
                                                 <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative; display: inline-block; font-size: 16.8px; line-height: 23px; font-weight: 800; vertical-align: top; color: rgba(8, 8, 8, 0.5); -webkit-font-smoothing: antialiased; margin-left: 0px;">패션뷰티</label>
                                             </div>
                                         </div>
                                         <div style="position: relative; box-sizing: border-box;">
                                             <div data-base="AView" data-class="AView" class="AView-Style" style="padding-left: 26px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);" data-group="tab_item">
-                                                <div data-base="AView" data-class="before" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: 4px; left: 13px; width: 1px; height: 15px; background-color: rgb(211, 213, 215);"></div>
+                                                <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: 4px; left: 13px; width: 1px; height: 15px; background-color: rgb(211, 213, 215);     transform: skewX(-15deg);" data-group="before"></div>
                                                 <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative; display: inline-block; font-size: 16.8px; line-height: 23px; font-weight: 800; vertical-align: top; color: rgba(8, 8, 8, 0.5); -webkit-font-smoothing: antialiased; margin-left: 0px;">레시피</label>
                                             </div>
                                         </div>
                                         <div style="position: relative; box-sizing: border-box;">
                                             <div data-base="AView" data-class="AView" class="AView-Style" style="padding-left: 26px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);" data-group="tab_item">
-                                                <div data-base="AView" data-class="before" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: 4px; left: 13px; width: 1px; height: 15px; background-color: rgb(211, 213, 215);"></div>
+                                                <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: 4px; left: 13px; width: 1px; height: 15px; background-color: rgb(211, 213, 215);     transform: skewX(-15deg);" data-group="before"></div>
                                                 <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative; display: inline-block; font-size: 16.8px; line-height: 23px; font-weight: 800; vertical-align: top; color: rgba(8, 8, 8, 0.5); -webkit-font-smoothing: antialiased; margin-left: 0px;">리빙</label>
                                             </div>
                                         </div>
                                         <div style="position: relative; box-sizing: border-box;">
                                             <div data-base="AView" data-class="AView" class="AView-Style" style="padding-left: 26px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);" data-group="tab_item">
-                                                <div data-base="AView" data-class="before" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: 4px; left: 13px; width: 1px; height: 15px; background-color: rgb(211, 213, 215);"></div>
+                                                <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: 4px; left: 13px; width: 1px; height: 15px; background-color: rgb(211, 213, 215);     transform: skewX(-15deg);" data-group="before"></div>
                                                 <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative; display: inline-block; font-size: 16.8px; line-height: 23px; font-weight: 800; vertical-align: top; color: rgba(8, 8, 8, 0.5); -webkit-font-smoothing: antialiased; margin-left: 0px;">책방</label>
                                             </div>
                                         </div>
                                         <div style="position: relative; box-sizing: border-box;">
                                             <div data-base="AView" data-class="AView" class="AView-Style" style="padding-left: 26px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);" data-group="tab_item">
-                                                <div data-base="AView" data-class="before" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: 4px; left: 13px; width: 1px; height: 15px; background-color: rgb(211, 213, 215);"></div>
+                                                <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: 4px; left: 13px; width: 1px; height: 15px; background-color: rgb(211, 213, 215);     transform: skewX(-15deg);" data-group="before"></div>
                                                 <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative; display: inline-block; font-size: 16.8px; line-height: 23px; font-weight: 800; vertical-align: top; color: rgba(8, 8, 8, 0.5); -webkit-font-smoothing: antialiased; margin-left: 0px;">지식+</label>
                                             </div>
                                         </div>
                                         <div style="position: relative; box-sizing: border-box;">
                                             <div data-base="AView" data-class="AView" class="AView-Style" style="padding-left: 26px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);" data-group="tab_item">
-                                                <div data-base="AView" data-class="before" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: 4px; left: 13px; width: 1px; height: 15px; background-color: rgb(211, 213, 215);"></div>
+                                                <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: 4px; left: 13px; width: 1px; height: 15px; background-color: rgb(211, 213, 215);     transform: skewX(-15deg);" data-group="before"></div>
                                                 <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative; display: inline-block; font-size: 16.8px; line-height: 23px; font-weight: 800; vertical-align: top; color: rgba(8, 8, 8, 0.5); -webkit-font-smoothing: antialiased; margin-left: 0px;">건강</label>
                                             </div>
                                         </div>
                                         <div style="position: relative; box-sizing: border-box;">
                                             <div data-base="AView" data-class="AView" class="AView-Style" style="padding-left: 26px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);" data-group="tab_item">
-                                                <div data-base="AView" data-class="before" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: 4px; left: 13px; width: 1px; height: 15px; background-color: rgb(211, 213, 215);"></div>
+                                                <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: 4px; left: 13px; width: 1px; height: 15px; background-color: rgb(211, 213, 215);     transform: skewX(-15deg);" data-group="before"></div>
                                                 <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative; display: inline-block; font-size: 16.8px; line-height: 23px; font-weight: 800; vertical-align: top; color: rgba(8, 8, 8, 0.5); -webkit-font-smoothing: antialiased; margin-left: 0px;">게임</label>
                                             </div>
                                         </div>

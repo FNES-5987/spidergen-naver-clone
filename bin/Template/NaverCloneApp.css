@@ -220,20 +220,65 @@
     height: 20px !important;
 }
 
-.slide_view
+.view_list_hover
 {
-	animation-duration: 0.5s !important;
 }
-.slide_view:animation 0%
+.view_list_hover:hover div
 {
-	transform: none !important;
+	    background-image: url(https://pm.pstatic.net/resources/asset/sp_main.d5b6c236.png) !important;
+    background-size: 433px 412px !important;
+    background-position: -363px -333px !important;
+    background-repeat: no-repeat !important;
+    width: 20px !important;
+    height: 20px !important;
 }
-.slide_view:animation 100%
+
+.view_thumb_hover
 {
-	transform: translateX(-100%) !important;
 }
-.slide_view:hover
+.view_thumb_hover:hover div
 {
-	animation-duration:none !important;
+	    background-image: url(https://pm.pstatic.net/resources/asset/sp_main.d5b6c236.png) !important;
+    background-size: 433px 412px !important;
+    background-position: -388px -189px !important;
+    background-repeat: no-repeat !important;
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.news_info_hover
+{
+}
+.news_info_hover div:hover div:nth-child(2)
+{
+	display: flex !important;
+}
+
+.news_info_pointer
+{
+}
+.news_info_hover div div:nth-child(2) div:hover
+{
+	cursor:pointer !important;
+}
+.news_info_hover div div:nth-child(2) div label:hover
+{
+	cursor:pointer !important;
+}
+
+.all_label_underline
+{
+}
+.all_label_underline div:hover label
+{
+	text-decoration: underline !important;
+}
+
+.arror_color
+{
+}
+.arror_color:hover div div
+{
+	border-color: #2a2c2f !important;
 }
 

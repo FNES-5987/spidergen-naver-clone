@@ -1,0 +1,493 @@
+<div data-base="AView" data-class="news_tab_2" class="AView-Style" style="left: 0px; top: 0px; width: auto; height: auto; background-color: rgb(255, 255, 255); position: absolute;" data-class-map="{&quot;afc&quot;:[&quot;AView&quot;,&quot;AGridLayout&quot;,&quot;AFlexLayout&quot;,&quot;ALabel&quot;,&quot;AImage&quot;]}">
+    <div data-base="AGridLayout" data-class="AGridLayout" class="AGridLayout-Style news_info_hover news_info_pointer" style="position: relative; height: auto; background-color: rgba(0, 0, 0, 0); border-width: 1px; border-style: solid; border-color: rgb(235, 235, 235); border-radius: 4px; left: 0px; top: 0px;" data-group="subscription_group" data-style="news_info_hover news_info_pointer">
+        <table cellpadding="0" cellspacing="0">
+            <colgroup>
+                <col width="16.6%">
+                <col width="16.6%">
+                <col width="16.6%">
+                <col width="16.6%">
+                <col width="16.6%">
+                <col width="16.6%">
+            </colgroup>
+            <tbody>
+                <tr>
+                    <td style="height: 25%; background-color: rgba(0, 0, 0, 0); border-bottom: 1px solid rgb(235, 235, 235); border-right: 1px solid rgb(235, 235, 235); padding: 0px;">
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="display: block; position: relative; float: left; width: 100%; height: 56px; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px;" data-group="subscription_box" data-style="">
+                            <div data-base="AView" data-class="AView" class="AView-Style" style="display: block; padding: 18px 0px; text-align: center; background-color: rgba(0, 0, 0, 0); position: relative;" data-group="news_thumb">
+                            </div>
+                            <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style stock_item_underline" style="position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; -webkit-box-align: center; align-items: center; -webkit-box-pack: center; justify-content: center; background-color: rgb(40, 104, 242); display: none;" data-group="news_info" data-style="stock_item_underline">
+                                <div style="position: relative; box-sizing: border-box;">
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="font-size: 13.65px; line-height: 30px; font-weight: 400; color: rgb(255, 255, 255); position: relative; background-color: rgba(0, 0, 0, 0); cursor: pointer;" data-group="info_text">
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative; cursor: pointer;">구독</label>
+                                    </div>
+                                </div>
+                                <div style="position: relative; box-sizing: border-box;">
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="font-size: 13.65px; line-height: 30px; font-weight: 400; color: rgb(255, 255, 255); position: relative; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px; cursor: pointer;" data-group="info_text" data-style="">
+                                        <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: inline-block; width: 1px; height: 12px; margin: 9px 10px 0px; background-color: rgba(255, 255, 255, 0.3); vertical-align: top; position: relative; cursor: pointer;" data-group="before"></div>
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; cursor: pointer;">기사보기</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td style="padding: 0px; height: 25%; background-color: rgba(0, 0, 0, 0); border-bottom: 1px solid rgb(235, 235, 235); border-right: 1px solid rgb(235, 235, 235);" class="">
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="display: block; position: relative; float: left; width: 100%; height: auto; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px; padding-top: 0px; padding-bottom: 0px;" data-group="subscription_box">
+                            <div data-base="AView" data-class="AView" class="AView-Style" style="display: block; padding: 18px 0px; text-align: center; background-color: rgba(0, 0, 0, 0); position: relative; margin-left: -6px; margin-top: 0px; left: 0px; top: 0px;" data-group="news_thumb">
+                                <img data-base="AImage" data-class="AImage" class="AImage-Style" style="vertical-align: top; border: 0px; height: 20px; position: relative;" src="Assets/139.png">
+                            </div>
+                            <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style stock_item_underline" style="position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; -webkit-box-align: center; align-items: center; -webkit-box-pack: center; justify-content: center; background-color: rgb(40, 104, 242); display: none;" data-group="news_info" data-style="stock_item_underline">
+                                <div style="position: relative; box-sizing: border-box;">
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="font-size: 13.65px; line-height: 30px; font-weight: 400; color: rgb(255, 255, 255); position: relative; background-color: rgba(0, 0, 0, 0); cursor: pointer;" data-group="info_text">
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative; cursor: pointer;">구독</label>
+                                    </div>
+                                </div>
+                                <div style="position: relative; box-sizing: border-box;">
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="font-size: 13.65px; line-height: 30px; font-weight: 400; color: rgb(255, 255, 255); position: relative; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px; cursor: pointer;" data-group="info_text" data-style="">
+                                        <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: inline-block; width: 1px; height: 12px; margin: 9px 10px 0px; background-color: rgba(255, 255, 255, 0.3); vertical-align: top; position: relative; cursor: pointer;" data-group="before"></div>
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; cursor: pointer;">기사보기</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td style="padding: 0px; height: 25%; background-color: rgba(0, 0, 0, 0); border-bottom: 1px solid rgb(235, 235, 235); border-right: 1px solid rgb(235, 235, 235);">
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="display: block; position: relative; float: left; width: 100%; height: auto; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px; padding-top: 0px; padding-bottom: 0px;" data-group="subscription_box">
+                            <div data-base="AView" data-class="AView" class="AView-Style" style="display: block; padding: 18px 0px; text-align: center; background-color: rgba(0, 0, 0, 0); position: relative; margin-left: -6px;" data-group="news_thumb">
+                            </div>
+                            <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style stock_item_underline" style="position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; -webkit-box-align: center; align-items: center; -webkit-box-pack: center; justify-content: center; background-color: rgb(40, 104, 242); display: none;" data-group="news_info" data-style="stock_item_underline">
+                                <div style="position: relative; box-sizing: border-box;">
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="font-size: 13.65px; line-height: 30px; font-weight: 400; color: rgb(255, 255, 255); position: relative; background-color: rgba(0, 0, 0, 0); cursor: pointer;" data-group="info_text">
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative; cursor: pointer;">구독</label>
+                                    </div>
+                                </div>
+                                <div style="position: relative; box-sizing: border-box;">
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="font-size: 13.65px; line-height: 30px; font-weight: 400; color: rgb(255, 255, 255); position: relative; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px; cursor: pointer;" data-group="info_text" data-style="">
+                                        <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: inline-block; width: 1px; height: 12px; margin: 9px 10px 0px; background-color: rgba(255, 255, 255, 0.3); vertical-align: top; position: relative; cursor: pointer;" data-group="before"></div>
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; cursor: pointer;">기사보기</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td style="padding: 0px; height: 25%; background-color: rgba(0, 0, 0, 0); border-bottom: 1px solid rgb(235, 235, 235); border-right: 1px solid rgb(235, 235, 235);">
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="display: block; position: relative; float: left; width: 100%; height: auto; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px; padding-top: 0px; padding-bottom: 0px;" data-group="subscription_box">
+                            <div data-base="AView" data-class="AView" class="AView-Style" style="display: block; padding: 18px 0px; text-align: center; background-color: rgba(0, 0, 0, 0); position: relative; margin-left: -6px;" data-group="news_thumb">
+                                <img data-base="AImage" data-class="AImage" class="AImage-Style" style="vertical-align: top; border: 0px; height: 20px; position: relative;" src="Assets/nsd185255316.png">
+                            </div>
+                            <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style stock_item_underline" style="position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; -webkit-box-align: center; align-items: center; -webkit-box-pack: center; justify-content: center; background-color: rgb(40, 104, 242); display: none;" data-group="news_info" data-style="stock_item_underline">
+                                <div style="position: relative; box-sizing: border-box;">
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="font-size: 13.65px; line-height: 30px; font-weight: 400; color: rgb(255, 255, 255); position: relative; background-color: rgba(0, 0, 0, 0); cursor: pointer;" data-group="info_text">
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative; cursor: pointer;">구독</label>
+                                    </div>
+                                </div>
+                                <div style="position: relative; box-sizing: border-box;">
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="font-size: 13.65px; line-height: 30px; font-weight: 400; color: rgb(255, 255, 255); position: relative; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px; cursor: pointer;" data-group="info_text" data-style="">
+                                        <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: inline-block; width: 1px; height: 12px; margin: 9px 10px 0px; background-color: rgba(255, 255, 255, 0.3); vertical-align: top; position: relative; cursor: pointer;" data-group="before"></div>
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; cursor: pointer;">기사보기</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td style="padding: 0px; height: 25%; background-color: rgba(0, 0, 0, 0); border-bottom: 1px solid rgb(235, 235, 235); border-right: 1px solid rgb(235, 235, 235);">
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="display: block; position: relative; float: left; width: 100%; height: auto; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px; padding-top: 0px; padding-bottom: 0px;" data-group="subscription_box">
+                            <div data-base="AView" data-class="AView" class="AView-Style" style="display: block; padding: 18px 0px; text-align: center; background-color: rgba(0, 0, 0, 0); position: relative; margin-left: -6px;" data-group="news_thumb">
+                            </div>
+                            <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style stock_item_underline" style="position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; -webkit-box-align: center; align-items: center; -webkit-box-pack: center; justify-content: center; background-color: rgb(40, 104, 242); display: none;" data-group="news_info" data-style="stock_item_underline">
+                                <div style="position: relative; box-sizing: border-box;">
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="font-size: 13.65px; line-height: 30px; font-weight: 400; color: rgb(255, 255, 255); position: relative; background-color: rgba(0, 0, 0, 0); cursor: pointer;" data-group="info_text">
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative; cursor: pointer;">구독</label>
+                                    </div>
+                                </div>
+                                <div style="position: relative; box-sizing: border-box;">
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="font-size: 13.65px; line-height: 30px; font-weight: 400; color: rgb(255, 255, 255); position: relative; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px; cursor: pointer;" data-group="info_text" data-style="">
+                                        <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: inline-block; width: 1px; height: 12px; margin: 9px 10px 0px; background-color: rgba(255, 255, 255, 0.3); vertical-align: top; position: relative; cursor: pointer;" data-group="before"></div>
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative;">기사보기</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td style="padding: 0px; height: 25%; background-color: rgba(0, 0, 0, 0); border-bottom: 1px solid rgb(235, 235, 235);">
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="display: block; position: relative; float: left; width: 100%; height: auto; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px; padding-top: 0px; padding-bottom: 0px;" data-group="subscription_box">
+                            <div data-base="AView" data-class="AView" class="AView-Style" style="display: block; padding: 18px 0px; text-align: center; background-color: rgba(0, 0, 0, 0); position: relative; margin-left: -6px;" data-group="news_thumb">
+                                <img data-base="AImage" data-class="AImage" class="AImage-Style" style="vertical-align: top; border: 0px; height: 20px; position: relative;" src="Assets/018.png">
+                            </div>
+                            <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style stock_item_underline" style="position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; -webkit-box-align: center; align-items: center; -webkit-box-pack: center; justify-content: center; background-color: rgb(40, 104, 242); display: none;" data-group="news_info" data-style="stock_item_underline">
+                                <div style="position: relative; box-sizing: border-box;">
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="font-size: 13.65px; line-height: 30px; font-weight: 400; color: rgb(255, 255, 255); position: relative; background-color: rgba(0, 0, 0, 0);" data-group="info_text">
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative;">구독</label>
+                                    </div>
+                                </div>
+                                <div style="position: relative; box-sizing: border-box;">
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="font-size: 13.65px; line-height: 30px; font-weight: 400; color: rgb(255, 255, 255); position: relative; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px;" data-group="info_text" data-style="">
+                                        <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: inline-block; width: 1px; height: 12px; margin: 9px 10px 0px; background-color: rgba(255, 255, 255, 0.3); vertical-align: top; position: relative;" data-group="before"></div>
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative;">기사보기</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding: 0px; height: 25%; background-color: rgba(0, 0, 0, 0); border-bottom: 1px solid rgb(235, 235, 235); border-right: 1px solid rgb(235, 235, 235);">
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="display: block; position: relative; float: left; width: 100%; height: auto; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px; padding-top: 0px; padding-bottom: 0px;" data-group="subscription_box">
+                            <div data-base="AView" data-class="AView" class="AView-Style" style="display: block; padding: 18px 0px; text-align: center; background-color: rgba(0, 0, 0, 0); position: relative;" data-group="news_thumb">
+                                <img data-base="AImage" data-class="AImage" class="AImage-Style" style="vertical-align: top; border: 0px; height: 20px; position: relative; margin-left: 0px; margin-top: 0px;" src="Assets/330.png">
+                            </div>
+                            <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style stock_item_underline" style="position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; -webkit-box-align: center; align-items: center; -webkit-box-pack: center; justify-content: center; background-color: rgb(40, 104, 242); display: none;" data-group="news_info" data-style="stock_item_underline">
+                                <div style="position: relative; box-sizing: border-box;">
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="font-size: 13.65px; line-height: 30px; font-weight: 400; color: rgb(255, 255, 255); position: relative; background-color: rgba(0, 0, 0, 0);" data-group="info_text">
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative;">구독</label>
+                                    </div>
+                                </div>
+                                <div style="position: relative; box-sizing: border-box;">
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="font-size: 13.65px; line-height: 30px; font-weight: 400; color: rgb(255, 255, 255); position: relative; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px;" data-group="info_text" data-style="">
+                                        <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: inline-block; width: 1px; height: 12px; margin: 9px 10px 0px; background-color: rgba(255, 255, 255, 0.3); vertical-align: top; position: relative;" data-group="before"></div>
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative;">기사보기</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td style="padding: 0px; height: 25%; background-color: rgba(0, 0, 0, 0); border-bottom: 1px solid rgb(235, 235, 235); border-right: 1px solid rgb(235, 235, 235);">
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="display: block; position: relative; float: left; width: 100%; height: auto; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px; padding-top: 0px; padding-bottom: 0px;" data-group="subscription_box">
+                            <div data-base="AView" data-class="AView" class="AView-Style" style="display: block; padding: 18px 0px; text-align: center; background-color: rgba(0, 0, 0, 0); position: relative;" data-group="news_thumb">
+                            </div>
+                            <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style stock_item_underline" style="position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; -webkit-box-align: center; align-items: center; -webkit-box-pack: center; justify-content: center; background-color: rgb(40, 104, 242); display: none;" data-group="news_info" data-style="stock_item_underline">
+                                <div style="position: relative; box-sizing: border-box;">
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="font-size: 13.65px; line-height: 30px; font-weight: 400; color: rgb(255, 255, 255); position: relative; background-color: rgba(0, 0, 0, 0);" data-group="info_text">
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative;">구독</label>
+                                    </div>
+                                </div>
+                                <div style="position: relative; box-sizing: border-box;">
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="font-size: 13.65px; line-height: 30px; font-weight: 400; color: rgb(255, 255, 255); position: relative; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px;" data-group="info_text" data-style="">
+                                        <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: inline-block; width: 1px; height: 12px; margin: 9px 10px 0px; background-color: rgba(255, 255, 255, 0.3); vertical-align: top; position: relative;" data-group="before"></div>
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative;">기사보기</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td style="padding: 0px; height: 25%; background-color: rgba(0, 0, 0, 0); border-bottom: 1px solid rgb(235, 235, 235); border-right: 1px solid rgb(235, 235, 235);">
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="display: block; position: relative; float: left; width: 100%; height: auto; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px; padding-top: 0px; padding-bottom: 0px;" data-group="subscription_box">
+                            <div data-base="AView" data-class="AView" class="AView-Style" style="display: block; padding: 18px 0px; text-align: center; background-color: rgba(0, 0, 0, 0); position: relative;" data-group="news_thumb">
+                                <img data-base="AImage" data-class="AImage" class="AImage-Style" style="vertical-align: top; border: 0px; height: 20px; position: relative;" src="Assets/327.png">
+                            </div>
+                            <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style stock_item_underline" style="position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; -webkit-box-align: center; align-items: center; -webkit-box-pack: center; justify-content: center; background-color: rgb(40, 104, 242); display: none;" data-group="news_info" data-style="stock_item_underline">
+                                <div style="position: relative; box-sizing: border-box;">
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="font-size: 13.65px; line-height: 30px; font-weight: 400; color: rgb(255, 255, 255); position: relative; background-color: rgba(0, 0, 0, 0);" data-group="info_text">
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative;">구독</label>
+                                    </div>
+                                </div>
+                                <div style="position: relative; box-sizing: border-box;">
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="font-size: 13.65px; line-height: 30px; font-weight: 400; color: rgb(255, 255, 255); position: relative; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px;" data-group="info_text" data-style="">
+                                        <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: inline-block; width: 1px; height: 12px; margin: 9px 10px 0px; background-color: rgba(255, 255, 255, 0.3); vertical-align: top; position: relative;" data-group="before"></div>
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative;">기사보기</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td style="padding: 0px; height: 25%; background-color: rgba(0, 0, 0, 0); border-bottom: 1px solid rgb(235, 235, 235); border-right: 1px solid rgb(235, 235, 235);">
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="display: block; position: relative; float: left; width: 100%; height: auto; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px; padding-top: 0px; padding-bottom: 0px;" data-group="subscription_box">
+                            <div data-base="AView" data-class="AView" class="AView-Style" style="display: block; padding: 18px 0px; text-align: center; background-color: rgba(0, 0, 0, 0); position: relative; margin-left: -4px;" data-group="news_thumb">
+                            </div>
+                            <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style stock_item_underline" style="position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; -webkit-box-align: center; align-items: center; -webkit-box-pack: center; justify-content: center; background-color: rgb(40, 104, 242); display: none;" data-group="news_info" data-style="stock_item_underline">
+                                <div style="position: relative; box-sizing: border-box;">
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="font-size: 13.65px; line-height: 30px; font-weight: 400; color: rgb(255, 255, 255); position: relative; background-color: rgba(0, 0, 0, 0);" data-group="info_text">
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative;">구독</label>
+                                    </div>
+                                </div>
+                                <div style="position: relative; box-sizing: border-box;">
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="font-size: 13.65px; line-height: 30px; font-weight: 400; color: rgb(255, 255, 255); position: relative; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px;" data-group="info_text" data-style="">
+                                        <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: inline-block; width: 1px; height: 12px; margin: 9px 10px 0px; background-color: rgba(255, 255, 255, 0.3); vertical-align: top; position: relative;" data-group="before"></div>
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative;">기사보기</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td style="padding: 0px; height: 25%; background-color: rgba(0, 0, 0, 0); border-bottom: 1px solid rgb(235, 235, 235); border-right: 1px solid rgb(235, 235, 235);">
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="display: block; position: relative; float: left; width: 100%; height: auto; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px; padding-top: 0px; padding-bottom: 0px;" data-group="subscription_box">
+                            <div data-base="AView" data-class="AView" class="AView-Style" style="display: block; padding: 18px 0px; text-align: center; background-color: rgba(0, 0, 0, 0); position: relative; margin-left: -4px;" data-group="news_thumb">
+                                <img data-base="AImage" data-class="AImage" class="AImage-Style" style="vertical-align: top; border: 0px; height: 20px; position: relative;" src="Assets/nsd131925414.png">
+                            </div>
+                            <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style stock_item_underline" style="position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; -webkit-box-align: center; align-items: center; -webkit-box-pack: center; justify-content: center; background-color: rgb(40, 104, 242); display: none;" data-group="news_info" data-style="stock_item_underline">
+                                <div style="position: relative; box-sizing: border-box;">
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="font-size: 13.65px; line-height: 30px; font-weight: 400; color: rgb(255, 255, 255); position: relative; background-color: rgba(0, 0, 0, 0);" data-group="info_text">
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative;">구독</label>
+                                    </div>
+                                </div>
+                                <div style="position: relative; box-sizing: border-box;">
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="font-size: 13.65px; line-height: 30px; font-weight: 400; color: rgb(255, 255, 255); position: relative; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px;" data-group="info_text" data-style="">
+                                        <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: inline-block; width: 1px; height: 12px; margin: 9px 10px 0px; background-color: rgba(255, 255, 255, 0.3); vertical-align: top; position: relative;" data-group="before"></div>
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative;">기사보기</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td style="padding: 0px; height: 25%; background-color: rgba(0, 0, 0, 0); border-bottom: 1px solid rgb(235, 235, 235);">
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="display: block; position: relative; float: left; width: 100%; height: auto; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px; padding-top: 0px; padding-bottom: 0px;" data-group="subscription_box">
+                            <div data-base="AView" data-class="AView" class="AView-Style" style="display: block; padding: 18px 0px; text-align: center; background-color: rgba(0, 0, 0, 0); position: relative; margin-left: -6px;" data-group="news_thumb">
+                            </div>
+                            <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style stock_item_underline" style="position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; -webkit-box-align: center; align-items: center; -webkit-box-pack: center; justify-content: center; background-color: rgb(40, 104, 242); display: none;" data-group="news_info" data-style="stock_item_underline">
+                                <div style="position: relative; box-sizing: border-box;">
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="font-size: 13.65px; line-height: 30px; font-weight: 400; color: rgb(255, 255, 255); position: relative; background-color: rgba(0, 0, 0, 0);" data-group="info_text">
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative;">구독</label>
+                                    </div>
+                                </div>
+                                <div style="position: relative; box-sizing: border-box;">
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="font-size: 13.65px; line-height: 30px; font-weight: 400; color: rgb(255, 255, 255); position: relative; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px;" data-group="info_text" data-style="">
+                                        <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: inline-block; width: 1px; height: 12px; margin: 9px 10px 0px; background-color: rgba(255, 255, 255, 0.3); vertical-align: top; position: relative;" data-group="before"></div>
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative;">기사보기</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding: 0px; height: 25%; background-color: rgba(0, 0, 0, 0); border-bottom: 1px solid rgb(235, 235, 235); border-right: 1px solid rgb(235, 235, 235);">
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="display: block; position: relative; float: left; width: 100%; height: auto; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px; padding-top: 0px; padding-bottom: 0px;" data-group="subscription_box">
+                            <div data-base="AView" data-class="AView" class="AView-Style" style="display: block; padding: 18px 0px; text-align: center; background-color: rgba(0, 0, 0, 0); position: relative;" data-group="news_thumb">
+                            </div>
+                            <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style stock_item_underline" style="position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; -webkit-box-align: center; align-items: center; -webkit-box-pack: center; justify-content: center; background-color: rgb(40, 104, 242); display: none;" data-group="news_info" data-style="stock_item_underline">
+                                <div style="position: relative; box-sizing: border-box;">
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="font-size: 13.65px; line-height: 30px; font-weight: 400; color: rgb(255, 255, 255); position: relative; background-color: rgba(0, 0, 0, 0);" data-group="info_text">
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative;">구독</label>
+                                    </div>
+                                </div>
+                                <div style="position: relative; box-sizing: border-box;">
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="font-size: 13.65px; line-height: 30px; font-weight: 400; color: rgb(255, 255, 255); position: relative; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px;" data-group="info_text" data-style="">
+                                        <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: inline-block; width: 1px; height: 12px; margin: 9px 10px 0px; background-color: rgba(255, 255, 255, 0.3); vertical-align: top; position: relative;" data-group="before"></div>
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative;">기사보기</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td style="padding: 0px; height: 25%; background-color: rgba(0, 0, 0, 0); border-bottom: 1px solid rgb(235, 235, 235); border-right: 1px solid rgb(235, 235, 235);">
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="display: block; position: relative; float: left; width: 100%; height: auto; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px; padding-top: 0px; padding-bottom: 0px;" data-group="subscription_box">
+                            <div data-base="AView" data-class="AView" class="AView-Style" style="display: block; padding: 18px 0px; text-align: center; background-color: rgba(0, 0, 0, 0); position: relative;" data-group="news_thumb">
+                                <img data-base="AImage" data-class="AImage" class="AImage-Style" style="vertical-align: top; border: 0px; height: 20px; position: relative;" src="Assets/079.png">
+                            </div>
+                            <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style stock_item_underline" style="position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; -webkit-box-align: center; align-items: center; -webkit-box-pack: center; justify-content: center; background-color: rgb(40, 104, 242); display: none;" data-group="news_info" data-style="stock_item_underline">
+                                <div style="position: relative; box-sizing: border-box;">
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="font-size: 13.65px; line-height: 30px; font-weight: 400; color: rgb(255, 255, 255); position: relative; background-color: rgba(0, 0, 0, 0);" data-group="info_text">
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative;">구독</label>
+                                    </div>
+                                </div>
+                                <div style="position: relative; box-sizing: border-box;">
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="font-size: 13.65px; line-height: 30px; font-weight: 400; color: rgb(255, 255, 255); position: relative; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px;" data-group="info_text" data-style="">
+                                        <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: inline-block; width: 1px; height: 12px; margin: 9px 10px 0px; background-color: rgba(255, 255, 255, 0.3); vertical-align: top; position: relative;" data-group="before"></div>
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative;">기사보기</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td style="padding: 0px; height: 25%; background-color: rgba(0, 0, 0, 0); border-bottom: 1px solid rgb(235, 235, 235); border-right: 1px solid rgb(235, 235, 235);">
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="display: block; position: relative; float: left; width: 100%; height: auto; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px; padding-top: 0px; padding-bottom: 0px;" data-group="subscription_box">
+                            <div data-base="AView" data-class="AView" class="AView-Style" style="display: block; padding: 18px 0px; text-align: center; background-color: rgba(0, 0, 0, 0); position: relative;" data-group="news_thumb">
+                            </div>
+                            <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style stock_item_underline" style="position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; -webkit-box-align: center; align-items: center; -webkit-box-pack: center; justify-content: center; background-color: rgb(40, 104, 242); display: none;" data-group="news_info" data-style="stock_item_underline">
+                                <div style="position: relative; box-sizing: border-box;">
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="font-size: 13.65px; line-height: 30px; font-weight: 400; color: rgb(255, 255, 255); position: relative; background-color: rgba(0, 0, 0, 0);" data-group="info_text">
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative;">구독</label>
+                                    </div>
+                                </div>
+                                <div style="position: relative; box-sizing: border-box;">
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="font-size: 13.65px; line-height: 30px; font-weight: 400; color: rgb(255, 255, 255); position: relative; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px;" data-group="info_text" data-style="">
+                                        <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: inline-block; width: 1px; height: 12px; margin: 9px 10px 0px; background-color: rgba(255, 255, 255, 0.3); vertical-align: top; position: relative;" data-group="before"></div>
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative;">기사보기</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td style="padding: 0px; height: 25%; background-color: rgba(0, 0, 0, 0); border-bottom: 1px solid rgb(235, 235, 235); border-right: 1px solid rgb(235, 235, 235);">
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="display: block; position: relative; float: left; width: 100%; height: auto; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px; padding-top: 0px; padding-bottom: 0px;" data-group="subscription_box">
+                            <div data-base="AView" data-class="AView" class="AView-Style" style="display: block; padding: 18px 0px; text-align: center; background-color: rgba(0, 0, 0, 0); position: relative; margin-left: -4px;" data-group="news_thumb">
+                                <img data-base="AImage" data-class="AImage" class="AImage-Style" style="vertical-align: top; border: 0px; height: 20px; position: relative;" src="Assets/815.png">
+                            </div>
+                            <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style stock_item_underline" style="position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; -webkit-box-align: center; align-items: center; -webkit-box-pack: center; justify-content: center; background-color: rgb(40, 104, 242); display: none;" data-group="news_info" data-style="stock_item_underline">
+                                <div style="position: relative; box-sizing: border-box;">
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="font-size: 13.65px; line-height: 30px; font-weight: 400; color: rgb(255, 255, 255); position: relative; background-color: rgba(0, 0, 0, 0);" data-group="info_text">
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative;">구독</label>
+                                    </div>
+                                </div>
+                                <div style="position: relative; box-sizing: border-box;">
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="font-size: 13.65px; line-height: 30px; font-weight: 400; color: rgb(255, 255, 255); position: relative; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px;" data-group="info_text" data-style="">
+                                        <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: inline-block; width: 1px; height: 12px; margin: 9px 10px 0px; background-color: rgba(255, 255, 255, 0.3); vertical-align: top; position: relative;" data-group="before"></div>
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative;">기사보기</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td style="padding: 0px; height: 25%; background-color: rgba(0, 0, 0, 0); border-bottom: 1px solid rgb(235, 235, 235); border-right: 1px solid rgb(235, 235, 235);">
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="display: block; position: relative; float: left; width: 100%; height: auto; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px; padding-top: 0px; padding-bottom: 0px;" data-group="subscription_box">
+                            <div data-base="AView" data-class="AView" class="AView-Style" style="display: block; padding: 18px 0px; text-align: center; background-color: rgba(0, 0, 0, 0); position: relative; margin-left: -4px;" data-group="news_thumb">
+                            </div>
+                            <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style stock_item_underline" style="position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; -webkit-box-align: center; align-items: center; -webkit-box-pack: center; justify-content: center; background-color: rgb(40, 104, 242); display: none;" data-group="news_info" data-style="stock_item_underline">
+                                <div style="position: relative; box-sizing: border-box;">
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="font-size: 13.65px; line-height: 30px; font-weight: 400; color: rgb(255, 255, 255); position: relative; background-color: rgba(0, 0, 0, 0);" data-group="info_text">
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative;">구독</label>
+                                    </div>
+                                </div>
+                                <div style="position: relative; box-sizing: border-box;">
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="font-size: 13.65px; line-height: 30px; font-weight: 400; color: rgb(255, 255, 255); position: relative; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px;" data-group="info_text" data-style="">
+                                        <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: inline-block; width: 1px; height: 12px; margin: 9px 10px 0px; background-color: rgba(255, 255, 255, 0.3); vertical-align: top; position: relative;" data-group="before"></div>
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative;">기사보기</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td style="padding: 0px; height: 25%; background-color: rgba(0, 0, 0, 0); border-bottom: 1px solid rgb(235, 235, 235);">
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="display: block; position: relative; float: left; width: 100%; height: auto; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px; padding-top: 0px; padding-bottom: 0px;" data-group="subscription_box">
+                            <div data-base="AView" data-class="AView" class="AView-Style" style="display: block; padding: 18px 0px; text-align: center; background-color: rgba(0, 0, 0, 0); position: relative; margin-left: -6px;" data-group="news_thumb">
+                                <img data-base="AImage" data-class="AImage" class="AImage-Style" style="vertical-align: top; border: 0px; height: 20px; position: relative;" src="Assets/075.png">
+                            </div>
+                            <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style stock_item_underline" style="position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; -webkit-box-align: center; align-items: center; -webkit-box-pack: center; justify-content: center; background-color: rgb(40, 104, 242); display: none;" data-group="news_info" data-style="stock_item_underline">
+                                <div style="position: relative; box-sizing: border-box;">
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="font-size: 13.65px; line-height: 30px; font-weight: 400; color: rgb(255, 255, 255); position: relative; background-color: rgba(0, 0, 0, 0);" data-group="info_text">
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative;">구독</label>
+                                    </div>
+                                </div>
+                                <div style="position: relative; box-sizing: border-box;">
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="font-size: 13.65px; line-height: 30px; font-weight: 400; color: rgb(255, 255, 255); position: relative; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px;" data-group="info_text" data-style="">
+                                        <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: inline-block; width: 1px; height: 12px; margin: 9px 10px 0px; background-color: rgba(255, 255, 255, 0.3); vertical-align: top; position: relative;" data-group="before"></div>
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative;">기사보기</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding: 0px; height: 25%; background-color: rgba(0, 0, 0, 0); border-right: 1px solid rgb(235, 235, 235);">
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="display: block; position: relative; float: left; width: 100%; height: auto; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px; padding-top: 0px; padding-bottom: 0px;" data-group="subscription_box">
+                            <div data-base="AView" data-class="AView" class="AView-Style" style="display: block; padding: 18px 0px; text-align: center; background-color: rgba(0, 0, 0, 0); position: relative;" data-group="news_thumb">
+                                <img data-base="AImage" data-class="AImage" class="AImage-Style" style="vertical-align: top; border: 0px; height: 20px; position: relative;" src="Assets/951.png">
+                            </div>
+                            <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style stock_item_underline" style="position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; -webkit-box-align: center; align-items: center; -webkit-box-pack: center; justify-content: center; background-color: rgb(40, 104, 242); display: none;" data-group="news_info" data-style="stock_item_underline">
+                                <div style="position: relative; box-sizing: border-box;">
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="font-size: 13.65px; line-height: 30px; font-weight: 400; color: rgb(255, 255, 255); position: relative; background-color: rgba(0, 0, 0, 0);" data-group="info_text">
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative;">구독</label>
+                                    </div>
+                                </div>
+                                <div style="position: relative; box-sizing: border-box;">
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="font-size: 13.65px; line-height: 30px; font-weight: 400; color: rgb(255, 255, 255); position: relative; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px;" data-group="info_text" data-style="">
+                                        <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: inline-block; width: 1px; height: 12px; margin: 9px 10px 0px; background-color: rgba(255, 255, 255, 0.3); vertical-align: top; position: relative;" data-group="before"></div>
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative;">기사보기</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td style="padding: 0px; height: 25%; background-color: rgba(0, 0, 0, 0); border-right: 1px solid rgb(235, 235, 235);">
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="display: block; position: relative; float: left; width: 100%; height: auto; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px; padding-top: 0px; padding-bottom: 0px;" data-group="subscription_box">
+                            <div data-base="AView" data-class="AView" class="AView-Style" style="display: block; padding: 18px 0px; text-align: center; background-color: rgba(0, 0, 0, 0); position: relative;" data-group="news_thumb">
+                            </div>
+                            <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style stock_item_underline" style="position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; -webkit-box-align: center; align-items: center; -webkit-box-pack: center; justify-content: center; background-color: rgb(40, 104, 242); display: none;" data-group="news_info" data-style="stock_item_underline">
+                                <div style="position: relative; box-sizing: border-box;">
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="font-size: 13.65px; line-height: 30px; font-weight: 400; color: rgb(255, 255, 255); position: relative; background-color: rgba(0, 0, 0, 0);" data-group="info_text">
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative;">구독</label>
+                                    </div>
+                                </div>
+                                <div style="position: relative; box-sizing: border-box;">
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="font-size: 13.65px; line-height: 30px; font-weight: 400; color: rgb(255, 255, 255); position: relative; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px;" data-group="info_text" data-style="">
+                                        <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: inline-block; width: 1px; height: 12px; margin: 9px 10px 0px; background-color: rgba(255, 255, 255, 0.3); vertical-align: top; position: relative;" data-group="before"></div>
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative;">기사보기</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td style="padding: 0px; height: 25%; background-color: rgba(0, 0, 0, 0); border-right: 1px solid rgb(235, 235, 235);" class="">
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="display: block; position: relative; float: left; width: 100%; height: auto; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px; padding-top: 0px; padding-bottom: 0px;" data-group="subscription_box">
+                            <div data-base="AView" data-class="AView" class="AView-Style" style="display: block; padding: 18px 0px; text-align: center; background-color: rgba(0, 0, 0, 0); position: relative; margin-left: -4px;" data-group="news_thumb">
+                                <img data-base="AImage" data-class="AImage" class="AImage-Style" style="vertical-align: top; border: 0px; height: 20px; position: relative;" src="Assets/108.png">
+                            </div>
+                            <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style stock_item_underline" style="position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; -webkit-box-align: center; align-items: center; -webkit-box-pack: center; justify-content: center; background-color: rgb(40, 104, 242); display: none;" data-group="news_info" data-style="stock_item_underline">
+                                <div style="position: relative; box-sizing: border-box;">
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="font-size: 13.65px; line-height: 30px; font-weight: 400; color: rgb(255, 255, 255); position: relative; background-color: rgba(0, 0, 0, 0);" data-group="info_text">
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative;">구독</label>
+                                    </div>
+                                </div>
+                                <div style="position: relative; box-sizing: border-box;">
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="font-size: 13.65px; line-height: 30px; font-weight: 400; color: rgb(255, 255, 255); position: relative; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px;" data-group="info_text" data-style="">
+                                        <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: inline-block; width: 1px; height: 12px; margin: 9px 10px 0px; background-color: rgba(255, 255, 255, 0.3); vertical-align: top; position: relative;" data-group="before"></div>
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative;">기사보기</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td style="padding: 0px; height: 25%; background-color: rgba(0, 0, 0, 0); border-right: 1px solid rgb(235, 235, 235);">
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="display: block; position: relative; float: left; width: 100%; height: auto; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px; padding-top: 0px; padding-bottom: 0px;" data-group="subscription_box">
+                            <div data-base="AView" data-class="AView" class="AView-Style" style="display: block; padding: 18px 0px; text-align: center; background-color: rgba(0, 0, 0, 0); position: relative; margin-left: -4px;" data-group="news_thumb">
+                            </div>
+                            <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style stock_item_underline" style="position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; -webkit-box-align: center; align-items: center; -webkit-box-pack: center; justify-content: center; background-color: rgb(40, 104, 242); display: none;" data-group="news_info" data-style="stock_item_underline">
+                                <div style="position: relative; box-sizing: border-box;">
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="font-size: 13.65px; line-height: 30px; font-weight: 400; color: rgb(255, 255, 255); position: relative; background-color: rgba(0, 0, 0, 0);" data-group="info_text">
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative;">구독</label>
+                                    </div>
+                                </div>
+                                <div style="position: relative; box-sizing: border-box;">
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="font-size: 13.65px; line-height: 30px; font-weight: 400; color: rgb(255, 255, 255); position: relative; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px;" data-group="info_text" data-style="">
+                                        <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: inline-block; width: 1px; height: 12px; margin: 9px 10px 0px; background-color: rgba(255, 255, 255, 0.3); vertical-align: top; position: relative;" data-group="before"></div>
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative;">기사보기</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td style="padding: 0px; height: 25%; background-color: rgba(0, 0, 0, 0); border-right: 1px solid rgb(235, 235, 235);">
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="display: block; position: relative; float: left; width: 100%; height: auto; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px; padding-top: 0px; padding-bottom: 0px;" data-group="subscription_box">
+                            <div data-base="AView" data-class="AView" class="AView-Style" style="display: block; padding: 18px 0px; text-align: center; background-color: rgba(0, 0, 0, 0); position: relative; margin-left: -4px;" data-group="news_thumb">
+                                <img data-base="AImage" data-class="AImage" class="AImage-Style" style="vertical-align: top; border: 0px; height: 20px; position: relative;" src="Assets/nsd161849944.png">
+                            </div>
+                            <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style stock_item_underline" style="position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; -webkit-box-align: center; align-items: center; -webkit-box-pack: center; justify-content: center; background-color: rgb(40, 104, 242); display: none;" data-group="news_info" data-style="stock_item_underline">
+                                <div style="position: relative; box-sizing: border-box;">
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="font-size: 13.65px; line-height: 30px; font-weight: 400; color: rgb(255, 255, 255); position: relative; background-color: rgba(0, 0, 0, 0);" data-group="info_text">
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative;">구독</label>
+                                    </div>
+                                </div>
+                                <div style="position: relative; box-sizing: border-box;">
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="font-size: 13.65px; line-height: 30px; font-weight: 400; color: rgb(255, 255, 255); position: relative; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px;" data-group="info_text" data-style="">
+                                        <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: inline-block; width: 1px; height: 12px; margin: 9px 10px 0px; background-color: rgba(255, 255, 255, 0.3); vertical-align: top; position: relative;" data-group="before"></div>
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative;">기사보기</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td style="padding: 0px; height: 25%; background-color: rgba(0, 0, 0, 0);">
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="display: block; position: relative; float: left; width: 100%; height: auto; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px; padding-top: 0px; padding-bottom: 0px;" data-group="subscription_box">
+                            <div data-base="AView" data-class="AView" class="AView-Style" style="display: block; padding: 18px 0px; text-align: center; background-color: rgba(0, 0, 0, 0); position: relative; margin-left: -6px;" data-group="news_thumb">
+                                <img data-base="AImage" data-class="AImage" class="AImage-Style" style="vertical-align: top; border: 0px; height: 20px; position: relative;" src="Assets/311.png">
+                            </div>
+                            <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style stock_item_underline" style="position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; -webkit-box-align: center; align-items: center; -webkit-box-pack: center; justify-content: center; background-color: rgb(40, 104, 242); display: none;" data-group="news_info" data-style="stock_item_underline">
+                                <div style="position: relative; box-sizing: border-box;">
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="font-size: 13.65px; line-height: 30px; font-weight: 400; color: rgb(255, 255, 255); position: relative; background-color: rgba(0, 0, 0, 0);" data-group="info_text">
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative;">구독</label>
+                                    </div>
+                                </div>
+                                <div style="position: relative; box-sizing: border-box;">
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="font-size: 13.65px; line-height: 30px; font-weight: 400; color: rgb(255, 255, 255); position: relative; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px;" data-group="info_text" data-style="">
+                                        <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: inline-block; width: 1px; height: 12px; margin: 9px 10px 0px; background-color: rgba(255, 255, 255, 0.3); vertical-align: top; position: relative;" data-group="before"></div>
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative;">기사보기</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
