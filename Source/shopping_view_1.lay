@@ -1,37 +1,4 @@
 <div data-base="AView" data-class="shopping_view_1" class="AView-Style" style="left: 0px; top: 0px; width: auto; height: auto; background-color: rgb(255, 255, 255); position: absolute; font-size: 14.7px;" data-browser-width="830" data-browser-height="770" data-class-map="{&quot;afc&quot;:[&quot;AView&quot;,&quot;AFlexLayout&quot;,&quot;ALabel&quot;,&quot;AImage&quot;,&quot;AGridLayout&quot;,&quot;AButton&quot;,&quot;AVideo&quot;]}">
-    <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="display: flex; padding: 18px 20px 17px; left: 0px; width: 100%; height: auto; position: relative;" data-group="content_header">
-        <div style="position: relative; box-sizing: border-box; flex: 1 1 auto; align-self: auto;">
-            <div data-base="AView" data-class="AView" class="AView-Style" style="flex: 1 1 0%; -webkit-box-flex: 1; background-color: rgba(0, 0, 0, 0); position: relative;" data-group="header_tab">
-                <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style view_in_all_label_underline" style="width: auto; height: auto; position: relative;" data-group="tab_list" data-style="view_in_all_label_underline">
-                    <div style="position: relative; box-sizing: border-box;">
-                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);" data-group="tab_item">
-                            <div data-base="AView" data-class="AView" class="AView-Style" style="position: relative; display: inline-block; font-size: 16.8px; line-height: 23px; font-weight: 800; vertical-align: top; color: rgba(8, 8, 8, 0.5); -webkit-font-smoothing: antialiased; background-color: rgba(0, 0, 0, 0);" data-group="tab">
-                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative; display: inline-block; vertical-align: top; color: rgb(8, 8, 8);" data-group="tab_text" data-style="">쇼핑</label>
-                            </div>
-                        </div>
-                    </div>
-                    <div style="position: relative; box-sizing: border-box;">
-                        <div data-base="AView" data-class="AView" class="AView-Style" style="padding-left: 26px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);" data-group="tab_item">
-                            <div data-base="AView" data-class="before" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: 4px; left: 13px; width: 1px; height: 15px; background-color: rgb(211, 213, 215);"></div>
-                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative; display: inline-block; font-size: 16.8px; line-height: 23px; font-weight: 800; vertical-align: top; color: rgba(8, 8, 8, 0.5); -webkit-font-smoothing: antialiased;">맨즈</label>
-                        </div>
-                    </div>
-                    <div style="position: relative; box-sizing: border-box;">
-                        <div data-base="AView" data-class="AView" class="AView-Style" style="padding-left: 26px; position: relative; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px;" data-group="tab_item">
-                            <div data-base="AView" data-class="before" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: 4px; left: 13px; width: 1px; height: 15px; background-color: rgb(211, 213, 215);"></div>
-                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative; display: inline-block; font-size: 16.8px; line-height: 23px; font-weight: 800; vertical-align: top; color: rgba(8, 8, 8, 0.5); -webkit-font-smoothing: antialiased; margin-left: 0px;">원쁠딜</label>
-                        </div>
-                    </div>
-                    <div style="position: relative; box-sizing: border-box;">
-                        <div data-base="AView" data-class="AView" class="AView-Style" style="padding-left: 26px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);" data-group="tab_item">
-                            <div data-base="AView" data-class="before" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: 4px; left: 13px; width: 1px; height: 15px; background-color: rgb(211, 213, 215);"></div>
-                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative; display: inline-block; font-size: 16.8px; line-height: 23px; font-weight: 800; vertical-align: top; color: rgba(8, 8, 8, 0.5); -webkit-font-smoothing: antialiased; margin-left: 0px;">쇼핑라이브</label>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="display: flex; margin: 0px 20px; position: relative; font-size: 14.7px;" data-group="menu_content_header">
         <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto;">
             <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="background-color: rgb(245, 247, 248); display: flex; width: 668px; padding: 15px 20px 14px; border-radius: 4px; box-sizing: border-box; font-weight: 700; position: relative; line-height: 21px;" data-group="header_sub">

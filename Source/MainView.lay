@@ -1,19 +1,19 @@
-<div data-base="AView" data-class="MainView" class="AView-Style" style="left: 0px; top: 0px; width: 100%; height: 100%; background-color: rgb(239, 239, 239); position: absolute; line-height: 10.5px; font-size: 10.5px; font-family: &quot;맑은 고딕&quot;;" data-browser-height="2470" data-class-map="{&quot;afc&quot;:[&quot;AView&quot;,&quot;AImage&quot;,&quot;ATextField&quot;,&quot;AFlexLayout&quot;,&quot;AButton&quot;,&quot;ALabel&quot;,&quot;ATabView&quot;,&quot;ACanvas&quot;]}" data-browser-width="1700" data-max-atabview="1" data-max-aview="4" data-max-atextfield="1">
+<div data-base="AView" data-class="MainView" class="AView-Style" style="left: 0px; top: 0px; width: 100%; height: 100%; background-color: rgb(239, 239, 239); position: absolute; line-height: 10.5px; font-size: 10.5px; font-family: &quot;맑은 고딕&quot;;" data-browser-height="2470" data-class-map="{&quot;afc&quot;:[&quot;AView&quot;,&quot;AImage&quot;,&quot;ATextField&quot;,&quot;AFlexLayout&quot;,&quot;AButton&quot;,&quot;ALabel&quot;,&quot;AGridLayout&quot;,&quot;ATabView&quot;,&quot;ACanvas&quot;]}" data-browser-width="1700" data-max-atabview="1" data-max-aview="5" data-max-atextfield="1">
     <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 100%; position: absolute; left: 0px; top: 0px; background-color: rgb(255, 255, 255); min-width: 1340px; font-size: 1.4rem; line-height: 16px; letter-spacing: -0.4px;" data-group="body">
-        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 1280px; height: auto; position: relative; margin: 0px auto; background-color: rgba(0, 0, 0, 0); text-align: left; font-size: 14.7px;" data-group="header">
-            <div data-base="AView" data-class="AView" class="AView-Style" style="z-index: 120; position: relative; height: auto; padding: 70px 0px 42px; background-color: rgba(0, 0, 0, 0); display: block; overflow: visible;" data-group="SearchWrap">
-                <div data-base="AView" data-class="AView" class="AView-Style" style="position: absolute;     top: 70px;     left: 50%;     z-index: 10;     width: 706px;     border: 1px solid #03c75a;     border-radius: 33px;     background-color: #fff;     transform: translateX(-50%);" data-group="search_area">
+        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 1280px; height: 259px; position: relative; margin: 0px auto; background-color: rgba(0, 0, 0, 0); text-align: left; font-size: 14.7px; top: 0px;" data-group="header">
+            <div data-base="AView" data-class="AView" class="AView-Style" style="z-index: 120; position: relative; height: auto; padding: 70px 0px 42px; background-color: rgba(0, 0, 0, 0); display: block; overflow: visible; margin-left: 0px; margin-top: 0px;" data-group="SearchWrap">
+                <div data-base="AView" data-class="AView" class="AView-Style" style="position: absolute;     top: 70px;     left: 50%;     z-index: 10;     width: 706px;     border: 1px solid #03c75a;     border-radius: 33px;     background-color: #fff;     transform: translateX(-50%);" data-group="search_area" id="MainView--search_area" data-style="">
                     <div data-base="AView" data-class="AView" class="AView-Style" style="width: 67px; height: 100%; position: absolute; left: 0px; top: 1px; padding: 17px 16px 17px 27px; background-color: rgba(0, 0, 0, 0); display: block; cursor: pointer;" data-group="search_logo">
                         <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 100%; height: 100%; position: static; left: 0px; top: 0px; cursor: pointer;" src="Assets/naver_logo.png" data-group="naverLogo">
                     </div>
                     <div data-base="AView" data-class="AView" class="AView-Style" style="height: 100%; position: relative; left: 67px; top: 0px; background-color: rgb(255, 255, 255); width: 480px; cursor: default;" data-group="sform">
                         <input data-base="ATextField" data-class="ATextField" type="text" value="" class="ATextField-Style" autocomplete="off" style="width: 100%; height: 58px; color: rgb(0, 0, 0); z-index: 10; position: relative; padding: 17px 0px; background-color: rgba(0, 0, 0, 0); box-sizing: border-box; font-size: 21px; line-height: 24px; font-weight: bold; outline: 0px; border-color: rgba(0, 0, 0, 0); display: inline-block; vertical-align: baseline; overflow: visible; margin-top: 0px;" data-group="searchField" id="MainView--searchbox" data-listener-focus="MainView:onSearchboxFocus">
                     </div>
-                    <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="position: absolute;     top: 0;     right: 61px;     bottom: 0;     z-index: 210;     width: 56px;" data-group="searchTools">
+                    <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="position: absolute; top: 0px; right: 61px; bottom: 0px; z-index: 210; width: 56px; overflow: visible;" data-group="searchTools">
                         <div style="position: relative; box-sizing: border-box; flex: 1 1 auto; align-self: auto;">
                             <div data-base="AView" data-class="AView" class="AView-Style keybord_icon" style="overflow: visible; position: relative; padding: 22px 3px; cursor: pointer; background-color: rgba(0, 0, 0, 0);" data-background-option="custom" data-group="keybord" data-style="keybord_icon">
                                 <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 24px; height: 14px; position: absolute; left: 0px; top: 0px; background-image: url(&quot;Assets/naver_icon.png&quot;); background-position: -254px -254px; background-size: 433px 412px; padding: 0px; margin: 22px 3px; cursor: pointer;" data-background-option="custom" data-group="keybordIcon"></button>
-                                <div data-base="AView" data-class="AView" class="AView-Style" style="background-image: url(&quot;https://pm.pstatic.net/resources/asset/sp_main.d5b6c236.png&quot;); background-size: 433px 412px; background-position: -55px -128px; background-repeat: no-repeat; width: 68px; height: 37px; position: absolute; top: 44px; left: -19px; background-color: rgba(0, 0, 0, 0); display: none;" data-group="keybord_text"></div>
+                                <div data-base="AView" data-class="AView" class="AView-Style" style="background-image: url(&quot;https://pm.pstatic.net/resources/asset/sp_main.d5b6c236.png&quot;); background-size: 433px 412px; background-position: -55px -128px; background-repeat: no-repeat; width: 68px; height: 37px; position: absolute; top: 44px; left: -19px; background-color: rgba(0, 0, 0, 0); white-space: normal; vertical-align: baseline; display: none;" data-group="keybord_text"></div>
                             </div>
                         </div>
                         <div style="position: relative; box-sizing: border-box; flex: 1 1 auto; align-self: auto; margin: 0px 0px 0px auto;" class="">
@@ -26,8 +26,8 @@
                         <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 25px; height: 25px; position: absolute; top: 17px; background-image: url(&quot;Assets/naver_icon.png&quot;); background-position: -335px -294px; background-size: 433px 412px; right: 27px; cursor: pointer;" data-background-option="custom" data-group="searchIcon"></button>
                     </div>
                 </div>
-                <div data-base="AView" data-class="AView" class="AView-Style" style="position: relative; width: 676px; margin: 72px auto 0px; background-color: rgba(0, 0, 0, 0);" data-group="shortcut_area">
-                    <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style service_icon_hover" style="width: auto; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);" data-group="shortcut_list" data-style="service_icon_hover">
+                <div data-base="AView" data-class="AView" class="AView-Style toggle_shortcut_area" style="position: relative; width: 676px; margin: 72px auto 0px; background-color: rgba(0, 0, 0, 0);" data-group="shortcut_area" id="MainView--shortcut_area" data-style="toggle_shortcut_area">
+                    <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style service_icon_hover" style="width: auto; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0); overflow: visible;" data-group="shortcut_list" data-style="service_icon_hover">
                         <div style="position: relative; box-sizing: border-box;" class="">
                             <div data-base="AView" data-class="AView" class="AView-Style" style="width: 64px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0); cursor: pointer;" data-group="shortcut_item">
                                 <div data-base="AView" data-class="AView" class="AView-Style" style="width: 48px; height: 48px; position: relative; display: block; margin: 0px auto; background-color: rgba(0, 0, 0, 0);" data-group="service_icon">
@@ -109,13 +109,215 @@
                                 <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap; display: block; margin-top: 7px; line-height: 20px; text-align: center; position: relative; cursor: pointer;">웹툰</label>
                             </div>
                         </div>
-                        <div style="position: relative; box-sizing: border-box;" class="">
-                            <div data-base="AView" data-class="AView" class="AView-Style" style="width: 64px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0); cursor: pointer; margin-left: 4px;" data-group="shortcut_item" data-style="">
+                        <div style="position: relative; box-sizing: border-box;">
+                            <div data-base="AView" data-class="AView" class="AView-Style" style="width: 64px; position: relative; background-color: rgba(0, 0, 0, 0); cursor: pointer; margin-left: 4px; left: 0px; top: 0px;" data-group="shortcut_item" data-style="" data-listener-click="MainView:onToggleClick">
                                 <div data-base="AView" data-class="AView" class="AView-Style" style="width: 48px; height: 48px; position: relative; display: block; margin: 0px auto; background-color: rgba(0, 0, 0, 0);" data-group="service_icon">
                                     <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;;     display: block;     position: absolute;     top: -2px;     left: -3px;     background-image: url(https://pm.pstatic.net/resources/asset/sp_main.d5b6c236.png);     background-size: 433px 412px;     background-position: 0px -128px;     background-repeat: no-repeat;     width: 54px;     height: 54px; background-color: rgba(0, 0, 0, 0);" data-group="before"></div>
-                                    <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; margin: auto;     background-image: url(https://pm.pstatic.net/resources/asset/sp_main.d5b6c236.png);     background-size: 433px 412px;     background-position: -250px -135px; background-repeat: no-repeat; width: 44px; height: 44px; background-color: rgba(0, 0, 0, 0);" data-group="after"></div>
+                                    <div data-base="AView" data-class="AView" class="AView-Style toggle_more_icon" style="content: &quot;&quot;; display: block; position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; margin: auto;     background-image: url(https://pm.pstatic.net/resources/asset/sp_main.d5b6c236.png);     background-size: 433px 412px;     background-position: -250px -135px; background-repeat: no-repeat; width: 44px; height: 44px; background-color: rgba(0, 0, 0, 0);" data-group="after" id="MainView--more_icon" data-style="toggle_more_icon"></div>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                    <div data-base="AView" data-class="AView" class="AView-Style my_view_underline toggle_display" style="border-top: 1px solid rgb(235, 235, 235); background-color: rgb(250, 251, 251); margin: 19px -15px 0px -16px; padding: 0px 23px 17px 25px; border-radius: 0px 0px 8px 8px; position: relative; display: none;" data-group="shortcut_group" data-style="my_view_underline toggle_display" id="MainView--shortcut_group">
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="cursor: pointer; display: inline-block; padding: 18px 0px 10px; font-size: 15.75px; line-height: 20px; font-weight: 700; vertical-align: top; position: relative; background-color: rgba(0, 0, 0, 0);" data-group="link_all">
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative; cursor: pointer;">전체서비스</label>
+                            <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: inline-block; background-image: url(&quot;https://pm.pstatic.net/resources/asset/sp_main.d5b6c236.png&quot;); background-size: 433px 412px; background-position: -425px -52px; background-repeat: no-repeat; width: 8px; height: 12px; margin: 4px 0px 0px 8px; vertical-align: top; background-color: rgba(0, 0, 0, 0); position: relative; cursor: pointer;" data-group="after"></div>
+                        </div>
+                        <div data-base="AGridLayout" data-class="AGridLayout" class="AGridLayout-Style stock_item_underline" style="width: 100%; height: auto; position: relative; left: 0px;" data-group="group_list" data-style="stock_item_underline">
+                            <table cellpadding="0" cellspacing="0">
+                                <colgroup>
+                                    <col>
+                                    <col>
+                                    <col width="">
+                                    <col width="">
+                                </colgroup>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div data-base="AView" data-class="AView" class="AView-Style" style="flex-basis: 165px; position: relative; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px; cursor: pointer;" data-group="group_item">
+                                                <div data-base="AView" data-class="AView" class="AView-Style" style="cursor: pointer; color: rgb(64, 64, 64); display: block; padding: 9px 0px; line-height: 28px; white-space: nowrap; position: relative; background-color: rgba(0, 0, 0, 0);" data-group="link_service">
+                                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 28px; height: 28px; position: relative; display: inline-block; margin-right: 8px; vertical-align: top; background-color: rgba(0, 0, 0, 0);" data-group="service_icon">
+                                                        <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: -1px; left: -1px; background-image: url(&quot;https://pm.pstatic.net/resources/asset/sp_main.d5b6c236.png&quot;); background-size: 433px 412px; background-position: -31px -273px; background-repeat: no-repeat; width: 30px; height: 30px; background-color: rgba(0, 0, 0, 0);" data-group="before"></div>
+                                                        <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; margin: auto; background-image: url(&quot;https://pm.pstatic.net/resources/asset/sp_main.d5b6c236.png&quot;); background-size: 433px 412px; background-position: -232px -304px; background-repeat: no-repeat; width: 28px; height: 28px; background-color: rgba(0, 0, 0, 0);" data-group="after"></div>
+                                                    </div>
+                                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative; cursor: pointer;">날씨</label>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div data-base="AView" data-class="AView" class="AView-Style" style="flex-basis: 165px; position: relative; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px; cursor: pointer;" data-group="group_item">
+                                                <div data-base="AView" data-class="AView" class="AView-Style" style="cursor: pointer; color: rgb(64, 64, 64); display: block; padding: 9px 0px; line-height: 28px; white-space: nowrap; position: relative; background-color: rgba(0, 0, 0, 0);" data-group="link_service">
+                                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 28px; height: 28px; position: relative; display: inline-block; margin-right: 8px; vertical-align: top; background-color: rgba(0, 0, 0, 0);" data-group="service_icon">
+                                                        <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: -1px; left: -1px; background-image: url(&quot;https://pm.pstatic.net/resources/asset/sp_main.d5b6c236.png&quot;); background-size: 433px 412px; background-position: -31px -273px; background-repeat: no-repeat; width: 30px; height: 30px; background-color: rgba(0, 0, 0, 0);" data-group="before"></div>
+                                                        <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; margin: auto;     background-image: url(https://pm.pstatic.net/resources/asset/sp_main.d5b6c236.png);     background-size: 433px 412px;     background-position: -178px -273px;     background-repeat: no-repeat;     width: 28px;     height: 28px; background-color: rgba(0, 0, 0, 0);" data-group="after"></div>
+                                                    </div>
+                                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative; cursor: pointer;">네이버게임</label>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div data-base="AView" data-class="AView" class="AView-Style" style="flex-basis: 165px; position: relative; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px; cursor: pointer;" data-group="group_item">
+                                                <div data-base="AView" data-class="AView" class="AView-Style" style="cursor: pointer; color: rgb(64, 64, 64); display: block; padding: 9px 0px; line-height: 28px; white-space: nowrap; position: relative; background-color: rgba(0, 0, 0, 0);" data-group="link_service">
+                                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 28px; height: 28px; position: relative; display: inline-block; margin-right: 8px; vertical-align: top; background-color: rgba(0, 0, 0, 0);" data-group="service_icon">
+                                                        <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: -1px; left: -1px; background-image: url(&quot;https://pm.pstatic.net/resources/asset/sp_main.d5b6c236.png&quot;); background-size: 433px 412px; background-position: -31px -273px; background-repeat: no-repeat; width: 30px; height: 30px; background-color: rgba(0, 0, 0, 0);" data-group="before"></div>
+                                                        <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; margin: auto;     background-image: url(https://pm.pstatic.net/resources/asset/sp_main.d5b6c236.png);     background-size: 433px 412px;     background-position: -87px -304px; background-repeat: no-repeat; width: 28px; height: 28px; background-color: rgba(0, 0, 0, 0);" data-group="after"></div>
+                                                    </div>
+                                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative; cursor: pointer;">네이버페이</label>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div data-base="AView" data-class="AView" class="AView-Style" style="flex-basis: 165px; position: relative; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px; cursor: pointer;" data-group="group_item">
+                                                <div data-base="AView" data-class="AView" class="AView-Style" style="cursor: pointer; color: rgb(64, 64, 64); display: block; padding: 9px 0px; line-height: 28px; white-space: nowrap; position: relative; background-color: rgba(0, 0, 0, 0); margin-left: 0px;" data-group="link_service">
+                                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 28px; height: 28px; position: relative; display: inline-block; margin-right: 8px; vertical-align: top; background-color: rgba(0, 0, 0, 0);" data-group="service_icon">
+                                                        <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: -1px; left: -1px; background-image: url(&quot;https://pm.pstatic.net/resources/asset/sp_main.d5b6c236.png&quot;); background-size: 433px 412px; background-position: -31px -273px; background-repeat: no-repeat; width: 30px; height: 30px; background-color: rgba(0, 0, 0, 0);" data-group="before"></div>
+                                                        <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; margin: auto; background-image: url(https://pm.pstatic.net/resources/asset/sp_main.d5b6c236.png);     background-size: 433px 412px;     background-position: -58px -304px; background-repeat: no-repeat; width: 28px; height: 28px; background-color: rgba(0, 0, 0, 0);" data-group="after"></div>
+                                                    </div>
+                                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative; cursor: pointer;">네이버TV</label>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div data-base="AView" data-class="AView" class="AView-Style" style="flex-basis: 165px; position: relative; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px; cursor: pointer;" data-group="group_item">
+                                                <div data-base="AView" data-class="AView" class="AView-Style" style="cursor: pointer; color: rgb(64, 64, 64); display: block; padding: 9px 0px; line-height: 28px; white-space: nowrap; position: relative; background-color: rgba(0, 0, 0, 0);" data-group="link_service">
+                                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 28px; height: 28px; position: relative; display: inline-block; margin-right: 8px; vertical-align: top; background-color: rgba(0, 0, 0, 0);" data-group="service_icon">
+                                                        <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: -1px; left: -1px; background-image: url(&quot;https://pm.pstatic.net/resources/asset/sp_main.d5b6c236.png&quot;); background-size: 433px 412px; background-position: -31px -273px; background-repeat: no-repeat; width: 30px; height: 30px; background-color: rgba(0, 0, 0, 0);" data-group="before"></div>
+                                                        <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; margin: auto; background-image: url(https://pm.pstatic.net/resources/asset/sp_main.d5b6c236.png);     background-size: 433px 412px;     background-position: -91px -273px; background-repeat: no-repeat; width: 28px; height: 28px; background-color: rgba(0, 0, 0, 0);" data-group="after"></div>
+                                                    </div>
+                                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative; cursor: pointer;">도서</label>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div data-base="AView" data-class="AView" class="AView-Style" style="flex-basis: 165px; position: relative; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px; cursor: pointer;" data-group="group_item">
+                                                <div data-base="AView" data-class="AView" class="AView-Style" style="cursor: pointer; color: rgb(64, 64, 64); display: block; padding: 9px 0px; line-height: 28px; white-space: nowrap; position: relative; background-color: rgba(0, 0, 0, 0);" data-group="link_service">
+                                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 28px; height: 28px; position: relative; display: inline-block; margin-right: 8px; vertical-align: top; background-color: rgba(0, 0, 0, 0);" data-group="service_icon">
+                                                        <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: -1px; left: -1px; background-image: url(&quot;https://pm.pstatic.net/resources/asset/sp_main.d5b6c236.png&quot;); background-size: 433px 412px; background-position: -31px -273px; background-repeat: no-repeat; width: 30px; height: 30px; background-color: rgba(0, 0, 0, 0);" data-group="before"></div>
+                                                        <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; margin: auto;     background-image: url(https://pm.pstatic.net/resources/asset/sp_main.d5b6c236.png);     background-size: 433px 412px;     background-position: -62px -273px; background-repeat: no-repeat; width: 28px; height: 28px; background-color: rgba(0, 0, 0, 0);" data-group="after"></div>
+                                                    </div>
+                                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative; cursor: pointer;">밴드</label>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div data-base="AView" data-class="AView" class="AView-Style" style="flex-basis: 165px; position: relative; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px; cursor: pointer;" data-group="group_item">
+                                                <div data-base="AView" data-class="AView" class="AView-Style" style="cursor: pointer; color: rgb(64, 64, 64); display: block; padding: 9px 0px; line-height: 28px; white-space: nowrap; position: relative; background-color: rgba(0, 0, 0, 0);" data-group="link_service">
+                                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 28px; height: 28px; position: relative; display: inline-block; margin-right: 8px; vertical-align: top; background-color: rgba(0, 0, 0, 0);" data-group="service_icon">
+                                                        <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: -1px; left: -1px; background-image: url(&quot;https://pm.pstatic.net/resources/asset/sp_main.d5b6c236.png&quot;); background-size: 433px 412px; background-position: -31px -273px; background-repeat: no-repeat; width: 30px; height: 30px; background-color: rgba(0, 0, 0, 0);" data-group="before"></div>
+                                                        <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; margin: auto;     background-image: url(https://pm.pstatic.net/resources/asset/sp_main.d5b6c236.png);     background-size: 433px 412px;     background-position: -149px -273px; background-repeat: no-repeat; width: 28px; height: 28px; background-color: rgba(0, 0, 0, 0);" data-group="after"></div>
+                                                    </div>
+                                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative; cursor: pointer;">사전</label>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div data-base="AView" data-class="AView" class="AView-Style" style="flex-basis: 165px; position: relative; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px; cursor: pointer;" data-group="group_item">
+                                                <div data-base="AView" data-class="AView" class="AView-Style" style="cursor: pointer; color: rgb(64, 64, 64); display: block; padding: 9px 0px; line-height: 28px; white-space: nowrap; position: relative; background-color: rgba(0, 0, 0, 0);" data-group="link_service">
+                                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 28px; height: 28px; position: relative; display: inline-block; margin-right: 8px; vertical-align: top; background-color: rgba(0, 0, 0, 0);" data-group="service_icon">
+                                                        <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: -1px; left: -1px; background-image: url(&quot;https://pm.pstatic.net/resources/asset/sp_main.d5b6c236.png&quot;); background-size: 433px 412px; background-position: -31px -273px; background-repeat: no-repeat; width: 30px; height: 30px; background-color: rgba(0, 0, 0, 0);" data-group="before"></div>
+                                                        <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; margin: auto; background-image: url(https://pm.pstatic.net/resources/asset/sp_main.d5b6c236.png);     background-size: 433px 412px;     background-position: -145px -304px; background-repeat: no-repeat; width: 28px; height: 28px; background-color: rgba(0, 0, 0, 0);" data-group="after"></div>
+                                                    </div>
+                                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative; cursor: pointer;">쇼핑라이브</label>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div data-base="AView" data-class="AView" class="AView-Style" style="flex-basis: 165px; position: relative; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px; cursor: pointer;" data-group="group_item">
+                                                <div data-base="AView" data-class="AView" class="AView-Style" style="cursor: pointer; color: rgb(64, 64, 64); display: block; padding: 9px 0px; line-height: 28px; white-space: nowrap; position: relative; background-color: rgba(0, 0, 0, 0);" data-group="link_service">
+                                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 28px; height: 28px; position: relative; display: inline-block; margin-right: 8px; vertical-align: top; background-color: rgba(0, 0, 0, 0);" data-group="service_icon">
+                                                        <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: -1px; left: -1px; background-image: url(&quot;https://pm.pstatic.net/resources/asset/sp_main.d5b6c236.png&quot;); background-size: 433px 412px; background-position: -31px -273px; background-repeat: no-repeat; width: 30px; height: 30px; background-color: rgba(0, 0, 0, 0);" data-group="before"></div>
+                                                        <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; margin: auto; background-image: url(https://pm.pstatic.net/resources/asset/sp_main.d5b6c236.png);     background-size: 433px 412px;     background-position: -174px -304px; background-repeat: no-repeat; width: 28px; height: 28px; background-color: rgba(0, 0, 0, 0);" data-group="after"></div>
+                                                    </div>
+                                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative; cursor: pointer;">스포츠</label>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div data-base="AView" data-class="AView" class="AView-Style" style="flex-basis: 165px; position: relative; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px; cursor: pointer;" data-group="group_item">
+                                                <div data-base="AView" data-class="AView" class="AView-Style" style="cursor: pointer; color: rgb(64, 64, 64); display: block; padding: 9px 0px; line-height: 28px; white-space: nowrap; position: relative; background-color: rgba(0, 0, 0, 0);" data-group="link_service">
+                                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 28px; height: 28px; position: relative; display: inline-block; margin-right: 8px; vertical-align: top; background-color: rgba(0, 0, 0, 0);" data-group="service_icon">
+                                                        <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: -1px; left: -1px; background-image: url(&quot;https://pm.pstatic.net/resources/asset/sp_main.d5b6c236.png&quot;); background-size: 433px 412px; background-position: -31px -273px; background-repeat: no-repeat; width: 30px; height: 30px; background-color: rgba(0, 0, 0, 0);" data-group="before"></div>
+                                                        <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; margin: auto;     background-image: url(https://pm.pstatic.net/resources/asset/sp_main.d5b6c236.png);     background-size: 433px 412px;     background-position: -116px -304px; background-repeat: no-repeat; width: 28px; height: 28px; background-color: rgba(0, 0, 0, 0);" data-group="after"></div>
+                                                    </div>
+                                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative; cursor: pointer;">시리즈</label>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div data-base="AView" data-class="AView" class="AView-Style" style="flex-basis: 165px; position: relative; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px; cursor: pointer;" data-group="group_item">
+                                                <div data-base="AView" data-class="AView" class="AView-Style" style="cursor: pointer; color: rgb(64, 64, 64); display: block; padding: 9px 0px; line-height: 28px; white-space: nowrap; position: relative; background-color: rgba(0, 0, 0, 0);" data-group="link_service">
+                                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 28px; height: 28px; position: relative; display: inline-block; margin-right: 8px; vertical-align: top; background-color: rgba(0, 0, 0, 0);" data-group="service_icon">
+                                                        <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: -1px; left: -1px; background-image: url(&quot;https://pm.pstatic.net/resources/asset/sp_main.d5b6c236.png&quot;); background-size: 433px 412px; background-position: -31px -273px; background-repeat: no-repeat; width: 30px; height: 30px; background-color: rgba(0, 0, 0, 0);" data-group="before"></div>
+                                                        <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; margin: auto; background-image: url(https://pm.pstatic.net/resources/asset/sp_main.d5b6c236.png);     background-size: 433px 412px;     background-position: -261px -304px; background-repeat: no-repeat; width: 28px; height: 28px; background-color: rgba(0, 0, 0, 0);" data-group="after"></div>
+                                                    </div>
+                                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative; cursor: pointer;">웹소설</label>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div data-base="AView" data-class="AView" class="AView-Style" style="flex-basis: 165px; position: relative; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px; cursor: pointer;" data-group="group_item">
+                                                <div data-base="AView" data-class="AView" class="AView-Style" style="cursor: pointer; color: rgb(64, 64, 64); display: block; padding: 9px 0px; line-height: 28px; white-space: nowrap; position: relative; background-color: rgba(0, 0, 0, 0);" data-group="link_service">
+                                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 28px; height: 28px; position: relative; display: inline-block; margin-right: 8px; vertical-align: top; background-color: rgba(0, 0, 0, 0);" data-group="service_icon">
+                                                        <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: -1px; left: -1px; background-image: url(&quot;https://pm.pstatic.net/resources/asset/sp_main.d5b6c236.png&quot;); background-size: 433px 412px; background-position: -31px -273px; background-repeat: no-repeat; width: 30px; height: 30px; background-color: rgba(0, 0, 0, 0);" data-group="before"></div>
+                                                        <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; margin: auto; background-image: url(https://pm.pstatic.net/resources/asset/sp_main.d5b6c236.png);     background-size: 433px 412px;     background-position: -265px -273px; background-repeat: no-repeat; width: 28px; height: 28px; background-color: rgba(0, 0, 0, 0);" data-group="after"></div>
+                                                    </div>
+                                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative; cursor: pointer;">지식iN</label>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div data-base="AView" data-class="AView" class="AView-Style" style="flex-basis: 165px; position: relative; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px; cursor: pointer;" data-group="group_item">
+                                                <div data-base="AView" data-class="AView" class="AView-Style" style="cursor: pointer; color: rgb(64, 64, 64); display: block; padding: 9px 0px; line-height: 28px; white-space: nowrap; position: relative; background-color: rgba(0, 0, 0, 0);" data-group="link_service">
+                                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 28px; height: 28px; position: relative; display: inline-block; margin-right: 8px; vertical-align: top; background-color: rgba(0, 0, 0, 0);" data-group="service_icon">
+                                                        <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: -1px; left: -1px; background-image: url(&quot;https://pm.pstatic.net/resources/asset/sp_main.d5b6c236.png&quot;); background-size: 433px 412px; background-position: -31px -273px; background-repeat: no-repeat; width: 30px; height: 30px; background-color: rgba(0, 0, 0, 0);" data-group="before"></div>
+                                                        <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; margin: auto; background-image: url(https://pm.pstatic.net/resources/asset/sp_main.d5b6c236.png);     background-size: 433px 412px;     background-position: -120px -273px; background-repeat: no-repeat; width: 28px; height: 28px; background-color: rgba(0, 0, 0, 0);" data-group="after"></div>
+                                                    </div>
+                                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative; cursor: pointer;">캘린더</label>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div data-base="AView" data-class="AView" class="AView-Style" style="flex-basis: 165px; position: relative; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px; cursor: pointer;" data-group="group_item">
+                                                <div data-base="AView" data-class="AView" class="AView-Style" style="cursor: pointer; color: rgb(64, 64, 64); display: block; padding: 9px 0px; line-height: 28px; white-space: nowrap; position: relative; background-color: rgba(0, 0, 0, 0); margin-left: 0px;" data-group="link_service">
+                                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 28px; height: 28px; position: relative; display: inline-block; margin-right: 8px; vertical-align: top; background-color: rgba(0, 0, 0, 0);" data-group="service_icon">
+                                                        <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: -1px; left: -1px; background-image: url(&quot;https://pm.pstatic.net/resources/asset/sp_main.d5b6c236.png&quot;); background-size: 433px 412px; background-position: -31px -273px; background-repeat: no-repeat; width: 30px; height: 30px; background-color: rgba(0, 0, 0, 0);" data-group="before"></div>
+                                                        <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; margin: auto; background-image: url(https://pm.pstatic.net/resources/asset/sp_main.d5b6c236.png);     background-size: 433px 412px;     background-position: -207px -273px; background-repeat: no-repeat; width: 28px; height: 28px; background-color: rgba(0, 0, 0, 0);" data-group="after"></div>
+                                                    </div>
+                                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative; cursor: pointer;">해피빈</label>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div data-base="AView" data-class="AView" class="AView-Style" style="flex-basis: 165px; position: relative; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px; cursor: pointer;" data-group="group_item">
+                                                <div data-base="AView" data-class="AView" class="AView-Style" style="cursor: pointer; color: rgb(64, 64, 64); display: block; padding: 9px 0px; line-height: 28px; white-space: nowrap; position: relative; background-color: rgba(0, 0, 0, 0);" data-group="link_service">
+                                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 28px; height: 28px; position: relative; display: inline-block; margin-right: 8px; vertical-align: top; background-color: rgba(0, 0, 0, 0);" data-group="service_icon">
+                                                        <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: -1px; left: -1px; background-image: url(&quot;https://pm.pstatic.net/resources/asset/sp_main.d5b6c236.png&quot;); background-size: 433px 412px; background-position: -31px -273px; background-repeat: no-repeat; width: 30px; height: 30px; background-color: rgba(0, 0, 0, 0);" data-group="before"></div>
+                                                        <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; margin: auto; background-image: url(https://pm.pstatic.net/resources/asset/sp_main.d5b6c236.png);     background-size: 433px 412px;     background-position: -29px -304px; background-repeat: no-repeat; width: 28px; height: 28px; background-color: rgba(0, 0, 0, 0);" data-group="after"></div>
+                                                    </div>
+                                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative; cursor: pointer;">MYBOX</label>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div data-base="AView" data-class="AView" class="AView-Style" style="flex-basis: 165px; position: relative; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px; cursor: pointer;" data-group="group_item">
+                                                <div data-base="AView" data-class="AView" class="AView-Style" style="cursor: pointer; color: rgb(64, 64, 64); display: block; padding: 9px 0px; line-height: 28px; white-space: nowrap; position: relative; background-color: rgba(0, 0, 0, 0);" data-group="link_service">
+                                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 28px; height: 28px; position: relative; display: inline-block; margin-right: 8px; vertical-align: top; background-color: rgba(0, 0, 0, 0);" data-group="service_icon">
+                                                        <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: -1px; left: -1px; background-image: url(&quot;https://pm.pstatic.net/resources/asset/sp_main.d5b6c236.png&quot;); background-size: 433px 412px; background-position: -31px -273px; background-repeat: no-repeat; width: 30px; height: 30px; background-color: rgba(0, 0, 0, 0);" data-group="before"></div>
+                                                        <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; margin: auto; background-image: url(https://pm.pstatic.net/resources/asset/sp_main.d5b6c236.png);     background-size: 433px 412px;     background-position: -203px -304px; background-repeat: no-repeat; width: 28px; height: 28px; background-color: rgba(0, 0, 0, 0);" data-group="after"></div>
+                                                    </div>
+                                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative; cursor: pointer;">VIBE</label>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
                 </div>
@@ -152,7 +354,7 @@
                 </div>
             </div>
         </div>
-        <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="position: relative; width: 1280px; margin: 0px auto; padding-bottom: 60px; background-color: rgba(0, 0, 0, 0); top: 0px; height: auto; overflow: visible;" data-group="container">
+        <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="position: relative; width: 1280px; margin: 0px auto; padding-bottom: 60px; background-color: rgba(0, 0, 0, 0); height: auto; overflow: visible; bottom: 0px;" data-group="container">
             <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto;">
                 <div data-base="AView" data-class="AView" class="AView-Style" style="width: 830px; height: auto; position: relative; float: left; top: 0px; border-color: rgba(0, 0, 0, 0); background-color: rgba(0, 0, 0, 0); border-width: 0px; display: block; left: 0px;" data-group="LeftView">
                     <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 130px; position: relative; left: 0px; top: 0px; overflow: hidden; border-radius: 8px; background-color: rgb(255, 255, 255); box-shadow: rgb(227, 229, 232) 0px 0px 0px 1px, rgba(0, 0, 0, 0.04) 0px 1px 2px 0px; margin-left: 0px; margin-top: 0px;" id="MainView--left_banner_area">
@@ -160,17 +362,91 @@
                     </div>
                     <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: auto; position: relative; left: 0px; top: 0px; margin-top: 16px; background-color: rgba(0, 0, 0, 0); box-shadow: rgb(227, 229, 232) 0px 0px 0px 1px, rgba(0, 0, 0, 0.04) 0px 1px 2px 0px; border-radius: 8px;" data-group="content_area">
                         <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: auto; position: relative; left: 0px; top: 0px; display: flex; background-color: rgba(0, 0, 0, 0); white-space: normal; margin-left: 0px; margin-top: 0px;" data-group="content_header">
-                            <div data-base="ATabView" data-class="ATabView" class="ATabView-Style" data-state="0" style="width: auto; height: auto; position: relative; left: 0px; overflow: visible;" data-tabinfo-tab1="tab1,뉴스스탠드,Source/newsSpace/subview1.lay,0" data-tab-select="tab1">
-                                <div class="tab_area" style="display: none;">
-                                    <span class="ATabView_select">tab1</span>
-                                    <span class="ATabView_deselect">tab2</span>
-                                    <span class="ATabView_deselect">tab3</span>
+                            <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="display: flex; padding: 18px 20px 17px; left: 0px; width: 100%; height: auto; position: relative;" data-group="content_header">
+                                <div style="position: relative; box-sizing: border-box; flex: 1 1 auto; align-self: auto;">
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="flex: 1 1 0%; -webkit-box-flex: 1; background-color: rgba(0, 0, 0, 0); position: relative;" data-group="header_tab">
+                                        <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="width: auto; height: auto; position: relative; margin-left: 0px; margin-top: 0px;" data-group="tab_list" data-style="">
+                                            <div style="position: relative; box-sizing: border-box;">
+                                                <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);" data-group="tab_item">
+                                                    <div data-base="AView" data-class="AView" class="AView-Style" style="position: relative; display: inline-block; font-size: 16.8px; line-height: 23px; font-weight: 800; vertical-align: top; color: rgba(8, 8, 8, 0.5); -webkit-font-smoothing: antialiased; background-color: rgba(0, 0, 0, 0);" data-group="tab" data-style="">
+                                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style label_underline" style="position: relative; display: inline-block; vertical-align: top; color: rgb(8, 8, 8); font-weight: bold;" data-style="label_underline">뉴스스텐드</label>
+                                                        <div data-base="AView" data-class="AView" class="AView-Style view_in_label_underline" style="position: relative; display: inline-block; vertical-align: top; width: auto; height: auto; background-color: rgba(0, 0, 0, 0); color: rgb(8, 8, 8);" data-group="tab_text" data-style="view_in_label_underline">
+                                                            <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: inline-block; width: 4px; height: 4px; background-color: rgb(211, 213, 215); margin: 9px 7px 0px; border-radius: 50%; vertical-align: top; position: relative;" data-group="before"></div>
+                                                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; color: rgba(8, 8, 8, 0.5); margin-left: 0px; margin-top: 0px;" data-style="">언론사편집</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div style="position: relative; box-sizing: border-box;">
+                                                <div data-base="AView" data-class="AView" class="AView-Style" style="padding-left: 26px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);" data-group="tab_item">
+                                                    <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: 4px; left: 13px; width: 1px; height: 15px; background-color: rgb(211, 213, 215);     transform: skewX(-15deg);" data-group="before"></div>
+                                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style label_underline" style="position: relative; display: inline-block; font-size: 16.8px; line-height: 23px; font-weight: 800; vertical-align: top; color: rgba(8, 8, 8, 0.5); -webkit-font-smoothing: antialiased;" data-style="label_underline">엔터</label>
+                                                </div>
+                                            </div>
+                                            <div style="position: relative; box-sizing: border-box;">
+                                                <div data-base="AView" data-class="AView" class="AView-Style view_in_label_underline" style="padding-left: 26px; position: relative; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px; cursor: default;" data-group="tab_item" data-style="view_in_label_underline">
+                                                    <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: 4px; left: 13px; width: 1px; height: 15px; background-color: rgb(211, 213, 215);     transform: skewX(-15deg);" data-group="before"></div>
+                                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative; display: inline-block; font-size: 16.8px; line-height: 23px; font-weight: 800; vertical-align: top; color: rgba(8, 8, 8, 0.5); -webkit-font-smoothing: antialiased; margin-left: 0px;" data-style="">스포츠</label>
+                                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; display: inline-block; vertical-align: top; margin-left: 5px; margin-top: 3px; padding-left: 4px; padding-right: 5px; font-size: 11.5px; line-height: 18px; background-color: rgb(244, 54, 30); border-radius: 9px;" data-group="tag_live">
+                                                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 14px; height: 10px; position: relative; left: 0px; top: 0px; margin-top: 4px; margin-right: 3px; display: inline-block; background-image: url(&quot;Assets/naver_icon.png&quot;); background-repeat: no-repeat; background-size: 433px 412px; background-position: -409px -389px; vertical-align: top; background-color: rgba(0, 0, 0, 0); margin-left: 0px;" data-background-option="custom" data-group="before"></div>
+                                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; display: inline-block; color: rgb(255, 255, 255);" data-group="btn_live">LIVE</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div style="position: relative; box-sizing: border-box;">
+                                                <div data-base="AView" data-class="AView" class="AView-Style" style="padding-left: 26px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);" data-group="tab_item">
+                                                    <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: 4px; left: 13px; width: 1px; height: 15px; background-color: rgb(211, 213, 215);     transform: skewX(-15deg);" data-group="before"></div>
+                                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style label_underline" style="position: relative; display: inline-block; font-size: 16.8px; line-height: 23px; font-weight: 800; vertical-align: top; color: rgba(8, 8, 8, 0.5); -webkit-font-smoothing: antialiased; margin-left: 0px;" data-style="label_underline">경제</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="tab_contents" style="height: 100%;"></div>
                             </div>
+                        </div>
+                        <div data-base="ATabView" data-class="ATabView" class="ATabView-Style" data-state="0" style="width: auto; height: auto; position: relative; left: 0px; overflow: visible; display: block;" data-tabinfo-tab1="tab1,뉴스스탠드,Source/newsSpace/subview1.lay,0" data-tab-select="tab1">
+                            <div class="tab_area" style="display: none;">
+                                <span class="ATabView_select">tab1</span>
+                                <span class="ATabView_deselect">tab2</span>
+                                <span class="ATabView_deselect">tab3</span>
+                            </div>
+                            <div class="tab_contents" style="height: 100%;"></div>
                         </div>
                     </div>
                     <div data-base="AView" data-class="AView" class="AView-Style" style="background-color: rgb(255, 255, 255); position: relative; border-radius: 8px; box-shadow: rgb(227, 229, 232) 0px 0px 0px 1px, rgba(0, 0, 0, 0.04) 0px 1px 2px 0px; box-sizing: border-box; margin-top: 16px;" data-group="content_area">
+                        <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="display: flex; padding: 18px 20px 17px; left: 0px; width: 100%; height: auto; position: relative;" data-group="content_header">
+                            <div style="position: relative; box-sizing: border-box; flex: 1 1 auto; align-self: auto;">
+                                <div data-base="AView" data-class="AView" class="AView-Style" style="flex: 1 1 0%; -webkit-box-flex: 1; background-color: rgba(0, 0, 0, 0); position: relative;" data-group="header_tab">
+                                    <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style view_in_all_label_underline" style="width: auto; height: auto; position: relative;" data-group="tab_list" data-style="view_in_all_label_underline">
+                                        <div style="position: relative; box-sizing: border-box;">
+                                            <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);" data-group="tab_item">
+                                                <div data-base="AView" data-class="AView" class="AView-Style" style="position: relative; display: inline-block; font-size: 16.8px; line-height: 23px; font-weight: 800; vertical-align: top; color: rgba(8, 8, 8, 0.5); -webkit-font-smoothing: antialiased; background-color: rgba(0, 0, 0, 0);" data-group="tab">
+                                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative; display: inline-block; vertical-align: top; color: rgb(8, 8, 8);" data-group="tab_text" data-style="">쇼핑</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div style="position: relative; box-sizing: border-box;">
+                                            <div data-base="AView" data-class="AView" class="AView-Style" style="padding-left: 26px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);" data-group="tab_item">
+                                                <div data-base="AView" data-class="before" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: 4px; left: 13px; width: 1px; height: 15px; background-color: rgb(211, 213, 215);"></div>
+                                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative; display: inline-block; font-size: 16.8px; line-height: 23px; font-weight: 800; vertical-align: top; color: rgba(8, 8, 8, 0.5); -webkit-font-smoothing: antialiased;">맨즈</label>
+                                            </div>
+                                        </div>
+                                        <div style="position: relative; box-sizing: border-box;">
+                                            <div data-base="AView" data-class="AView" class="AView-Style" style="padding-left: 26px; position: relative; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px;" data-group="tab_item">
+                                                <div data-base="AView" data-class="before" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: 4px; left: 13px; width: 1px; height: 15px; background-color: rgb(211, 213, 215);"></div>
+                                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative; display: inline-block; font-size: 16.8px; line-height: 23px; font-weight: 800; vertical-align: top; color: rgba(8, 8, 8, 0.5); -webkit-font-smoothing: antialiased; margin-left: 0px;">원쁠딜</label>
+                                            </div>
+                                        </div>
+                                        <div style="position: relative; box-sizing: border-box;">
+                                            <div data-base="AView" data-class="AView" class="AView-Style" style="padding-left: 26px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);" data-group="tab_item">
+                                                <div data-base="AView" data-class="before" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: 4px; left: 13px; width: 1px; height: 15px; background-color: rgb(211, 213, 215);"></div>
+                                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative; display: inline-block; font-size: 16.8px; line-height: 23px; font-weight: 800; vertical-align: top; color: rgba(8, 8, 8, 0.5); -webkit-font-smoothing: antialiased; margin-left: 0px;">쇼핑라이브</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div data-base="ATabView" data-class="ATabView" class="ATabView-Style" data-state="0" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0); margin-left: 0px; margin-top: 0px;" data-tabinfo-shopping_tab1="shopping_tab1,쇼핑,Source/shopping/shopping_view_1.lay,0" data-tab-select="shopping_tab1">
                             <div class="tab_area" style="display: none;">
                                 <span class="ATabView_select">tab1</span>
@@ -181,6 +457,77 @@
                         </div>
                     </div>
                     <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: auto; position: relative; left: 0px; top: 0px; margin-top: 16px; background-color: rgba(0, 0, 0, 0); box-shadow: rgb(227, 229, 232) 0px 0px 0px 1px, rgba(0, 0, 0, 0.04) 0px 1px 2px 0px;" data-group="content_area">
+                        <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="display: flex; padding: 18px 20px 17px; width: 100%; height: auto; position: relative; background-color: rgba(0, 0, 0, 0);" data-group="content_header">
+                            <div style="position: relative; box-sizing: border-box; flex: 1 1 auto; align-self: auto;">
+                                <div data-base="AView" data-class="AView" class="AView-Style" style="flex: 1 1 0%; -webkit-box-flex: 1; background-color: rgba(0, 0, 0, 0); position: relative;" data-group="header_tab">
+                                    <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="width: auto; height: auto; position: relative;" data-group="tab_list">
+                                        <div style="position: relative; box-sizing: border-box;">
+                                            <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);" data-group="tab_item">
+                                                <div data-base="AView" data-class="AView" class="AView-Style" style="position: relative; display: inline-block; font-size: 16.8px; line-height: 23px; font-weight: 800; vertical-align: top; color: rgb(8, 8, 8); -webkit-font-smoothing: antialiased; background-color: rgba(0, 0, 0, 0);" data-group="tab">
+                                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative; display: inline-block; vertical-align: top;" data-group="tab_text">추천</label>
+                                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="line-height: 10px; vertical-align: 0px; position: relative;">・</label>
+                                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative; display: inline-block; vertical-align: top;" data-group="tab_text">구독</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div style="position: relative; box-sizing: border-box;">
+                                            <div data-base="AView" data-class="AView" class="AView-Style" style="padding-left: 26px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);" data-group="tab_item">
+                                                <div data-base="AView" data-class="before" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: 4px; left: 13px; width: 1px; height: 15px; background-color: rgb(211, 213, 215);"></div>
+                                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative; display: inline-block; font-size: 16.8px; line-height: 23px; font-weight: 800; vertical-align: top; color: rgba(8, 8, 8, 0.5); -webkit-font-smoothing: antialiased;">자동차</label>
+                                            </div>
+                                        </div>
+                                        <div style="position: relative; box-sizing: border-box;">
+                                            <div data-base="AView" data-class="AView" class="AView-Style" style="padding-left: 26px; position: relative; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px;" data-group="tab_item">
+                                                <div data-base="AView" data-class="before" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: 4px; left: 13px; width: 1px; height: 15px; background-color: rgb(211, 213, 215);"></div>
+                                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative; display: inline-block; font-size: 16.8px; line-height: 23px; font-weight: 800; vertical-align: top; color: rgba(8, 8, 8, 0.5); -webkit-font-smoothing: antialiased; margin-left: 0px;">웹툰</label>
+                                            </div>
+                                        </div>
+                                        <div style="position: relative; box-sizing: border-box;">
+                                            <div data-base="AView" data-class="AView" class="AView-Style" style="padding-left: 26px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);" data-group="tab_item">
+                                                <div data-base="AView" data-class="before" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: 4px; left: 13px; width: 1px; height: 15px; background-color: rgb(211, 213, 215);"></div>
+                                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative; display: inline-block; font-size: 16.8px; line-height: 23px; font-weight: 800; vertical-align: top; color: rgba(8, 8, 8, 0.5); -webkit-font-smoothing: antialiased; margin-left: 0px;">패션뷰티</label>
+                                            </div>
+                                        </div>
+                                        <div style="position: relative; box-sizing: border-box;">
+                                            <div data-base="AView" data-class="AView" class="AView-Style" style="padding-left: 26px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);" data-group="tab_item">
+                                                <div data-base="AView" data-class="before" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: 4px; left: 13px; width: 1px; height: 15px; background-color: rgb(211, 213, 215);"></div>
+                                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative; display: inline-block; font-size: 16.8px; line-height: 23px; font-weight: 800; vertical-align: top; color: rgba(8, 8, 8, 0.5); -webkit-font-smoothing: antialiased; margin-left: 0px;">레시피</label>
+                                            </div>
+                                        </div>
+                                        <div style="position: relative; box-sizing: border-box;">
+                                            <div data-base="AView" data-class="AView" class="AView-Style" style="padding-left: 26px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);" data-group="tab_item">
+                                                <div data-base="AView" data-class="before" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: 4px; left: 13px; width: 1px; height: 15px; background-color: rgb(211, 213, 215);"></div>
+                                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative; display: inline-block; font-size: 16.8px; line-height: 23px; font-weight: 800; vertical-align: top; color: rgba(8, 8, 8, 0.5); -webkit-font-smoothing: antialiased; margin-left: 0px;">리빙</label>
+                                            </div>
+                                        </div>
+                                        <div style="position: relative; box-sizing: border-box;">
+                                            <div data-base="AView" data-class="AView" class="AView-Style" style="padding-left: 26px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);" data-group="tab_item">
+                                                <div data-base="AView" data-class="before" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: 4px; left: 13px; width: 1px; height: 15px; background-color: rgb(211, 213, 215);"></div>
+                                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative; display: inline-block; font-size: 16.8px; line-height: 23px; font-weight: 800; vertical-align: top; color: rgba(8, 8, 8, 0.5); -webkit-font-smoothing: antialiased; margin-left: 0px;">책방</label>
+                                            </div>
+                                        </div>
+                                        <div style="position: relative; box-sizing: border-box;">
+                                            <div data-base="AView" data-class="AView" class="AView-Style" style="padding-left: 26px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);" data-group="tab_item">
+                                                <div data-base="AView" data-class="before" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: 4px; left: 13px; width: 1px; height: 15px; background-color: rgb(211, 213, 215);"></div>
+                                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative; display: inline-block; font-size: 16.8px; line-height: 23px; font-weight: 800; vertical-align: top; color: rgba(8, 8, 8, 0.5); -webkit-font-smoothing: antialiased; margin-left: 0px;">지식+</label>
+                                            </div>
+                                        </div>
+                                        <div style="position: relative; box-sizing: border-box;">
+                                            <div data-base="AView" data-class="AView" class="AView-Style" style="padding-left: 26px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);" data-group="tab_item">
+                                                <div data-base="AView" data-class="before" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: 4px; left: 13px; width: 1px; height: 15px; background-color: rgb(211, 213, 215);"></div>
+                                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative; display: inline-block; font-size: 16.8px; line-height: 23px; font-weight: 800; vertical-align: top; color: rgba(8, 8, 8, 0.5); -webkit-font-smoothing: antialiased; margin-left: 0px;">건강</label>
+                                            </div>
+                                        </div>
+                                        <div style="position: relative; box-sizing: border-box;">
+                                            <div data-base="AView" data-class="AView" class="AView-Style" style="padding-left: 26px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);" data-group="tab_item">
+                                                <div data-base="AView" data-class="before" class="AView-Style" style="content: &quot;&quot;; display: block; position: absolute; top: 4px; left: 13px; width: 1px; height: 15px; background-color: rgb(211, 213, 215);"></div>
+                                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="position: relative; display: inline-block; font-size: 16.8px; line-height: 23px; font-weight: 800; vertical-align: top; color: rgba(8, 8, 8, 0.5); -webkit-font-smoothing: antialiased; margin-left: 0px;">게임</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div data-base="ATabView" data-class="ATabView" class="ATabView-Style" data-state="0" style="width: 100%; height: auto; position: relative; left: 0px; top: 0px;" data-tabinfo-content_sub_1="content_sub_1,추천_구독,Source/feed/feed_view_1.lay,0" data-tabinfo-feed_sub_view1="feed_sub_view1,추천구독,Source/feed/feed_sub_view/feed_sub_view_1.lay,0" data-tab-select="feed_sub_view1">
                             <div class="tab_area" style="display: none;">
                                 <span class="ATabView_select">tab1</span>
@@ -694,7 +1041,7 @@
                             <div data-base="AView" data-class="AView" class="AView-Style" style="position: relative; padding: 8px 50px 8px 18px; background-color: rgba(0, 0, 0, 0); height: auto;" data-group="banner_box">
                                 <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="width: 352px; height: auto; position: relative; left: 0px; top: 0px;" data-group="banner_rolling" data-style="">
                                     <div style="position: relative; box-sizing: border-box;">
-                                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; animation-fill-mode: forwards; flex-shrink: 0; animation-duration: 0.5s; position: relative; background-color: rgba(0, 0, 0, 0);" data-group="rolling_x">
+                                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; animation-fill-mode: forwards; flex-shrink: 0; animation-duration: 0.5s; position: relative; background-color: rgba(0, 0, 0, 0);" data-group="rolling_x" data-style="">
                                             <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="cursor: pointer; text-decoration: none; color: rgb(64, 64, 64); display: flex; -webkit-box-align: center; align-items: center; width: 352px; padding: 11px 0px; line-height: 20px; position: relative;" data-group="link_banner">
                                                 <div style="position: relative; box-sizing: border-box;">
                                                     <div data-base="AView" data-class="AView" class="AView-Style" style="width: 42px; height: 42px; display: inline-block; margin-right: 12px; vertical-align: top; position: relative; background-color: rgba(0, 0, 0, 0);" data-group="banner_thumb">
@@ -702,7 +1049,7 @@
                                                     </div>
                                                 </div>
                                                 <div style="position: relative; box-sizing: border-box;">
-                                                    <div data-base="AView" data-class="AView" class="AView-Style all_line_underline" style="-webkit-box-flex: 1; flex: 1 1 0%; min-width: 0px; background-color: rgba(0, 0, 0, 0); position: relative; font-size: 14.7px;" data-group="banner_desc" data-style="all_line_underline">
+                                                    <div data-base="AView" data-class="AView" class="AView-Style all_line_underline" style="-webkit-box-flex: 1; flex: 1 1 0%; min-width: 0px; background-color: rgba(0, 0, 0, 0); position: relative; font-size: 14.7px; margin-top: 0px;" data-group="banner_desc" data-style="all_line_underline">
                                                         <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: rgb(16, 16, 16); font-weight: bold; position: relative; cursor: pointer;">나만의 스마트한 브라우저, 웨일</label>
                                                         <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: rgb(96, 96, 96); margin-top: 2px; line-height: 20px; position: relative; cursor: pointer;">인터넷을 여는 가장 스마트한 방법</label>
                                                     </div>
@@ -711,7 +1058,7 @@
                                         </div>
                                     </div>
                                     <div style="position: relative; box-sizing: border-box;">
-                                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; animation-fill-mode: forwards; flex-shrink: 0; animation-duration: 0.5s; position: relative; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px;" data-group="rolling_x">
+                                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; animation-fill-mode: forwards; flex-shrink: 0; animation-duration: 0.5s; position: relative; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px;" data-group="rolling_x" data-style="">
                                             <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="cursor: pointer; text-decoration: none; color: rgb(64, 64, 64); display: flex; -webkit-box-align: center; align-items: center; width: 352px; padding: 11px 0px; line-height: 20px; position: relative;" data-group="link_banner">
                                                 <div style="position: relative; box-sizing: border-box;">
                                                     <div data-base="AView" data-class="AView" class="AView-Style" style="width: 42px; height: 42px; display: inline-block; margin-right: 12px; vertical-align: top; position: relative; background-color: rgba(0, 0, 0, 0);" data-group="banner_thumb">
