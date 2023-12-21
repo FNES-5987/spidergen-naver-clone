@@ -16,12 +16,12 @@
                             </div>
                         </div>
                         <div style="position: relative; box-sizing: border-box;">
-                            <div data-base="AView" data-class="AView" class="AView-Style" style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: rgb(64, 64, 64); font-weight: 500; margin-left: 8px; position: relative; background-color: rgba(0, 0, 0, 0);" data-group="today_picks_desc">
-                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; word-break: normal;" data-pre="true">
+                            <div data-base="AView" data-class="AView" class="AView-Style label_underline" style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: rgb(64, 64, 64); font-weight: 500; margin-left: 8px; position: relative; background-color: rgba(0, 0, 0, 0); text-decoration-line: none; cursor: pointer;" data-group="today_picks_desc" data-style="label_underline">
+                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; word-break: normal; cursor: pointer;" data-pre="true">
                                     <pre>크리스마스도 위메프에서! </pre>
                                 </label>
-                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="color: rgb(152, 88, 245); font-style: normal; position: relative;">BEST 선물상품</label>
-                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative;" data-pre="true">
+                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="color: rgb(152, 88, 245); font-style: normal; position: relative; text-decoration-color: rgb(64, 64, 64); text-decoration-line: none; cursor: pointer;">BEST 선물상품</label>
+                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; cursor: pointer;" data-pre="true">
                                     <pre> 확인하러가기</pre>
                                 </label>
                             </div>
@@ -44,7 +44,7 @@
                         <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; position: absolute; top: 50%; left: 50%; width: 5px; height: 5px; transform: translate(-50%, -50%) rotate(45deg); border-left: 2px solid rgb(128, 134, 140); border-bottom: 2px solid rgb(128, 134, 140); margin-left: 1px; background-color: rgba(0, 0, 0, 0);" data-group="before"></div>
                     </div>
                 </div>
-                <div data-base="AView" data-class="AView" class="AView-Style arror_color" style="width: 30px;     height: 30px;     position: relative;     display: inline-block;     border: 1px solid rgba(211,213,215,.8);     vertical-align: top;     cursor: pointer;     background-color: transparent;     border-left: 0;     border-radius: 0 4px 4px 0;" data-group="btn_next" data-style="arror_color">
+                <div data-base="AView" data-class="AView" class="AView-Style arror_color" style="width: 30px; height: 30px; position: relative; display: inline-block; border-width: 1px 1px 1px 0px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-top-color: rgba(211, 213, 215, 0.8); border-right-color: rgba(211, 213, 215, 0.8); border-bottom-color: rgba(211, 213, 215, 0.8); border-image: initial; vertical-align: top; cursor: pointer; background-color: transparent; border-left-style: initial; border-left-color: initial; border-radius: 0px 4px 4px 0px; margin-left: -3.25px;" data-group="btn_next" data-style="arror_color">
                     <div data-base="AView" data-class="AView" class="AView-Style" style="display: inline-block; width: 10px; height: 12px; position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; margin: auto; background-color: rgba(0, 0, 0, 0);" data-group="icon_arrow_next">
                         <div data-base="AView" data-class="AView" class="AView-Style" style="content: &quot;&quot;; position: absolute; top: 50%; left: 50%; width: 5px; height: 5px; transform: translate(-50%, -50%) rotate(45deg); border-top: 2px solid rgb(128, 134, 140); border-right: 2px solid rgb(128, 134, 140); margin-left: -1px; background-color: rgba(0, 0, 0, 0);" data-group="before"></div>
                     </div>

@@ -3,15 +3,14 @@
 Constructor
 Do not call Function in Constructor.
 */
+
 function subview1()
 {
 	AView.call(this);
-
-	//TODO:edit here
+	
 
 }
 afc.extendsClass(subview1, AView);
-
 
 subview1.prototype.init = function(context, evtListener)
 {
@@ -25,7 +24,10 @@ subview1.prototype.onInitDone = function()
 {
 	AView.prototype.onInitDone.call(this);
 
-	//TODO:edit here
+	var totalNum = this.news_tabview.getAllTabs().length; // 4
+
+	this.this_page_num.setText(1);
+	this.total_page_num.setText(totalNum);
 
 };
 

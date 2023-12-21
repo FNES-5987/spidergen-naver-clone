@@ -32,7 +32,7 @@
             </div>
         </div>
     </div>
-    <div data-base="ATabView" data-class="ATabView" class="ATabView-Style" data-state="0" style="margin: 18px 20px; position: relative; height: auto; background-color: rgba(0, 0, 0, 0); border-width: 1px; border-style: solid; border-color: rgb(235, 235, 235); border-radius: 4px; left: 0px; top: 0px;" data-tab-select="tab_1" data-tabinfo-tab_1="tab_1,언론사1,Source/newsSpace/news_tab/news_tab_1.lay,0" data-tabinfo-tab_2="tab_2,언론사2,Source/newsSpace/news_tab/news_tab_2.lay,1" data-tabinfo-tab_3="tab_3,언론사3,Source/newsSpace/news_tab/news_tab_3.lay,2" data-tabinfo-tab_4="tab_4,언론사4,Source/newsSpace/news_tab/news_tab_4.lay,3" id="subview1--news_tabview">
+    <div data-base="ATabView" data-class="ATabView" class="ATabView-Style" data-state="0" style="margin: 18px 20px; position: relative; height: auto; background-color: rgba(0, 0, 0, 0); border-width: 1px; border-style: solid; border-color: rgb(235, 235, 235); border-radius: 4px; left: 0px; top: 0px;" data-tab-select="tab_0" id="subview1--news_tabview" data-tabinfo-tab_4="tab_4,언론사4,Source/newsSpace/news_tab/news_tab_4.lay,3" data-tabinfo-tab_2="tab_2,언론사3,Source/newsSpace/news_tab/news_tab_3.lay,2" data-tabinfo-tab_0="tab_0,언론사1,Source/newsSpace/news_tab/news_tab_1.lay,0" data-tabinfo-tab_1="tab_1,언론사2,Source/newsSpace/news_tab/news_tab_2.lay,1" data-tabinfo-tab_3="tab_3,언론사4,Source/newsSpace/news_tab/news_tab_4.lay,3">
         <div class="tab_area" style="display: none;">
             <span class="ATabView_select">tab1</span>
             <span class="ATabView_deselect">tab2</span>
@@ -57,10 +57,10 @@
                 <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="color: rgb(58, 103, 234); position: relative;">언론사</label>
                 <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative;">더보기</label>
             </div>
-            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px;">1</label>
+            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px;" data-group="" id="subview1--this_page_num"></label>
             <div data-base="AView" data-class="AView" class="AView-Style" style="color: rgba(96, 96, 96, 0.5); position: relative; left: 0px; top: 0px; display: inline-block; background-color: rgba(0, 0, 0, 0);" data-group="total">
                 <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative;">/</label>
-                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative;">4</label>
+                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; margin-top: 0px;" id="subview1--total_page_num"></label>
             </div>
         </div>
         <div data-base="AView" data-class="AView" class="AView-Style" style="color: #101010; font-family: -apple-system,BlinkMacSystemFont,&quot;Malgun Gothic&quot;,&quot;ë§‘ì€ ê³ ë”•&quot;,helvetica,&quot;Apple SD Gothic Neo&quot;,sans-serif; font-weight: 500; letter-spacing: -0.4px;     width: 36px;     height: 36px;     border: 1px solid #dadcdf;     background-color: #fff;     position: relative;     display: inline-block;     box-shadow: 0 1px 2px 0 rgba(0,0,0,.06);     border-radius: 50%;     vertical-align: top;     cursor: pointer;" data-group="btn_next" id="subview1--btn_next">
