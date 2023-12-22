@@ -26,7 +26,24 @@ MainView.prototype.onInitDone = function()
 	AView.prototype.onInitDone.call(this);
 
 	this.searchbox.setFocus();
+	
+	
+	
+	this.mainFeedTab.addTab('추천구독', 'Source/feed/feed_sub_view/feed_sub_view_1.lay', 'feed_sub_view1');
+	this.mainFeedTab.selectTabById('feed_sub_view1');
+	window.onscroll = function() {
+		onSearch_areaScroll();
+	};
 
+	function onSearch_areaScroll(comp, info, e) {
+		var scrollPosition = window.scrollY;
+
+		if (scrollPosition > 300) {
+		
+			console.log("function_ON");
+			
+		}
+	}
 };
 
 MainView.prototype.onActiveDone = function(isFirst)
@@ -66,10 +83,12 @@ MainView.prototype.onToggleClick = function(comp, info, e)
 	this.shortcut_area.element.classList.toggle('on');
 };
 
-window.onscroll = function() {
-	var where = window.scrollY;
-	
-	if (where >= 300) {
-		console.log(1);
-	}
+
+MainView.prototype.scroll_top_btn_click = function(comp, info, e)
+{
+
+	window.scrollTo(0, 0);
+
 };
+
+

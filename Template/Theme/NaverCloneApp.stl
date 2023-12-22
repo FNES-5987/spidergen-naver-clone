@@ -9,7 +9,7 @@
     "my_view_underline": ".my_view_underline\n{\n}\n.my_view_underline > div:hover > label\n{\n\ttext-decoration-line: underline;\n}\n\n",
     "all_line_underline": ".all_line_underline\n{\n}\n.all_line_underline:hover label\n{\n\ttext-decoration: underline;\n}",
     "footer_banner_underline": ".footer_banner_underline\n{\n}\n.footer_banner_underline:hover div:nth-child(2) label:nth-child(2)\n{\n\ttext-decoration: underline;\n}\n",
-    "scale_img": ".scale_img\n{\n}\n.scale_img div:hover > img\n{\n\ttransform: scale(1.1);\n\ttransition: transform 0.2s ease;\n}",
+    "scale_img": ".scale_img\n{\n\topacity: 1;\n}\n.scale_img div:hover > img\n{\n\ttransform: scale(1.1);\n\ttransition: transform 0.2s ease;\n}",
     "weather_info_hover": ".weather_info_hover\n{\n}\n.weather_info_hover:hover div\n{\n\t    background-position: -131px -400px;\n}",
     "refresh_btn_hover": ".refresh_btn_hover\n{\n}\n.refresh_btn_hover:hover div\n{\n\tbackground-position: -336px -358px;\n}",
     "service_icon_hover": ".service_icon_hover\n{\n}\n.service_icon_hover div:hover div div div:nth-child(1)\n{\n\t    position: absolute;\n    top: -3px;\n    left: -5px;\n    background-image: url(https://pm.pstatic.net/resources/asset/sp_main.d5b6c236.png);\n    background-size: 433px 412px;\n    background-position: -142px 0px;\n    background-repeat: no-repeat;\n    width: 58px;\n    height: 58px;\n}\n.service_icon_hover div:nth-child(10):hover div div div:nth-child(1)\n{\n\t    background-image: url(https://pm.pstatic.net/resources/asset/sp_main.d5b6c236.png);\n    background-size: 433px 412px;\n    background-position: 0px -69px;\n\t    position: absolute;\n    top: -3px;\n    left: -5px;\n}",
@@ -29,6 +29,8 @@
     "arror_color": ".arror_color\n{\n}\n.arror_color:hover div div\n{\n\tborder-color: #2a2c2f;\n}\n",
     "hover_btn": ".hover_btn\n{\n}\n.hover_btn:hover button\n{\n\tdisplay: block;\n}\n",
     "item_btn_hover": ".item_btn_hover\n{\n}\n.item_btn_hover div div div div:hover div:nth-child(2)\n{\n\tdisplay: block;\n}\n",
-    "scroll_searchbox": ".scroll_searchbox\n{\n\tposition: absolute;\n\ttop: 70px;\n\tleft: 50%;\n\tz-index: 10;\n\twidth: 706px;\n\tborder: 1px solid #03c75a;\n\tborder-radius: 33px;\n\tbackground-color: #fff;\n\ttransform: translateX(-50%);\n}\n.scroll_searchbox.on\n{\n\tposition: fixed;\n    top: 0;\n    right: 0;\n    left: 0;\n    z-index: 2000;\n    width: 100%;\n    border-radius: 0;\n    border-width: 0 0 1px 0;\n    animation: ani_dropdown .3s cubic-bezier(0.33, 1, 0.68, 1);\n    transform: translate(0);\n}"
+    "papago_hover_btn": ".papago_hover_btn\n{\n}\n.papago_hover_btn:hover div:nth-child(2) div\n{\n\t    background-color: #1280e2;\n}",
+    "scroll_searchArea_after": ".scroll_searchArea_after\n{\n\tposition: fixed;\n    top: 0;\n    right: 0;\n    left: 0;\n    z-index: 2000;\n    width: 100%;\n    border-radius: 0;\n    border-width: 0 0 1px 0;\n    animation: ani_dropdown .3s cubic-bezier(0.33, 1, 0.68, 1);\n    transform: translate(0);\n}\n\n",
+    "scroll_searchArea_before": ".scroll_searchArea_before\n{\n\tposition: absolute;\n\ttop: 70px;\n\tleft: 50%;\n\tz-index: 10;\n\twidth: 706px;\n\tborder: 1px solid #03c75a;\n\tborder-radius: 33px;\n\tbackground-color: #fff;\n\ttransform: translateX(-50%);\n}"
   }
 }

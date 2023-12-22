@@ -64,6 +64,7 @@
 
 .scale_img
 {
+	opacity: 1 !important;
 }
 .scale_img div:hover > img
 {
@@ -298,19 +299,15 @@
 	display: block !important;
 }
 
-.scroll_searchbox
+.papago_hover_btn
 {
-	position: absolute !important;
-	top: 70px !important;
-	left: 50% !important;
-	z-index: 10 !important;
-	width: 706px !important;
-	border: 1px solid #03c75a !important;
-	border-radius: 33px !important;
-	background-color: #fff !important;
-	transform: translateX(-50%) !important;
 }
-.scroll_searchbox.on
+.papago_hover_btn:hover div:nth-child(2) div
+{
+	    background-color: #1280e2 !important;
+}
+
+.scroll_searchArea_after
 {
 	position: fixed !important;
     top: 0 !important;
@@ -322,5 +319,18 @@
     border-width: 0 0 1px 0 !important;
     animation: ani_dropdown .3s cubic-bezier(0.33, 1, 0.68, 1) !important;
     transform: translate(0) !important;
+}
+
+.scroll_searchArea_before
+{
+	position: absolute !important;
+	top: 70px !important;
+	left: 50% !important;
+	z-index: 10 !important;
+	width: 706px !important;
+	border: 1px solid #03c75a !important;
+	border-radius: 33px !important;
+	background-color: #fff !important;
+	transform: translateX(-50%) !important;
 }
 

@@ -25,8 +25,8 @@ function feed_tab_1*onInitDone()
 {
 	super.onInitDone();
 
-	//TODO:edit here
-
+	this.feedGrid.addClass('scale_img');
+	console.log('test')
 };
 
 function feed_tab_1*onActiveDone(isFirst)

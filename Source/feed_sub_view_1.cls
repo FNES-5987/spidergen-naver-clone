@@ -24,9 +24,9 @@ function feed_sub_view_1*init(context, evtListener)
 function feed_sub_view_1*onInitDone()
 {
 	super.onInitDone();
-
-	//TODO:edit here
-
+	
+	this.feedTab.addTab('추천_전체', 'Source/feed/feed_tab/feed_tab_1.lay', 'tab_1');
+	this.feedTab.selectTabById('tab_1');
 };
 
 function feed_sub_view_1*onActiveDone(isFirst)

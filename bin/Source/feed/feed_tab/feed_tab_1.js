@@ -25,8 +25,8 @@ feed_tab_1.prototype.onInitDone = function()
 {
 	AView.prototype.onInitDone.call(this);
 
-	//TODO:edit here
-
+	this.feedGrid.addClass('scale_img');
+	console.log('test')
 };
 
 feed_tab_1.prototype.onActiveDone = function(isFirst)
