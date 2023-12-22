@@ -41,7 +41,6 @@ MainView.prototype.onInitDone = function()
 		if (scrollPosition > 300) {
 		
 			console.log("function_ON");
-			
 		}
 	}
 };
@@ -92,3 +91,45 @@ MainView.prototype.scroll_top_btn_click = function(comp, info, e)
 };
 
 
+
+MainView.prototype.tab_item_click_news = function(comp, info, e)
+{
+
+	this.contant_tab.selectTabByIndex(0);
+
+};
+
+MainView.prototype.tab_item_click_media = function(comp, info, e)
+{
+
+	this.contant_tab.selectTabByIndex(1);
+
+};
+
+MainView.prototype.tab_item_click_ent = function(comp, info, e)
+{
+
+	this.contant_tab.selectTabByIndex(2);
+
+};
+
+MainView.prototype.tab_item_click_sports = function(comp, info, e)
+{
+
+	this.contant_tab.selectTabByIndex(3);
+
+};
+
+MainView.prototype.tab_item_click_ico = function(comp, info, e)
+{
+
+	this.contant_tab.selectTabByIndex(4);
+
+};
+
+MainView.prototype.onSearchboxBlur = function(comp, info, e)
+{
+
+	this.searchbox.setPlaceholder('');
+
+};

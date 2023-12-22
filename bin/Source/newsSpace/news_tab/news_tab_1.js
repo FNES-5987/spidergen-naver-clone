@@ -25,8 +25,6 @@ news_tab_1.prototype.onInitDone = function()
 {
 	AView.prototype.onInitDone.call(this);
 
-	//TODO:edit here
-
 };
 
 news_tab_1.prototype.onActiveDone = function(isFirst)

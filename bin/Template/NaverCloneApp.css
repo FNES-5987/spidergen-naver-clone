@@ -334,3 +334,11 @@
 	transform: translateX(-50%) !important;
 }
 
+.placeholder_color
+{
+}
+.placeholder_color::placeholder
+{
+	color: #ddd !important;
+}
+

@@ -91,3 +91,45 @@ function MainView*scroll_top_btn_click(comp, info, e)
 };
 
 
+
+function MainView*tab_item_click_news(comp, info, e)
+{
+
+	this.contant_tab.selectTabByIndex(0);
+
+};
+
+function MainView*tab_item_click_media(comp, info, e)
+{
+
+	this.contant_tab.selectTabByIndex(1);
+
+};
+
+function MainView*tab_item_click_ent(comp, info, e)
+{
+
+	this.contant_tab.selectTabByIndex(2);
+
+};
+
+function MainView*tab_item_click_sports(comp, info, e)
+{
+
+	this.contant_tab.selectTabByIndex(3);
+
+};
+
+function MainView*tab_item_click_ico(comp, info, e)
+{
+
+	this.contant_tab.selectTabByIndex(4);
+
+};
+
+function MainView*onSearchboxBlur(comp, info, e)
+{
+
+	this.searchbox.setPlaceholder('');
+
+};

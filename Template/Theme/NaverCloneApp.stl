@@ -31,6 +31,7 @@
     "item_btn_hover": ".item_btn_hover\n{\n}\n.item_btn_hover div div div div:hover div:nth-child(2)\n{\n\tdisplay: block;\n}\n",
     "papago_hover_btn": ".papago_hover_btn\n{\n}\n.papago_hover_btn:hover div:nth-child(2) div\n{\n\t    background-color: #1280e2;\n}",
     "scroll_searchArea_after": ".scroll_searchArea_after\n{\n\tposition: fixed;\n    top: 0;\n    right: 0;\n    left: 0;\n    z-index: 2000;\n    width: 100%;\n    border-radius: 0;\n    border-width: 0 0 1px 0;\n    animation: ani_dropdown .3s cubic-bezier(0.33, 1, 0.68, 1);\n    transform: translate(0);\n}\n\n",
-    "scroll_searchArea_before": ".scroll_searchArea_before\n{\n\tposition: absolute;\n\ttop: 70px;\n\tleft: 50%;\n\tz-index: 10;\n\twidth: 706px;\n\tborder: 1px solid #03c75a;\n\tborder-radius: 33px;\n\tbackground-color: #fff;\n\ttransform: translateX(-50%);\n}"
+    "scroll_searchArea_before": ".scroll_searchArea_before\n{\n\tposition: absolute;\n\ttop: 70px;\n\tleft: 50%;\n\tz-index: 10;\n\twidth: 706px;\n\tborder: 1px solid #03c75a;\n\tborder-radius: 33px;\n\tbackground-color: #fff;\n\ttransform: translateX(-50%);\n}",
+    "placeholder_color": ".placeholder_color\n{\n}\n.placeholder_color::placeholder\n{\n\tcolor: #ddd;\n}"
   }
 }

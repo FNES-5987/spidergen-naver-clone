@@ -25,8 +25,6 @@ function news_tab_1*onInitDone()
 {
 	super.onInitDone();
 
-	//TODO:edit here
-
 };
 
 function news_tab_1*onActiveDone(isFirst)
