@@ -25,24 +25,30 @@ function MainView*onInitDone()
 {
 	super.onInitDone();
 
+	var thisObj = this;
+	
 	this.searchbox.setFocus();
-	
-	
 	
 	this.mainFeedTab.addTab('추천구독', 'Source/feed/feed_sub_view/feed_sub_view_1.lay', 'feed_sub_view1');
 	this.mainFeedTab.selectTabById('feed_sub_view1');
+	
 	window.onscroll = function() {
-		onSearch_areaScroll();
+	
+		var scrollPosition = window.scrollY;
+		
+		var searchArea = thisObj.search_area.element;
+		var searchGroup = thisObj.search_group.element;
+		
+		if (scrollPosition > 300) {
+			searchArea.classList.add('fixed');
+			searchGroup.classList.add('fixed');
+		} else {
+			searchArea.classList.remove('fixed');
+			searchGroup.classList.remove('fixed');
+		}
+		
 	};
 
-	function onSearch_areaScroll(comp, info, e) {
-		var scrollPosition = window.scrollY;
-
-		if (scrollPosition > 300) {
-		
-			console.log("function_ON");
-		}
-	}
 };
 
 function MainView*onActiveDone(isFirst)
@@ -57,6 +63,13 @@ function MainView*onSearchboxFocus(comp, info, e)
 {
 
 	this.searchbox.setPlaceholder('검색어를 입력해 주세요.');
+
+};
+
+function MainView*onSearchboxBlur(comp, info, e)
+{
+
+	this.searchbox.setPlaceholder('');
 
 };
 
@@ -124,12 +137,5 @@ function MainView*tab_item_click_ico(comp, info, e)
 {
 
 	this.contant_tab.selectTabByIndex(4);
-
-};
-
-function MainView*onSearchboxBlur(comp, info, e)
-{
-
-	this.searchbox.setPlaceholder('');
 
 };
