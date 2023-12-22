@@ -34,7 +34,8 @@ subview1.prototype.onActiveDone = function(isFirst)
 {
 	AView.prototype.onActiveDone.call(this, isFirst);
 
-	//TODO:edit here
+	this.news_tabview.selectTabByIndex(0);
+	this.this_page_num.setText(1);
 
 };
 

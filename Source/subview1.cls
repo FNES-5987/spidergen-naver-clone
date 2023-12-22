@@ -34,7 +34,8 @@ function subview1*onActiveDone(isFirst)
 {
 	super.onActiveDone(isFirst);
 
-	//TODO:edit here
+	this.news_tabview.selectTabByIndex(0);
+	this.this_page_num.setText(1);
 
 };
 

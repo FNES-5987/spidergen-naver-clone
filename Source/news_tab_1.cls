@@ -24,6 +24,8 @@ function news_tab_1*init(context, evtListener)
 function news_tab_1*onInitDone()
 {
 	super.onInitDone();
+	
+	
 
 };
 

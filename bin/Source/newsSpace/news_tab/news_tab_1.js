@@ -24,6 +24,8 @@ news_tab_1.prototype.init = function(context, evtListener)
 news_tab_1.prototype.onInitDone = function()
 {
 	AView.prototype.onInitDone.call(this);
+	
+	
 
 };
 

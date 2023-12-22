@@ -48,6 +48,28 @@ function MainView*onInitDone()
 		}
 		
 	};
+	
+	var koreanTime = new Date().toLocaleString('en-US');
+	
+	var formattedTime = koreanTime.replace(",", "");
+	var parts = formattedTime.split(" ");
+	var dateParts = parts[0].split("/");
+	var timeParts = parts[1].split(":");
+	
+	var month = +dateParts[0];
+	var date = +dateParts[1];
+	var hour = +timeParts[0];
+	var minite = +timeParts[1];
+	
+	if (hour < 13) {
+		hour += 12;
+	} else if (hour == 12) {
+		hour = 0;
+	}
+
+	var result = month + "." + date + ". " + hour + ":" +minite;
+	  
+	this.time_label.setText(result);
 
 };
 
@@ -137,5 +159,32 @@ function MainView*tab_item_click_ico(comp, info, e)
 {
 
 	this.contant_tab.selectTabByIndex(4);
+
+};
+
+function MainView*onBtn_refreshClick(comp, info, e)
+{
+
+	var koreanTime = new Date().toLocaleString('en-US');
+	
+	var formattedTime = koreanTime.replace(",", "");
+	var parts = formattedTime.split(" ");
+	var dateParts = parts[0].split("/");
+	var timeParts = parts[1].split(":");
+	
+	var month = +dateParts[0];
+	var date = +dateParts[1];
+	var hour = +timeParts[0];
+	var minite = +timeParts[1];
+	
+	if (hour < 13) {
+		hour += 12;
+	} else if (hour == 12) {
+		hour = 0;
+	}
+
+	var result = month + "." + date + ". " + hour + ":" +minite;
+	  
+	this.time_label.setText(result);
 
 };
