@@ -7,11 +7,33 @@ class MainView()
 {
 	super();
 
-	//TODO:edit here
-
 }
 extends AView;
 
+function nowTime() {
+		var koreanTime = new Date().toLocaleString('en-US');
+	
+		var formattedTime = koreanTime.replace(",", "");
+		var parts = formattedTime.split(" ");
+		var dateParts = parts[0].split("/");
+		var timeParts = parts[1].split(":");
+
+		var month = +dateParts[0];
+		var date = +dateParts[1];
+		var hour = +timeParts[0];
+		var minite = +timeParts[1];
+
+		if (hour < 13) {
+			hour += 12;
+		} else if (hour == 12) {
+			hour = 0;
+		}
+
+		var result = month + "." + date + ". " + hour + ":" +minite;
+		
+		return result;
+
+	}
 
 function MainView*init(context, evtListener)
 {
@@ -24,7 +46,7 @@ function MainView*init(context, evtListener)
 function MainView*onInitDone()
 {
 	super.onInitDone();
-
+	
 	var thisObj = this;
 	
 	this.searchbox.setFocus();
@@ -49,27 +71,7 @@ function MainView*onInitDone()
 		
 	};
 	
-	var koreanTime = new Date().toLocaleString('en-US');
-	
-	var formattedTime = koreanTime.replace(",", "");
-	var parts = formattedTime.split(" ");
-	var dateParts = parts[0].split("/");
-	var timeParts = parts[1].split(":");
-	
-	var month = +dateParts[0];
-	var date = +dateParts[1];
-	var hour = +timeParts[0];
-	var minite = +timeParts[1];
-	
-	if (hour < 13) {
-		hour += 12;
-	} else if (hour == 12) {
-		hour = 0;
-	}
-
-	var result = month + "." + date + ". " + hour + ":" +minite;
-	  
-	this.time_label.setText(result);
+	this.time_label.setText(nowTime())
 
 };
 
@@ -165,26 +167,6 @@ function MainView*tab_item_click_ico(comp, info, e)
 function MainView*onBtn_refreshClick(comp, info, e)
 {
 
-	var koreanTime = new Date().toLocaleString('en-US');
-	
-	var formattedTime = koreanTime.replace(",", "");
-	var parts = formattedTime.split(" ");
-	var dateParts = parts[0].split("/");
-	var timeParts = parts[1].split(":");
-	
-	var month = +dateParts[0];
-	var date = +dateParts[1];
-	var hour = +timeParts[0];
-	var minite = +timeParts[1];
-	
-	if (hour < 13) {
-		hour += 12;
-	} else if (hour == 12) {
-		hour = 0;
-	}
-
-	var result = month + "." + date + ". " + hour + ":" +minite;
-	  
-	this.time_label.setText(result);
+	this.time_label.setText(nowTime())
 
 };
