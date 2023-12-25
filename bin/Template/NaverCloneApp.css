@@ -340,3 +340,17 @@
     margin-left: 50px !important;
 }
 
+.rolling
+{
+	animation: rollingAnimation 3s ease-in-out forwards !important;
+}
+.rolling:keyframes
+{
+	0% {
+        transform: translateX(0) !important;
+      }
+      100% {
+        transform: translateX(-100%) !important;
+      }
+}
+
