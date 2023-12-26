@@ -28,8 +28,6 @@ subview1.prototype.onInitDone = function()
 	this.this_page_num.setText(1);
 	this.total_page_num.setText(totalNum);
 	
-	console.log(this.getParent())
-	
 };
 
 subview1.prototype.onActiveDone = function(isFirst)

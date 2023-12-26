@@ -7,41 +7,16 @@ class MainView()
 {
 	super();
 	
-
+	this.interval = null;
 }
 extends AView;
 
-function nowTime() {
-		var koreanTime = new Date().toLocaleString('en-US');
-	
-		var formattedTime = koreanTime.replace(",", "");
-		var parts = formattedTime.split(" ");
-		var dateParts = parts[0].split("/");
-		var timeParts = parts[1].split(":");
-
-		var month = +dateParts[0];
-		var date = +dateParts[1];
-		var hour = +timeParts[0];
-		var minite = +timeParts[1];
-
-		if (hour < 13) {
-			hour += 12;
-		} else if (hour == 12) {
-			hour = 0;
-		}
-
-		var result = month + "." + date + ". " + hour + ":" +minite;
-		
-		return result;
-
-	}
 
 function MainView*init(context, evtListener)
 {
 	super.init(context, evtListener);
 
 	//TODO:edit here
-
 };
 
 function MainView*onInitDone()
@@ -55,6 +30,7 @@ function MainView*onInitDone()
 	this.mainFeedTab.addTab('추천구독', 'Source/feed/feed_sub_view/feed_sub_view_1.lay', 'feed_sub_view1');
 	this.mainFeedTab.selectTabById('feed_sub_view1');
 	
+	// scroll
 	window.onscroll = function() {
 	
 		var scrollPosition = window.scrollY;
@@ -72,8 +48,11 @@ function MainView*onInitDone()
 		
 	};
 	
-	this.time_label.setText(nowTime())
-
+	this.time_label.setText(this.nowTime());
+	
+	
+	this.setSlide();
+	console.log(this);
 };
 
 function MainView*onActiveDone(isFirst)
@@ -165,9 +144,69 @@ function MainView*tab_item_click_ico(comp, info, e)
 
 };
 
+function MainView*nowTime() {
+	/*var koreanTime = new Date().toLocaleString('ko-KR');
+
+	var formattedTime = koreanTime.replace(",", "");
+	var parts = formattedTime.split(" ");
+	var dateParts = parts[0].split("/");
+	var timeParts = parts[1].split(":");
+
+	var month = +dateParts[0];
+	var date = +dateParts[1];
+	var hour = +timeParts[0];
+	var minite = +timeParts[1];
+
+	if (hour < 13) {
+		hour += 12;
+	} else if (hour == 12) {
+		hour = 0;
+	}
+
+	var result = month + "." + date + ". " + hour + ":" +minite;*/
+	
+	var koreanTime = new Date();
+	var koreanMonth = koreanTime.getMonth()+1;
+	var koreanDate = koreanTime.getDate();
+	var koreanHours = koreanTime.getHours().toString().padStart(2, '0');
+	var koreanMinutes = koreanTime.getMinutes();
+	
+	var result = `${koreanMonth}.${koreanDate}. ${koreanHours}:${koreanMinutes}`;
+
+	return result;
+};
+
 function MainView*onBtn_refreshClick(comp, info, e)
 {
 
-	this.time_label.setText(nowTime())
+	this.time_label.setText(this.nowTime());
+
+};
+
+function MainView*setSlide() {
+	// rolling
+	
+	var thisObj = this;
+	
+	var timeCount = 0;
+	this.interval = setInterval(function() {
+		if (timeCount < 2) {
+			timeCount++;
+		} else {
+			timeCount = 0;
+			thisObj.banner_rolling.element.classList.toggle('on');
+		}
+	}, 1000);
+};
+
+function MainView*onSlideActionenter(comp, info, e)
+{
+	clearInterval(this.interval);
+};
+
+function MainView*onSlideActionleave(comp, info, e)
+{
+
+	this.setSlide();
 
 };

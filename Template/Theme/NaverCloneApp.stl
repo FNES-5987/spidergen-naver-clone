@@ -33,6 +33,6 @@
     "placeholder_color": ".placeholder_color\n{\n}\n.placeholder_color::placeholder\n{\n\tcolor: #ddd;\n}",
     "scroll_searchArea": ".scroll_searchArea\n{\n}\n.scroll_searchArea.fixed\n{\n\tposition: fixed;\n    top: 0;\n    left: 0;\n    z-index: 2000;\n    width: 100%;\n    border-radius: 0;\n    border-width: 0 0 1px 0;\n    animation: ani_dropdown .3s cubic-bezier(0.33, 1, 0.68, 1);\n    transform: translate(0);\n}",
     "scroll_searchGroup": ".scroll_searchGroup\n{\n}\n.scroll_searchGroup.fixed\n{\n\twidth: 813px;\n    margin-left: 50px;\n}",
-    "rolling": ".rolling\n{\n\tanimation: rollingAnimation 3s ease-in-out forwards;\n}\n.rolling:keyframes\n{\n\t0% {\n        transform: translateX(0);\n      }\n      100% {\n        transform: translateX(-100%);\n      }\n}\n"
+    "rolling": ".rolling\n{\n\ttransition: transform 0.5s ease-in-out 0s;\n}\n.rolling.on\n{\n\ttransform: translateX(-50%);\n}\n.rolling:hover\n{\n\tanimation-play-state: paused;\n}"
   }
 }
