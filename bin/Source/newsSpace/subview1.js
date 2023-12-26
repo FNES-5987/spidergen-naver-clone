@@ -28,6 +28,8 @@ subview1.prototype.onInitDone = function()
 	this.this_page_num.setText(1);
 	this.total_page_num.setText(totalNum);
 	
+	console.log(this.getParent())
+	
 };
 
 subview1.prototype.onActiveDone = function(isFirst)
@@ -49,8 +51,7 @@ subview1.prototype.btn_next_click = function(comp, info, e)
 		this.news_tabview.selectTabByIndex(pageNum++);
 		
 		this.this_page_num.setText(pageNum);
-		
-		console.log(pageNum);
+
 	} else {
 		// 상위 탭뷰 다음 탭으로 넘기기
 	}
@@ -68,8 +69,7 @@ subview1.prototype.onBtn_prevClick = function(comp, info, e)
 		this.news_tabview.selectTabByIndex(--pageNum - 1);
 		
 		this.this_page_num.setText(pageNum);
-		
-		console.log(pageNum);
+
 	} else {
 		// 상위 탭뷰 마지막 탭으로 넘기기
 	}

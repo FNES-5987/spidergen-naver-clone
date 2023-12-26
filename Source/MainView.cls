@@ -6,6 +6,7 @@ Do not call Function in Constructor.
 class MainView()
 {
 	super();
+	
 
 }
 extends AView;
