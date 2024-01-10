@@ -1,5 +1,5 @@
 <div data-base="AView" data-class="news_tab_1" class="AView-Style" style="left: 0px; top: 0px; width: auto; height: auto; background-color: rgb(255, 255, 255); position: absolute;" data-class-map="{&quot;afc&quot;:[&quot;AView&quot;,&quot;AGridLayout&quot;,&quot;AImage&quot;,&quot;AFlexLayout&quot;,&quot;ALabel&quot;]}">
-    <div data-base="AGridLayout" data-class="AGridLayout" class="AGridLayout-Style news_info_hover news_info_pointer" style="position: relative; height: auto; background-color: rgba(0, 0, 0, 0); border-width: 1px; border-style: solid; border-color: rgb(235, 235, 235); border-radius: 4px; left: 0px; top: 0px;" data-group="subscription_group" data-style="news_info_hover news_info_pointer">
+    <div data-base="AGridLayout" data-class="AGridLayout" class="AGridLayout-Style news_info_pointer news_info_hover" style="position: relative; height: auto; background-color: rgba(0, 0, 0, 0); border-width: 1px; border-style: solid; border-color: rgb(235, 235, 235); border-radius: 4px; left: 0px; top: 0px;" data-group="subscription_group" data-style="news_info_pointer news_info_hover">
         <table cellpadding="0" cellspacing="0">
             <colgroup>
                 <col width="16.6%">
